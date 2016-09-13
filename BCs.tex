@@ -1,0 +1,125 @@
+\chapter{Boundary conditions and physical quantities}
+\label{BCs}
+\section{Boundary conditions}
+\label{sec_bc}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+To obtain KBHsSH solutions, appropriate boundary conditions must be imposed, that we now summarize.
+  
+At spatial infinity, $r\rightarrow\infty$, we require that the solutions approach a Minkowski spacetime
+with vanishing matter fields:
+\begin{equation}
+  \lim_{r\rightarrow \infty}{F_i}=\lim_{r\rightarrow \infty}{W}=\lim_{r\rightarrow \infty}{\phi}=0\ .
+\end{equation}
+%
+%\item[$\bullet$] 
+On the symmetry axis, $i.e.$ at $\theta=0,\pi$, axial symmetry and regularity require that
+\begin{equation}
+\partial_\theta F_i = \partial_\theta W 0\ .
+\end{equation} 
+%
+Moreover, all solutions herein are invariant under a reflection in the equatorial plane ($\theta=\pi/2$).
+The event horizon is located at a surface with constant radial variable, $r=r_H>0$.
+By introducing a new radial coordinate $x=\sqrt{r^2-r_H^2}$ 
+the boundary conditions and numerical treatment of the problem are simplified.
+Then one can write an approximate form of the solution  near the horizon as a power series in $x$,
+which implies the following boundary conditions
+\begin{equation}
+\partial_x F_i \big|_{x=0}= \partial_x \phi  \big|_{x=0} =  0,~~W \big|_{x=0}=\Omega_H,
+%\frac{w}{m},~~
+\label{bch1}
+\end{equation}
+where $\Omega_H $ is the horizon angular velocity.
+The existence of a smooth solution imposes the
+\textit{synchronization condition}
+%
+\begin{eqnarray}
+\label{KNcond}
+w=m\Omega_H\ .
+\end{eqnarray}
+%
+ 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Physical quantities}
+\label{sec_pq}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Axi-symmetry and stationarity of the spacetime Eq. \eqref{metric_ansatz}
+ guarantee the existence of two conserved global charges, the total mass $M$ and angular momentum $J$, 
+which can be computed either as Komar integrals at spatial infinity or, equivalently, 
+from the decay of the appropriate metric functions:
+%
+\begin{eqnarray}
+\label{KNasym}
+g_{tt} =-e^{2F_0}N+e^{2F_2}W^2r^2 \sin^2 \theta 
+\to
+ -1+\frac{2GM}{r}+\dots, ~~
+g_{\varphi t}=-e^{2F_2}W r^2 \sin^2 \theta
+\to 
+\frac{2GJ}{r}\sin^2\theta+\nonumber \dots.  
+\end{eqnarray}
+%
+These quantities can be split into the horizon contribution -- computed as a Komar integral on the horizon -- and the matter contributions, composed of the scalar field, computed as the volume integrals of the appropriate energy-momentum tensor components: 
+%
+\begin{eqnarray}
+\label{MH-hor}
+M=M^\Psi+M_H\ , \qquad J=J^\Psi+J_H\ ,
+\end{eqnarray}
+where $M_H$ and $J_H$  are the horizon mass and angular momentum.
+$M^\Psi$ and $J^\Psi$ are the scalar field energy and angular momentum outside the horizon,
+with  
+\begin{align}
+\label{Mpsi}
+-M^\Psi\equiv  \int_{\Sigma} dS^a (2T_{ab}^\Psi \xi^b-T^\Psi\xi_a)
+ = 4\pi \int_{r_H}^\infty dr \int_0^\pi d\theta~r^2\sin \theta ~e^{F_0+2F_1+F_2}
+ \left(
+ \mu^2-2 e^{-2F_0}\frac{w(w-mW)}{N}
+ \right)\phi^2 ~~,
+\end{align}
+while $J^\Psi=mQ$,
+where $Q$ is the Noether charge 
+associated with the the $global$ $U(1)$ symmetry of the complex scalar field 
+\begin{eqnarray}
+\label{Q-int}
+Q=4\pi \int_{r_H}^\infty dr \int_0^\pi d\theta 
+~r^2\sin \theta ~e^{-F_0+2F_1+F_2}  \frac{(w-mW)}{N}\phi^2 ~.
+\end{eqnarray}
+To measure the hairiness of a BH, it is convenient 
+to introduce the normalized Noether charge
+\begin{eqnarray}
+\label{KNq}
+q=\frac{mQ}{J}~,
+\end{eqnarray}
+with $q=1$ for solitons and $q=0$ for KN BHs.
+ %
+The BH horizon introduces a temperature $T_H$ and an entropy $S={A_H}/({4G})$,
+where 
+%
+\begin{eqnarray}
+\label{KNTHAH}
+T_H=\frac{1}{4\pi r_H}e^{(F_0-F_1)|_{r_H}}\ ,
+\qquad
+A_H=2\pi r_H^2 \int_0^\pi d\theta \sin \theta~e^{(F_1+F_2)|_{r_H}} \ .
+\end{eqnarray}
+%
+The various quantities above are related by a Smarr mass formula 
+%
+\begin{eqnarray}
+\label{smarr}
+M=2 T_H S +2\Omega_H (J-m Q) + M^\Psi,
+\end{eqnarray}
+The solutions satisfy also the 1st law 
+%
+\begin{eqnarray}
+\label{first-law}
+dM=T_H dS +\Omega_H dJ  .
+\end{eqnarray}
+%
+Finally, observe that from \eqref{smarr} and \eqref{MH-hor} are consistent with a different Smarr relation, only in terms of horizon quantities  
+%
+%
+\begin{eqnarray} 
+\label{rel-hor}
+M_H=2T_H S+2 \Omega_H J_H~.
+% + \Phi_H Q_E \ .
+\end{eqnarray}

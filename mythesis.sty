@@ -1,0 +1,370 @@
+
+\usepackage[textheight=22.5cm, vcentering, textwidth=15.5cm]{geometry}
+%\geometry{bindingoffset=0.5cm}
+\geometry{bindingoffset=0.0cm}
+
+
+% settings for paragraphs
+\setlength{\parindent}{0mm}
+% \setlength{\parskip}{3mm}
+\setlength{\parskip}{1.3ex}
+% defining the space between lines (1.5 is for double-space)
+\renewcommand{\baselinestretch}{1.5}
+%
+\setcounter{secnumdepth}{3}
+% \setcounter{tocdepth}{3}
+\setcounter{tocdepth}{2}
+\hyphenpenalty=1000
+\flushbottom
+
+\def\@title{}
+\def\@author{}
+\def\@date{}
+\def\submitionplace#1{\gdef\@submitionplace{#1}}
+\def\@submitionplace{}
+
+
+% \long\def\TEXT#1#2{\noindent\hspace*{15mm}\parbox[t]{52mm}{\raggedright\sloppy
+%   \textsf{#1}}\hspace*{10mm}\parbox[t]{120mm}{\textsf{#2}}\par\medskip}
+
+\long\def\TEXT#1#2{
+  \noindent
+  \begin{minipage}[t]{0.302\textwidth}
+    \raggedright\sloppy
+    \textsf{#1}
+  \end{minipage}
+  \begin{minipage}[t]{0.608\textwidth}
+    \textsf{#2}\par\medskip
+  \end{minipage}
+}
+
+
+\def\coverp{%
+  \thispagestyle{empty}%
+  \newgeometry{top=0.8cm, bottom=1.5cm, right=2.0cm, left=2.0cm}%
+  % 
+  \begin{minipage}{0.1\textwidth}
+    \hfill
+  \end{minipage}
+  \begin{minipage}{0.2\textwidth}
+    \centering
+    \includegraphics[height=9mm]{Figs/uaLogoNew_colour}
+  \end{minipage}
+  \begin{minipage}{0.3\textwidth}
+    \textsf{\textbf{Universidade de Aveiro}}
+  \end{minipage}
+  \begin{minipage}{0.4\textwidth}
+    \textsf{Departamento de F\'isica}
+  \end{minipage}
+
+  \begin{minipage}{0.1\textwidth}
+    \hfill
+  \end{minipage}
+  \begin{minipage}{0.2\textwidth}
+    \hfill
+  \end{minipage}
+  \begin{minipage}{0.7\textwidth}
+    \textsf{\textbf{2016}} \hfill
+  \end{minipage}
+
+
+  \vspace*{0.13\textheight}
+  %
+  \begin{minipage}[t]{0.302\textwidth}
+    \raggedright \textsf{\textbf{\Large \@author}}
+  \end{minipage}
+  \begin{minipage}[t]{0.608\textwidth}
+    \raggedright \textsf{\textbf{\Large \@title}}
+  \end{minipage}
+  
+%  \begin{minipage}[t]{2\textwidth}
+  %\vspace{10cm}\hspace{5cm}
+  %{\bf DOCUMENTO PROVIS\'ORIO}
+  %\end{minipage}
+
+  \vspace*{\fill}
+  % \begin{center}
+  %   \includegraphics[width=0.25\columnwidth]{Figs/fc} \\
+  %   \vfill
+  %   \includegraphics[width=0.25\columnwidth]{Figs/uaLogoNew_colour} \\
+  %   \vfill
+  %   \includegraphics[width=0.25\columnwidth]{Figs/UM_EC_logo} \\
+  %   \vspace*{\fill}
+  %   \textsf{\@date}
+  % \end{center}
+  % \vspace*{\fill}
+  \restoregeometry
+  \cleardoublepage
+}
+
+\def\titlep{%
+  \thispagestyle{empty}%
+  % \newgeometry{top=0.8cm, bottom=1.5cm, right=2.0cm, left=2.0cm}%
+  \newgeometry{top=0.8cm, bottom=0.8cm, right=2.0cm, left=2.0cm}%
+  % 
+  \begin{minipage}{0.1\textwidth}
+    \hfill
+  \end{minipage}
+  \begin{minipage}{0.2\textwidth}
+    \centering
+    \includegraphics[height=9mm]{Figs/uaLogoNew_colour}
+  \end{minipage}
+  \begin{minipage}{0.3\textwidth}
+    \textsf{\textbf{Universidade de Aveiro}}
+  \end{minipage}
+  \begin{minipage}{0.4\textwidth}
+    \textsf{Departamento de F\'isica}
+  \end{minipage}
+
+  \begin{minipage}{0.1\textwidth}
+    \hfill
+  \end{minipage}
+  \begin{minipage}{0.2\textwidth}
+    \hfill
+  \end{minipage}
+  \begin{minipage}{0.7\textwidth}
+    \textsf{\textbf{2016}} \hfill
+  \end{minipage}
+
+  \vspace*{0.07\textheight}
+  %
+  \begin{minipage}[t]{0.302\textwidth}
+    \raggedright \textsf{\textbf{\Large \@author}}
+  \end{minipage}
+  \begin{minipage}[t]{0.608\textwidth}
+    \raggedright \textsf{\textbf{\Large \@title}}
+  \end{minipage}
+
+  \vspace*{0.05\textheight}
+%   \vspace*{15mm}
+   
+   \TEXT{}{\@submitionplace}
+
+   \vspace*{\fill}
+   \begin{center}
+%     \includegraphics[width=0.25\columnwidth]{Figs/fc} \\
+     \vfill
+     \includegraphics[width=0.25\columnwidth]{Figs/uaLogoNew_colour} \\
+     \vfill
+%     \includegraphics[width=0.25\columnwidth]{Figs/UM_EC_logo} \\
+    \vspace*{\fill}
+
+    \textsf{Apoio financeiro da FCT e do FSE no \^ambito do III Quadro Comunit\'ario de Apoio}
+
+    \vspace*{\fill}
+    \includegraphics[height=1cm]{Figs/Logo2_POPH}
+    \hfill
+    \includegraphics[height=1cm]{Figs/QREN_Logotipo}
+    \hfill
+    \includegraphics[height=1cm]{Figs/Uniao_Europeia_FSE}
+   \end{center}
+%   \vspace*{\fill}
+   \restoregeometry
+   \cleardoublepage
+}
+
+\def\dedication{%
+  \thispagestyle{empty}%
+  \newgeometry{top=0.8cm, bottom=1.5cm, right=2.0cm, left=2.0cm}%
+  % 
+  \begin{minipage}{0.1\textwidth}
+    \hfill
+  \end{minipage}
+  \begin{minipage}{0.2\textwidth}
+    \centering
+    %\includegraphics[height=9mm]{Figs/uaLogoNew_colour}
+  \end{minipage}
+  \begin{minipage}{0.3\textwidth}
+   % \textsf{\textbf{Universidade de Aveiro}}
+  \end{minipage}
+  \begin{minipage}{0.4\textwidth}
+    %\textsf{Departamento de F\'isica}
+  \end{minipage}
+
+  \begin{minipage}{0.1\textwidth}
+    \hfill
+  \end{minipage}
+  \begin{minipage}{0.2\textwidth}
+    \hfill
+  \end{minipage}
+  \begin{minipage}{0.7\textwidth}
+    %\textsf{\textbf{2014}} \hfill
+  \end{minipage}
+
+\vspace{4cm}%%%%EXTRA
+
+  \vspace*{0.13\textheight}
+  %
+  \begin{minipage}[t]{0.302\textwidth}
+    \raggedright \textsf{\textbf{}}
+  \end{minipage}
+  \vspace{4cm}
+ \begin{minipage}[t]{0.608\textwidth}
+%  \epigraph{Aqueles que passam por n\'os, n\~ao v\~ao s\'os, n\~ao nos deixam s\'os. Deixam um pouco de si, levam um pouco de n\'os.}{Antoine de Saint-Exup\'ery }\vspace{1cm}
+    \raggedright \textsf{\large This thesis is dedicated to my daughters}\\
+    % \raggedright \textsf{\;\;\;\;\;\;\;\large for all their love and support}
+  \end{minipage}
+  
+
+  \vspace*{\fill}
+    \restoregeometry
+  \cleardoublepage
+}
+
+
+
+
+
+\def\jury{%
+  \thispagestyle{empty}%
+  \newgeometry{top=0.8cm, bottom=1.5cm, right=2.0cm, left=2.0cm}%
+  % 
+  \begin{minipage}{0.1\textwidth}
+    \hfill
+  \end{minipage}
+  \begin{minipage}{0.2\textwidth}
+    \centering
+    %\includegraphics[height=9mm]{Figs/uaLogoNew_colour}
+  \end{minipage}
+  \begin{minipage}{0.3\textwidth}
+   % \textsf{\textbf{Universidade de Aveiro}}
+  \end{minipage}
+  \begin{minipage}{0.4\textwidth}
+    %\textsf{Departamento de F\'isica}
+  \end{minipage}
+
+  \begin{minipage}{0.1\textwidth}
+    \hfill
+  \end{minipage}
+  \begin{minipage}{0.2\textwidth}
+    \hfill
+  \end{minipage}
+  \begin{minipage}{0.7\textwidth}
+    %\textsf{\textbf{2014}} \hfill
+  \end{minipage}
+
+
+  \vspace*{0.13\textheight}
+  %
+  \begin{minipage}[t]{0.302\textwidth}
+    \raggedright \textsf{\textbf{\Large o j\'uri}\\ \textsf{presidente}
+}
+  \end{minipage}
+  \begin{minipage}[t]{0.608\textwidth}
+    \raggedright \textsf{\\ Prof. Doutor Ant\'onio Manuel Rosa Pereira Caetano\\{\footnotesize professor catedr\'atico da Universidade de Aveiro}\vspace{0.7cm}
+   \\ Prof. Doutor Jos\'e Sande Lemos\\{\footnotesize professor catedr\'atico do Instituto Superior T\'ecnico}\vspace{0.7cm}
+    \\ Prof. Doutor Sam Dolan\\{\footnotesize professor auxiliar da Universidade de Sheffield}\vspace{0.7cm}
+     %\\ Prof. Doutor V\'itor Manuel dos Santos Cardoso\\{\footnotesize professor auxiliar com agrega\c{c}\~ao do Instituto Superior T\'ecnico}\vspace{0.7cm}
+     %\\ Prof. Doutor Robertus Josephus Hendrikus Potting\\{\footnotesize professor catedr?tico da Universidade do Algarve}\vspace{0.7cm}
+       \\ Prof. Doutor Filipe Artur Pacheco Neves Carteado Mena\\{\footnotesize professor associado do Universidade do Minho}\vspace{0.7cm}
+     %\\ Prof. Doutor Pedro Pina Avelino\\{\footnotesize investigador coordenador da Fac. Ci\^encias da Univ. do Porto}\vspace{0.7cm}
+         \\ Prof. Doutor Eugen Radu\\{\footnotesize investigador principal da Universidade de Aveiro}\vspace{0.7cm}
+          \\ Prof. Doutor Carlos Alberto Ruivo Herdeiro\\{\footnotesize investigador principal da Universidade de Aveiro}
+    }
+  \end{minipage}
+  
+ % \begin{minipage}[t]{2\textwidth}
+  %\vspace{10cm}\hspace{5cm}
+ % {\bf P\'AGINA PROVIS\'ORIA}
+  %\end{minipage}
+
+  \vspace*{\fill}
+    \restoregeometry
+  \cleardoublepage
+}
+
+
+\def\agradecimentos{%
+  \thispagestyle{empty}%
+  \newgeometry{top=0.8cm, bottom=1.5cm, right=2.0cm, left=2.0cm}%
+  % 
+  \begin{minipage}{0.1\textwidth}
+    \hfill
+  \end{minipage}
+  \begin{minipage}{0.2\textwidth}
+    \centering
+    %\includegraphics[height=9mm]{Figs/uaLogoNew_colour}
+  \end{minipage}
+  \begin{minipage}{0.3\textwidth}
+   % \textsf{\textbf{Universidade de Aveiro}}
+  \end{minipage}
+  \begin{minipage}{0.4\textwidth}
+    %\textsf{Departamento de F\'isica}
+  \end{minipage}
+
+  \begin{minipage}{0.1\textwidth}
+    \hfill
+  \end{minipage}
+  \begin{minipage}{0.2\textwidth}
+    \hfill
+  \end{minipage}
+  \begin{minipage}{0.7\textwidth}
+    %\textsf{\textbf{2014}} \hfill
+  \end{minipage}
+
+  \vspace*{0.13\textheight}
+  %
+  \begin{minipage}[t]{0.302\textwidth}
+    \raggedright \textsf{\textbf{\Large agradecimentos}}
+  \end{minipage}
+  \begin{minipage}[t]{0.608\textwidth}
+    \raggedright \textsf{\epigraph{Live as if you were to die tomorrow.\\
+  Learn as if you were to live forever.}{Mahatma Gandhi}Agradecimentos...}
+  \end{minipage}
+
+  \vspace*{\fill}
+    \restoregeometry
+  \cleardoublepage
+}
+
+
+% Sometimes you are limited to one page of references and if you use bibtex, it
+% will automatically put a blank line in between the references in the
+% bibliography wasting valuable space. This space is controlled by \parskip but
+% even if you set \parskip to 0pt before the bibliography command, it will be
+% ignored. Dr. Gernot Plank sent me this fix to put in the preamble (the part
+% before \begin{document}).
+%
+% in http://www.enel.ucalgary.ca/People/vigmond/latex/latex.html
+%
+% \let\oldthebibliography=\thebibliography
+% \let\endoldthebibliography=\endthebibliography
+% \renewenvironment{thebibliography}[1]{%
+%   \begin{oldthebibliography}{#1}%
+%     \setlength{\parskip}{0ex}%
+%     \setlength{\itemsep}{0ex}%
+%   }%
+%   {%
+%   \end{oldthebibliography}%
+% }
+
+% mark (or not) all horizontal overfull boxes
+%
+%   \setlength\overfullrule{0mm}
+
+
+%
+% Add all chapters without numbers (\chapter*) to the table of contents. As a
+% consequence, the bibliography, table of contents, list of figures and list
+% of tables appear in the table of contents
+%
+% good for the report and book classes
+%
+% \def\@makeschapterhead#1{%
+%   \vspace*{50\p@}%
+%   {\parindent \z@ \raggedright
+%     \normalfont
+%     \interlinepenalty\@M
+%     \Huge \bfseries  #1\par\nobreak
+%     \vskip 40\p@
+%     % new stuff
+% %    \refstepcounter{section}% to make the hyperref package do the right thing!!!
+%     \phantomsection
+%     \addcontentsline{toc}{chapter}{#1}%
+%     \addtocontents{lof}{\protect\addvspace{10\p@}}%
+%     \addtocontents{lot}{\protect\addvspace{10\p@}}%
+%     % end of new stuff
+%   }}
+
+
+

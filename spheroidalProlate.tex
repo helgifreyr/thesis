@@ -1,0 +1,23 @@
+\chapter{Spheroidal prolate coordinates for Kerr}
+\label{prolatecoordinates}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+The new coordinate system for Kerr~\eqref{eqn:HBH-ansatz}, with the functions~\eqref{functionsKerr}, first introduced in~\cite{Herdeiro:2015gia}, actually reduce to spheroidal \textit{prolate} coordinates in the Minkowski space limit, but with a non-standard radial coordinate. To see this, we observe that, from~\eqref{Kerr2}, $M=0$ occurs when $r_H=-2b$. Then, from the expressions~\eqref{functionsKerr}, the metric~\eqref{eqn:HBH-ansatz} becomes
+\begin{eqnarray}
+ds^2=-dt^2+\left[N(r)+\frac{b^2}{r^2}\sin^2\theta\right]\left[\frac{dr^2}{N(r)}+r^2d\theta^2\right]
++N(r)r^2\sin^2\theta d\varphi^2 \ , \qquad N(r)\equiv 1+\frac{2b}{r} \ .
+\end{eqnarray}
+This can be converted to the standard Minkowski Cartesian quadratic form $ds^2=-dt^2+dx^2+dy^2+dz^2$ by the spatial coordinate transformation
+\begin{equation}
+\left\{
+\begin{array}{l}
+x=r\sqrt{N(r)}\sin\theta\cos\varphi \ , \\
+y=r\sqrt{N(r)}\sin\theta\sin\varphi \ , \\
+z=(r+b)\cos\theta \ .
+\end{array}
+\right.
+\end{equation}
+A surface with $r=$constant is, in Cartesian coordinates,
+\begin{equation}
+\frac{x^2+y^2}{\bar{r}^2}+\frac{z^2}{\bar{r}^2+b^2}=1 \ ,
+\end{equation}
+where $\bar{r}=r\sqrt{N(r)}$. This is a prolate spheroid. It is interesting that KBHsSH and KBHsPH seem to prefer prolate spheroidal coordinates rather than the oblate spheroidal coordinates so well adapted to Kerr (in the Boyer-Lindquist form).

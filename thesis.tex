@@ -1,0 +1,208 @@
+% Document Type: LaTeX
+% Master File: tese.tex
+
+\documentclass[11pt,a4paper,twoside,openright]{book}
+%\documentclass[12pt,a4paper]{report}
+\usepackage{mythesis}
+\usepackage{booktabs} % I add this package by myself
+\usepackage{textcomp} % I add this package by myself, to use \textopenbullet
+\usepackage{mathrsfs} % I add this package by myself, to use command \mathscr
+\usepackage{header}
+
+
+%\usepackage[utf8]{inputenc}
+
+%\usepackage[T1]{fontenc}
+
+\usepackage{amsmath, amsthm, amsfonts, amssymb, latexsym}
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{appendix}
+\usepackage{tabularx} % add by myself to require texts inside a table to change lines automatically
+%\usepackage{tabulary}
+%\usepackage{longtable}
+%\usepackage{supertabular}
+\usepackage{ltablex}
+%\usepackage{ltxtable,filecontents}
+\usepackage{cite} %% this works....if you cite a lot of references, then in the thesis, all of them will show up, like [1,2,3,4,5,6,7,8], but if you add this package then it dispalys alternatively as [1-8]. Looks nicer
+
+\usepackage{cases} % numering eqs within cases
+
+\usepackage{afterpage}
+
+\allowdisplaybreaks %allow break formulas, looks nicer
+
+\newtheorem{thm}{Theorem} % with numered items
+%\newtheorem*{thm}{Theorem} % without numbers
+
+\usepackage[T1]{fontenc} % this package is added, only in order to add one reference with title \dh
+
+
+%\usepackage[caption=false]{subfig}
+\usepackage{caption}
+\captionsetup{font=small,labelfont=bf,format=hang}
+\captionsetup[figure]{list=yes}
+\captionsetup[table]{list=yes}
+
+% footnotes ficam simbolos em vez de numeros
+\usepackage[perpage,symbol*]{footmisc}
+
+% enumerate dentro de um paragrafo
+\usepackage{paralist}
+
+\usepackage{epigraph}
+\renewcommand{\epigraphsize}{\tiny}
+
+\usepackage{url}
+
+\usepackage[pagebackref,unicode,hypertexnames=false]{hyperref}  % hypertexnames=false is added by myself, add this option here is to avoid warnings happend related with numbering equations
+
+%\usepackage[backref=section,unicode]{hyperref}
+\hypersetup{
+    unicode=true,          % non-Latin characters in Acrobat's bookmarks
+    % title
+    pdftitle={Kerr black holes with scalar and Proca hair},
+    % author
+    pdfauthor={Helgi Freyr Rúnarsson},
+    % subject of the document
+    pdfsubject={PhD Thesis},
+    pdfcreator={LaTeX},          % creator of the document
+    pdfproducer={LaTeX},         % producer of the document
+    % list of keywords
+    pdfkeywords={General Relativity, Black Holes, Scalar fields, Proca fields, Maxwell fields},
+    colorlinks=false,            % false: boxed links; true: colored links
+    %
+    bookmarks=true,              % show bookmarks bar?
+    linktoc=page,                % defines which part of an entry in the table
+                                 % of contents is made into a link
+    % pdftoolbar=true,           % show Acrobat's toolbar?
+    % pdfmenubar=true,           % show Acrobat's menu?
+    % pdffitwindow=false,        % window fit to page when opened
+    % pdfstartview={FitH},       % fits the width of the page to the window
+    %
+    % pdfnewwindow=true,         % links in new window
+    %
+    % linkcolor=blue,             % color of internal links
+    % citecolor=black,           % color of links to bibliography
+    % filecolor=magenta,         % color of file links
+    % urlcolor=cyan              % color of external links
+  }
+\renewcommand*{\backref}[1]{}
+% \renewcommand*{\backrefalt}[4]{%
+%   \ifcase #1 { } \or (Cited on section~#2.) \else %
+%   (Cited on sections~#2.) \fi %
+% }
+\renewcommand*{\backrefalt}[4]{%
+  \ifcase #1 { } \or (Cited on page~#2.) \else %
+  (Cited on pages~#2.) \fi %
+}
+
+% para nao numerar as paginas em branco com o \cleardoublepage :
+\let\origdoublepage\cleardoublepage
+\newcommand{\clearemptydoublepage}{%
+  \clearpage
+  {\pagestyle{empty}\origdoublepage}%
+}
+
+\let\cleardoublepage\clearemptydoublepage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+\title{Kerr black holes with scalar and Proca hair
+}
+\author{Helgi Freyr Rúnarsson}
+\date{de 201X}
+
+\submitionplace{
+Disserta\c{c}\~ao apresentada \`a Universidade de Aveiro no \^ambito do Programa Doutoral MAP-fis para
+  cumprimento dos requisitos necess\'arios \`a obten\c{c}\~ao do grau de Doutor em F\'isica,
+  realizada sob a orienta\c{c}\~ao cient\'ifica do Doutor Carlos Herdeiro, Professor Auxiliar com Agrega\c{c}\~ao, e co-orienta\c{c}\~ao do Doutor Eugen Radu, do
+  Departamento de F\'isica da Universidade de Aveiro.}
+
+
+
+\begin{document}
+
+\pagestyle{plain}
+
+\coverp
+%\frontmatter
+\titlep
+\dedication
+\jury
+%\agradecimentos
+
+% preambule
+
+\include{acks}
+\cleardoublepage
+\include{abs}
+\cleardoublepage
+\tableofcontents
+% \cleardoublepage
+% \listoftables
+%\addcontentsline{toc}{chapter}{\listtablename}
+\cleardoublepage
+\listoffigures
+%\addcontentsline{toc}{chapter}{\listfigurename}
+\cleardoublepage
+
+
+% end of thesis preambule
+%\mainmatter
+\pagestyle{headings}
+\numberwithin{equation}{section}
+
+\include{intro}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{papers/QClouds/Q_clouds}
+
+\input{papers/selfInteractions/selfInteractions}
+
+\input{papers/Proca/proca}
+
+\input{papers/KerrNewman/KerrNewman}
+
+\input{conclusions}
+
+\cleardoublepage
+\newpage
+\thispagestyle{empty}
+\epigraph{``\emph{
+Þar kemur inn dimmi \\
+dreki fljúgandi, \\
+naður fránn, neðan \\
+frá Niðafjöllum; \\
+ber sér í fjöðrum, \\
+flýgur völl yfir, \\
+Niðhöggur nái. \\
+Nú mun hún sökkvast. 
+} 
+''}{63rd verse of Völuspá}
+\cleardoublepage
+
+
+\appendix
+\include{spheroidalProlate}
+\include{BCs}
+\include{procaAppendix}
+\include{numericalData}
+\include{pub-list}
+
+\cleardoublepage
+\phantomsection
+\addcontentsline{toc}{chapter}{Bibliography}
+\bibliographystyle{myutphys}
+\bibliography{thesis}
+
+\end{document}
+
+% <!-- Local IspellDict: british -->
+
+%%% Local Variables:
+%%% TeX-PDF-mode: t
+%%% mode:latex
+%%% TeX-master: "tese.tex"
+%%% End:

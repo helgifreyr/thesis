@@ -1,0 +1,131 @@
+\usepackage{epsfig} 
+%\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage[utf8]{inputenc}
+\usepackage{t1enc}
+
+
+\usepackage{amssymb}
+
+\tolerance=10000
+\pagenumbering{arabic}
+\textheight 22.cm
+\textwidth 16.5 cm
+\oddsidemargin 0.5cm\evensidemargin 0.5cm
+\topmargin=-1.cm
+\hoffset -0.5cm
+\date{\today} 
+
+\newcommand{\bnabla}{\mbox{\boldmath $\nabla$}}
+%\newcommand{\bomega}{\mbox{\boldmath $\omega$}}
+\newcommand{\bOmega}{\mbox{\boldmath $\Omega$}}
+
+\newcommand{\insertplot}[5]{\begin{figure}
+ \hfill\hbox to 0.05in{\vbox to #5in{\vfill
+ \inputplot{#1}{#4}{#5}}\hfill}
+ \hfill\vspace{-.1in}
+ \caption{#2}\label{#3}
+ \end{figure}}
+ \newcommand{\inputplot}[3]{\special{ps:: gsave #2 -36 mul 0 rmoveto
+   currentpoint translate #2 7.0 div #3 5.0 div scale}
+ \special{ps: plotfile #1}\special{ps:: grestore}}
+\newcounter{fig}   \newcommand{\lbfig}[1]{\refstepcounter{fig}
+\label{#1} }
+
+\newcommand{\vphi}{\varphi}
+\newcommand{\DS}{\displaystyle}
+\newcommand{\pih}{\frac{\pi}{2}}
+\newcommand{\sqdetg}{\sqrt{-g}}
+\newcommand{\sqdetgi}{\frac{1}{\sqrt{-g}}}
+\newcommand{\edil}{e^{2\kappa \phi}}
+\newcommand{\bA}{\bar{A}}
+\newcommand{\bF}{\bar{F}}
+\newcommand{\bD}{\bar{D}}
+
+\renewcommand{\a}{\alpha}
+\renewcommand{\b}{\beta}
+\renewcommand{\c}{\gamma}
+\renewcommand{\d}{\delta}  
+\newcommand{\g}{\nu}
+\renewcommand{\l}{\lambda}
+\renewcommand{\t}{\theta}
+\newcommand{\rot}{\mbox{rot}}
+\renewcommand{\div}{\mbox{div}}
+\newcommand{\cosec}{\mbox{cosec}}
+
+
+
+\newcommand{\ta}{\theta}
+\newcommand{\Si}{\Sigma}
+\newcommand{\vf}{\varphi}
+\newcommand{\dd}{\mbox{d}}
+\newcommand{\tr}{\mbox{tr}}
+\newcommand{\la}{\lambda}
+\newcommand{\ka}{\kappa}
+\newcommand{\f}{\phi}
+\newcommand{\al}{\alpha}
+\newcommand{\ga}{\gamma}
+\newcommand{\de}{\delta}
+\newcommand{\si}{\sigma}
+\newcommand{\bomega}{\mbox{\boldmath $\omega$}}
+\newcommand{\bsi}{\mbox{\boldmath $\sigma$}}
+\newcommand{\bchi}{\mbox{\boldmath $\chi$}}
+\newcommand{\bal}{\mbox{\boldmath $\alpha$}}
+\newcommand{\bpsi}{\mbox{\boldmath $\psi$}}
+\newcommand{\brho}{\mbox{\boldmath $\varrho$}}
+\newcommand{\beps}{\mbox{\boldmath $\varepsilon$}}
+\newcommand{\bxi}{\mbox{\boldmath $\xi$}}
+\newcommand{\bbeta}{\mbox{\boldmath $\beta$}}
+\newcommand{\ee}{\end{equation}}
+\newcommand{\eea}{\end{eqnarray}}
+\newcommand{\be}{\begin{equation}}
+\newcommand{\bea}{\begin{eqnarray}}
+
+\newcommand{\ii}{\mbox{i}}
+\newcommand{\e}{\mbox{e}}
+\newcommand{\pa}{\partial}
+\newcommand{\Om}{\Omega}
+\newcommand{\vep}{\varepsilon}
+%\newcommand{\bfR}{{\bf R}}
+\newcommand{\bfph}{{\bf \phi}}
+\newcommand{\lm}{\lambda}
+\def\theequation{\arabic{equation}}
+%\topmargin= -02cm\textheight= 23.cm\textwidth= 16.cm
+%\oddsidemargin=-01cm\evensidemargin=-01cm \font\sqi=cmssq8
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}
+\newcommand{\re}[1]{(\ref{#1})}
+\newcommand{\R}{{\rm I \hspace{-0.52ex} R}}
+\newcommand{\N}{{\sf N\hspace*{-1.0ex}\rule{0.15ex}%
+{1.3ex}\hspace*{1.0ex}}}
+\newcommand{\Q}{{\sf Q\hspace*{-1.1ex}\rule{0.15ex}%
+{1.5ex}\hspace*{1.1ex}}}
+\newcommand{\C}{{\sf C\hspace*{-0.9ex}\rule{0.15ex}%
+{1.3ex}\hspace*{0.9ex}}}
+\newcommand{\eins}{1\hspace{-0.56ex}{\rm I}}
+\renewcommand{\thefootnote}{\arabic{footnote}}
+
+\def\theequation{\thesection.\arabic{equation}}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
+\usepackage{graphicx, epsfig, amssymb} %include figure files
+\usepackage{amsmath, amsfonts}
+\usepackage{bm} %include bold math: \bm{} creates bold letters in math mode
+
+\usepackage[caption=false]{subfig}
+\usepackage[usenames]{color}
+
+\usepackage{etoolbox}% http://ctan.org/pkg/etoolbox
+\makeatletter
+% \patchcmd{<cmd>}{<search>}{<replace>}{<success>}{<failure>}
+% --- Patch \chapter
+\patchcmd{\@makechapterhead}{40\p@}{\chapheadtopskip}{}{}% Space from top of page to CHAPTER X
+\patchcmd{\@makechapterhead}{10\p@}{\chapheadsep}{}{}% Space between CHAPTER X and CHAPTER TITLE
+\patchcmd{\@makechapterhead}{30\p@}{\chapheadbelowskip}{}{}% Space between CHAPTER TITLE and text
+\makeatother
+% Set new lengths
+\newlength{\chapheadtopskip}\setlength{\chapheadtopskip}{10pt}
+\newlength{\chapheadsep}\setlength{\chapheadsep}{20pt}
+\newlength{\chapheadbelowskip}\setlength{\chapheadbelowskip}{5pt}
