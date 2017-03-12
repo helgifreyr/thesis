@@ -60,15 +60,16 @@ Vituð ér enn eða hvað?
 % \end{equation}
 % that 1) obey all energy conditions; 2) have minimal couplings with the geometry; 3) have canonical kinetic terms; 4) have an independent (primary) hair; 5) exist in GR, without higher curvature terms. KBHsSH, moreover, are asymptotically flat, regular on and outside the event horizon, reduce to (specific) Kerr solutions in the limit of vanishing hair, and to gravitating solitons known as \textit{boson stars}~\cite{Schunck:2003kk,Liebling:2012fv} in the limit of vanishing horizon. The scalar hair is described by an independent  conserved Noether charge \textit{but without} an associated Gauss law. Thus, an observer at infinity cannot determine this charge -- which must be computed by a volume integral -- and hence does not have access to all the relevant spacetime charges.  
 %
-The matter content for the original example in~\cite{Herdeiro:2014goa} (see also~\cite{Herdeiro:2015gia}) was a massive complex scalar field, $cf.$~\eqref{eqn:HBH-ansatz}.
-The connection between KBHsSH and superradiance led to the suggestion that, underlying the example of KBHsSH, there is a more general mechanism~\cite{Herdeiro:2014goa,Herdeiro:2014ima} (see also~\cite{Herdeiro:2015waa,Herdeiro:2015gia}): 
+For both KBHsSH and the generalization considered in Chapter \ref{ch:SI}, the matter content was a massive complex scalar field.
+As we have discussed the existence of these solutions is tied to the phenomena of superradiance.
+This connection led to the suggestion that there is a more general mechanism at play~\cite{Herdeiro:2014goa,Herdeiro:2014ima} (see also~\cite{Herdeiro:2015waa,Herdeiro:2015gia}): 
 {\bf Conjecture:}
 \begin{description}
 \item[1)] If a ``hairless" stationary BH spacetime $(\mathcal{M}_0,{\bf g_0})$ is afflicted by superradiant instabilities triggered by a given test field $\mathcal{F}$;
 \item[2)] If the field modes at the threshold of the instability (zero modes), $\mathcal{F}_t$, yield an energy-momentum tensor $\mathcal{T}(\mathcal{F}_t,\mathcal{F}_t)$ which is time-independent $\mathcal{L}_{\bf k}\mathcal{T}(\mathcal{F}_t,\mathcal{F}_t)=0$, where ${\bf k}$ is the time-like Killing vector field (at infinity) that preserves the metric $\mathcal{L}_{\bf k}{\bf g_0}=0$;
 \item[Then:] there is a new family of stationary BH ``hairy solutions" bifurcating from $(\mathcal{M}_0,{\bf g_0})$, denoted by $(\mathcal{M}_\mathcal{F},{\bf g_\mathcal{F}})$. Actually, $(\mathcal{M}_\mathcal{F},{\bf g_\mathcal{F}})$ may be a countable set of families.
 \end{description}
-In the case of KBHsSH, one encounters a family with three continuous and two discrete degrees of freedom.
+As we have seen, in the case of KBHsSH, one encounters a family with three continuous and two discrete degrees of freedom.
 
 As further evidence for the above conjecture we consider now 
 Einstein's gravity minimally coupled to Abelian Proca fields, hereafter referred simply as Proca fields\footnote{Gravitating \textit{non-Abelian} ($SU(2)$) Proca fields have been studied in \cite{Greene:1992fw}, wherein spherically symmetric solitons and BHs have been discussed. The properties of these solutions are rather distinct from the solutions discussed in this chapter and, moreover, the former have not been generalized to include rotation.}. 
@@ -76,11 +77,12 @@ Massive Proca fields trigger, in much the same way as massive scalar fields,
 superradiant instabilities of Kerr BHs -- see~\cite{Pani:2012vp,Pani:2012bp,Witek:2012tr} 
 for recent studies of Proca-induced superradiant instabilities in asymptotically flat BHs. 
 
-%% Adjust the paragraph below to fit into the paper or skip it? Not sure if writing a summary of each chapter in the introduction is needed.
-
-% This paper is organized as follows. In Section~\ref{Psec_model} we exhibit the Einstein--complex-Proca model and its basic properties. In Section~\ref{sec_nohair} we review the classic no-Proca-hair theorem by Bekenstein~\cite{Bekenstein:1971hc,Bekenstein:1972ky} and also present a novel no-Proca-hair theorem applying to \textit{spherically symmetric} solutions and allowing the Proca field to have a harmonic time dependence. The latter is a generalization of the theorem presented in~\cite{Pena:1997cy} for the scalar case and it establishes that rotation is crucial for the existence of KBHsPH. In Section~\ref{sec_clouds} we consider the construction of stationary Proca clouds around Kerr and obtain one existence line for a particular set of ``quantum" numbers. In Section~\ref{sec_stars} we shall briefly review some of the main features of Proca stars, that form a limiting case of KBHsPH, and discuss some of their physical properties in the rotating case. In Section~\ref{sec_kbhsph} we finally construct KBHsPH, discussing the ansatz, boundary conditions and solving numerically the field equations. Then we exhibit the domain of existence and phase space of one family of solutions, we discuss the Proca energy spacetime distribution and some other physical features of these BHs. We close with a discussion of the results of this paper and some of the open directions for future related research.  In the Appendices we provide some technical results, including the explicit expression for the Einstein tensor, Proca energy-momentum tensor and Proca field equations.
-%
-%
+In this chapter, we will start by looking at the Einstein-(complex)-Proca model.
+That is, we will consider a complex Proca field coupled to the Einstein equations.
+We will then very briefly review some no-Proca-hair theorems.
+After that, we will construct first stationary Proca clouds around Kerr black holes and second review spinning Proca stars.
+Just as for KBHsSH, these families of solutions form a part of the boundary for the hairy black hole solutions.
+Finally, we will present Kerr black holes with Proca hair (KBHsPH) and discuss some of their properties.
 
  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Einstein--complex-Proca model}
@@ -100,53 +102,53 @@ described by the action:
 \begin{equation}
 \label{Procaaction}
 \mathcal{S}=\int d^4x \sqrt{-g}\left(\frac{1}{16 \pi  G}R
--\frac{1}{4}\mathcal{F}_{\alpha\beta}\bar{\mathcal{F}}^{\alpha\beta}
--\frac{1}{2}\mu^2\mathcal{A}_\alpha\bar{\mathcal{A}}^\alpha\right) \ .
+-\frac{1}{4}\mathcal{F}_{ab}\bar{\mathcal{F}}^{ab}
+-\frac{1}{2}\mu^2\mathcal{A}_a\bar{\mathcal{A}}^a\right) \ .
 \end{equation}
-This (or its version with $A_\alpha$ real) 
+This (or its version with $A_a$ real) 
 is the action considered by previous studies of the Einstein-Proca model, see
 $e.g.$ refs. \cite{Rosen:1994rq,Vuille:2002qz}.\footnote{We remark that these works did not succeed in finding regular particle-like solutions or BHs with Proca hair.}
 
-Varying  (\ref{Procaaction}) $w.r.t.$ the potential $A_\alpha$ yields the Proca field equations
+Varying Eq. (\ref{Procaaction}) with respect to the potential $A_a$ yields the Proca field equations
 \begin{equation}
-\nabla_\alpha\mathcal{F}^{\alpha\beta}=\mu^2 \mathcal{A}^\beta \ .
+\nabla_a\mathcal{F}^{ab}=\mu^2 \mathcal{A}^b \ .
 \label{procafe}
 \end{equation}
-Observe that these equations \textit{completely} determine $ \mathcal{A}^\beta$ once $\mathcal{F}^{\alpha\beta}$ is known. Thus, the Proca potential is not subject to gauge transformations, unlike the Maxwell potential, and it is as physical as the field strength. In particular \eqref{procafe} imply the Lorentz condition, thus a dynamical requirement, rather than a gauge choice:
+Observe that these equations \textit{completely} determine $ \mathcal{A}^b$ once $\mathcal{F}^{ab}$ is known. Thus, the Proca potential is not subject to gauge transformations, unlike the Maxwell potential, and it is as physical as the field strength. In particular \eqref{procafe} imply the Lorentz condition, thus a dynamical requirement, rather than a gauge choice:
 \begin{equation}
-\nabla_\alpha\mathcal{A}^\alpha = 0 \ .
+\nabla_a\mathcal{A}^a = 0 \ .
 \label{lorentz}
 \end{equation}
 
 
 As usual, the Einstein equations are found by taking the variation of
-(\ref{Procaaction}) $w.r.t.$ the metric tensor $g_{\alpha \beta}$
+(\ref{Procaaction}) $w.r.t.$ the metric tensor $g_{ab}$
 \begin{equation}
-R_{\alpha \beta}-\frac{1}{2}R g_{\alpha \beta}=8 \pi G T_{\alpha \beta} \ ,
+R_{ab}-\frac{1}{2}R g_{ab}=8 \pi G T_{ab} \ ,
 \label{Einstein-eqs}
 \end{equation}
 where the energy-momentum tensor reads:
 \begin{eqnarray}
-T_{\alpha\beta}=\frac{1}{2}
-( \mathcal{F}_{\alpha \sigma }\bar{\mathcal{F}}_{\beta \gamma}
-+\bar{\mathcal{F}}_{\alpha \sigma } \mathcal{F}_{\beta \gamma}
-)g^{\sigma \gamma}
--\frac{1}{4}g_{\alpha\beta}\mathcal{F}_{\sigma\tau}\bar{\mathcal{F}}^{\sigma\tau}+\frac{1}{2}\mu^2\left[  
-\mathcal{A}_{\alpha}\bar{\mathcal{A}}_{\beta}
-+\bar{\mathcal{A}}_{\alpha}\mathcal{A}_{\beta}
--g_{\alpha\beta} \mathcal{A}_\sigma\bar{\mathcal{A}}^\sigma\right]\ . \ \ \ \ \ \ \  \ 
+T_{ab}=\frac{1}{2}
+( \mathcal{F}_{ac}\bar{\mathcal{F}}_{bd}
++\bar{\mathcal{F}}_{ac} \mathcal{F}_{bd}
+)g^{cd}
+-\frac{1}{4}g_{ab}\mathcal{F}_{ce}\bar{\mathcal{F}}^{ce}+\frac{1}{2}\mu^2\left[  
+\mathcal{A}_{a}\bar{\mathcal{A}}_{b}
++\bar{\mathcal{A}}_{a}\mathcal{A}_{b}
+-g_{ab} \mathcal{A}_c\bar{\mathcal{A}}^c\right]\ . \ \ \ \ \ \ \  \ 
 \label{procaemt}
 \end{eqnarray}
 
 The action possesses a global $U(1)$ symmetry, since it is invariant under the transformation 
-$\mathcal{A}_\beta\rightarrow e^{i\chi}\mathcal{A}_\beta$, with $\chi$ constant; 
+$\mathcal{A}_b\rightarrow e^{i\chi}\mathcal{A}_b$, with $\chi$ constant; 
 this implies the existence of a  4-current, 
 %
 \begin{equation}
 \label{j}
-j^\alpha=\frac{i}{2}\left[\bar{\mathcal{F}}^{\alpha \beta}\mathcal{A}_\beta-\mathcal{F}^{\alpha\beta}\bar{\mathcal{A}}_\beta\right] \ ,
+j^a=\frac{i}{2}\left[\bar{\mathcal{F}}^{ab}\mathcal{A}_b-\mathcal{F}^{ab}\bar{\mathcal{A}}_b\right] \ ,
 \end{equation}
-which is conserved by virtue of the field equations (\ref{procafe}): $\nabla_\alpha j^\alpha=0$. Consequently, there exists a Noether charge, $Q$, obtained integrating the temporal component of the 4-current on a space-like slice $\Sigma$:
+which is conserved by virtue of the field equations (\ref{procafe}): $\nabla_a j^a=0$. Consequently, there exists a Noether charge, $Q$, obtained integrating the temporal component of the 4-current on a space-like slice $\Sigma$:
 \begin{equation}
 Q=\int_\Sigma d^3x j^0 \ .
 \label{Pq}
@@ -159,14 +161,14 @@ We emphasize that unlike the massless limit of the theory, wherein the global sy
 \section{No Proca-hair theorems}
 \label{sec_nohair}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-If one considers Maxwell's equations for a test field with a spherically symmetric ansatz (a purely radial electric field) on the Schwarzschild background one finds a regular solution on and outside the Schwarzschild horizon ($cf.$ Section 2.1 in~\cite{Herdeiro:2015waa}). This is a smoking gun that a spherically symmetric field can be added, non-linearly, to the Schwarzschild solution, which indeed yields the well-known Reissner-Nordstr\"om BH. 
+If one considers Maxwell's equations for a test field with a spherically symmetric ansatz (a purely radial electric field) on the Schwarzschild background one finds a regular solution on and outside the Schwarzschild horizon ($cf.$ Section 2.1 in~\cite{Herdeiro:2015waa}). This is a smoking gun that a spherically symmetric field can be added, non-linearly, to the Schwarzschild solution, which indeed yields the well-known Reissner-Nordstr\"om solution. 
 Adding a mass term to the Maxwell field -- hence converting it into a Proca field -- drastically alters the behaviour of the test field solution: it is not possible to find a solution which is both finite at the horizon and at spatial infinity, no matter how small $\mu$ is. 
 In particular, for the asymptotically (exponentially) decaying solution, the Proca potential squared diverges at the horizon~\cite{Gottlieb:1984jg}.
 Thus, requiring any amount of Proca field in equilibrium outside the horizon implies an infinite pile up of Proca invariants at the horizon.
 This behaviour parallels that of a scalar field (massless or massive) discussed in~\cite{Herdeiro:2015waa} and it is intimately connected with the existence/absence of a Gauss law for the Maxwell/Proca field.
 Moreover, it shows one cannot find a regular, spherically symmetric BH solution with Proca (time-independent) hair bifurcating from the Schwarzschild solution.
 
-Just as with KBHsSH, a key assumption in finding Kerr black holes with Proca hair is to violate the assumption of many no-hair theorems that the field inherits the isometries of the background.
+Just as with KBHsSH, a key assumption in finding Kerr black holes with Proca hair is to violate the assumption of many no-hair theorems, many of which were put forth by Bekenstein\cite{Bekenstein:1971hc,Bekenstein:1972ky}, that the field inherits the isometries of the background.
 In \cite{Herdeiro:2016tmi}, it was shown that even dropping the symmetry inheritance assumption one can establish a no-hair theorem, for \textit{spherically symmetric} BHs.
 This is compatible with the KBHsPH solutions discussed in this chapter, which are stationary and axi-symmetric, and shows that these solutions cannot have a static limit,
 as can be seen from the domain of existence of KBHsPH, $cf.$ Section~\ref{subsec_III}.
@@ -378,72 +380,16 @@ as can be seen from the domain of existence of KBHsPH, $cf.$ Section~\ref{subsec
 \section{Stationary Proca clouds around Kerr}
 \label{sec_clouds}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
-The theorems discussed in section~\ref{sec_nohair} leave open the possibility that \textit{stationary} (rather than static and spherically symmetric) BHs with Proca hair, possessing a harmonic time dependence, may exist. There is, moreover, a new physical ingredient in the stationary case which, indeed, makes their existence not only possible, but also natural: \textit{superradiance}. 
+The results discussed in Section~\ref{sec_nohair} leave open the possibility that \textit{stationary} (rather than static and spherically symmetric) BHs with Proca hair, possessing a harmonic time dependence, may exist. There is, moreover, a new physical ingredient in the stationary case which, indeed, makes their existence not only possible, but also natural: \textit{superradiance}. 
 
 Sufficiently low frequency modes of a test Proca field, are amplified when scattering off a co-rotating Kerr BH, by extracting rotational energy and angular momentum from the BH, in a purely classical process. This process was studied in the slow rotation limit of Kerr in~\cite{Pani:2012vp,Pani:2012bp}, where it was used for placing bounds on the photon mass. Sufficiently high frequency modes, on the other hand (or any non-co-rotating mode), are partly absorbed in a similar scattering. 
 
-The same two behaviours occur for gravitationally bound modes, with frequency lower than the Proca mass. These modes are generically \textit{quasi-bound} states, $i.e$ they have a complex frequency. Then, the amplified modes become an instability of the background. Moreover, at the threshold between the two behaviours (growing and decaying modes), one finds bound states with a real frequency, which we dub \textit{stationary Proca clouds around Kerr BHs}. We shall now sketch the study of the Proca bound states around Kerr BHs in a way suitable for the computation of KBHsPH. A more detailed account of stationary Proca clouds will appear elsewhere. 
+The same two behaviours occur for gravitationally bound modes, with frequency lower than the Proca mass. These modes are generically \textit{quasi-bound} states, $i.e$ they have a complex frequency. Then, the amplified modes become an instability of the background. Moreover, at the threshold between the two behaviours (growing and decaying modes), one finds bound states with a real frequency, which we dub \textit{stationary Proca clouds around Kerr BHs}. We shall now sketch the study of the Proca bound states around Kerr BHs in a way suitable for the computation of KBHsPH. 
 
 We use the metric ansatz of Eq. \eqref{eqn:HBH-ansatz}.
-Note however that $F_i,W$ are functions of the spheroidal coordinates $(r,\theta)$, which read, explicitly,\footnote{The parameters $b$ (here) and $c_t$ (in~\cite{Herdeiro:2015gia}) relate as $b=-c_t$.}
-%
-\begin{eqnarray}
-\nonumber
-&&
-e^{2F_1}=\left(1+\frac{b}{r}\right)^2+b(b+r_H)\frac{\cos^2\theta}{r^2}\ ,
-\\
-\nonumber
-%\label{Kerr1}
-&&
-e^{2F_2}=e^{-2F_1}
-\left\{
-          \left[
-\left(1+\frac{b}{r}\right)^2+\frac{b(b+r_H)}{r^2}
-          \right]^2-b(b+r_H)\left(1-\frac{r_H}{r}\right)\frac{\sin^2\theta}{r^2}
-\right\}\ ,
-\\
-\nonumber
-&&
-F_0=-F_2 \ , \\
-&&
-\label{functionsKerr}
-\displaystyle{W=e^{-2(F_1+F_2)}
-\sqrt{b(b+r_H)}(r_H+2b)
-\frac{(1+\frac{b}{r})}{r^3}} \ .
-\end{eqnarray}
-The relation between these coordinates $(t,r,\theta,\varphi)$ and the standard Boyer-Lindquist coordinates $(t,R,\theta,\varphi)$ is simply a radial shift:
-\begin{equation}
-r=R-\frac{a^2}{R_H} \ , 
-\end{equation}
-where $R_H$ is the event horizon Boyer-Lindquist radial coordinate,  $R_H\equiv M+\sqrt{M^2-a^2}$, for a Kerr BH with mass $M$ and angular momentum $J=aM$. In the new coordinate system $(t,r,\theta,\varphi)$, the Kerr solution is parameterized by $r_H$ and $b$, which relate to the Boyer-Lindquist parameters as
-\begin{equation}
-r_H=R_H-\frac{a^2}{R_H} \ , \qquad b=\frac{a^2}{R_H} \ .
-\end{equation}
-Clearly, $r_H$ fixes the event horizon radius; $b$ is a spheroidal prolateness parameter (see Appendix \ref{prolatecoordinates}), and can be taken as a measure of non-staticity, since $b=0$ yields the Schwarzschild limit.
+Note however that $F_i,W$ are functions of the spheroidal coordinates $(r,\theta)$,  and are given explicitly in Appendix \ref{appendixb}.
 
-The ADM mass, ADM angular momentum and horizon angular velocity read, in terms of the parameters $r_H,b$ (we set $G=1=c$)
-\begin{equation}
-\begin{array}{c}
-M=\frac{1}{2}(r_H+2b) \ , \ \ \ 
-J=\frac{1}{2}\sqrt{b(b+r_H)}(r_H+2b) \ , \ \ \
-%\nonumber
-%&&
-%A_H=4\pi (r_H-c_t)(r_H-2c_t),
-%\\
-%\nonumber
-%&&
-%T_H=\frac{r_H}{4\pi (r_H-c_t)(r_H-2c_t)},
-%\\
-\label{Kerr2}
-\displaystyle{\Omega_H=\frac{1}{r_H+2b}\sqrt{\frac{b}{r_H+b}}} \ .
-\end{array}
-\end{equation}
-The choice $r_H=-2b\neq 0$
-yields Minkowski spacetime expressed in spheroidal prolate coordinates (Appendix \ref{prolatecoordinates}). Extremality occurs when $r_H=0$.
-
-
-
-One considers the Proca field equations \eqref{procafe} on the background~\eqref{eqn:HBH-ansatz}, using an ansatz given in terms of four functions $(H_i,V)$, all of which depends on $r,\theta$, and with a harmonic time and azimuthal dependence, which introduce a (positive) frequency, $w>0$, and the azimuthal harmonic index, $m\in \mathbb{Z}$:
+We consider the Proca field equations \eqref{procafe} on the background~\eqref{eqn:HBH-ansatz}, using an ansatz given in terms of four functions $(H_i,V)$, all of which depends on $r,\theta$, and with a harmonic time and azimuthal dependence, which introduce a (positive) frequency, $w>0$, and the azimuthal harmonic index, $m\in \mathbb{Z}$:
 
 \begin{equation}
 \mathcal{A}=e^{i(m\varphi-w t)}\left(
@@ -452,7 +398,7 @@ One considers the Proca field equations \eqref{procafe} on the background~\eqref
 \label{procaclouds}
 \end{equation}
 
-Here we shall only address the case with $m=1$. The corresponding Proca equations are given in Appendix~\ref{appendixb}.
+As before, we shall only consider the $m=1$ case. The corresponding Proca equations are given in Appendix~\ref{appendixb}.
 These equations are solved with the following set of boundary conditions:
 \begin{description}
 %
@@ -468,7 +414,7 @@ H_1|_{\theta=0,\pi}
  = \partial_\theta H_2\big|_{\theta=0,\pi}=\partial_\theta H_3\big|_{\theta=0,\pi}=V|_{\theta=0,\pi}=0 \ ;
  \label{bccloudsaxis}
 \end{equation}
-\item[iii)]?at the event horizon $(r=r_H)$ the boundary conditions become simpler by introducing a new radial coordinate $x\equiv \sqrt{r^2-r_H^2}$, such that the horizon is located at $x=0$.
+\item[iii)] at the event horizon $(r=r_H)$ the boundary conditions become simpler by introducing a new radial coordinate $x\equiv \sqrt{r^2-r_H^2}$, such that the horizon is located at $x=0$.
 Then one imposes
 \begin{eqnarray}
  H_1|_{x=0}=\partial_x H_2|_{x=0}=\partial_x H_3|_{x=0}= 0 \ , \qquad  \left(V+\frac{w}{m}H_3\sin\theta\right)|_{x=0}=0  
@@ -485,29 +431,26 @@ All such solutions we have constructed so far are symmetric with respect to a re
   H_2\big|_{\theta=\pi/2}=\partial_\theta H_3\big|_{\theta=\pi/2}= \partial_\theta  V|_{\theta=\pi/2}=0\ .
 \end{equation}
 Odd-parity composite configurations are also likely to exist.
-%
-We observe that for $m>1$ the boundary conditions satisfied 
-by some of the gauge potentials
-at $\theta=0,\pi$ are different.
  
 We have solved the equations for $H_i,V$, with the above boundary  conditions, for
 a fixed Kerr BH background, by using the numerical approach described $e.g.$ in \cite{Herdeiro:2014pka}
 for non-linear stationary scalar clouds.
-The input parameters for this problem are $w,m$ for the Proca functions and $r_H,b$ for the geometry.
+The input parameters for this problem are $w,m$ for the Proca functions and $r_H,b$ for the geometry, cf. Appendix \ref{appendixb}.
 Regularity of the Proca fields at the horizon imposes the \textit{synchronization condition} (see the discussions in~\cite{Benone:2014ssa,Brihaye:2014nba})
  \begin{eqnarray}
 w=m\Omega_H~,
 \label{synchronization} 
 \end{eqnarray}
-which precisely means the scalar clouds are modes at the threshold of the superradiant instability (unstable modes obey $w<m\Omega_H$).  Observe that with~\eqref{synchronization}, the last condition in~\eqref{bccloudshorizon} becomes
+which means that the scalar clouds are modes at the threshold of the superradiant instability (unstable modes obey $w<m\Omega_H$) as expected.
+Observe that with~\eqref{synchronization}, the last condition in Eq.~\eqref{bccloudshorizon} becomes
 \begin{equation}
 \label{condA}
-\xi^\alpha \mathcal{A}_\alpha\big|_{r_H}=0 \ ,
+\xi^a \mathcal{A}_a\big|_{r_H}=0 \ ,
 \end{equation}
 %
-where $\xi^\alpha\partial_\alpha=\partial_t+\Omega_H\partial_\varphi$ is the event horizon null generator.\footnote{Observe that for a \textit{massless} vector field, $i.e.$ a Maxwell field, $\xi^\alpha \mathcal{A}_\alpha\big|_{r_H}$ corresponds 
-to $\Phi_H$ --the co-rotating electric potential on the horizon, which is non-zero in a gauge where the gauge potential vanishes asymptotically~\cite{Townsend:1997ku}.}
-Observe also that  $\mathcal{A}$ is preserved by the action of $\xi$: $\mathcal{L}_\xi\mathcal{A}_\alpha=0$. 
+where $\xi^a\partial_a=\partial_t+\Omega_H\partial_\varphi$ is the event horizon null generator.\footnote{Observe that for a \textit{massless} vector field, $i.e.$ a Maxwell field, $\xi^a \mathcal{A}_a\big|_{r_H}$ corresponds 
+to $\Phi_H$, the co-rotating electric potential on the horizon, which is non-zero in a gauge where the gauge potential vanishes asymptotically~\cite{Townsend:1997ku}.}
+Observe that  $\mathcal{A}$ is preserved by the action of $\xi$: $\mathcal{L}_\xi\mathcal{A}_a=0$. 
 This is analogous to what occurs in the scalar case ($\mathcal{L}_\xi\Psi=0$), but it is in contrast to the assumptions of Bekenstein's theorem, where it is required that the components of the Proca potential are invariant under $\partial_t$ and $\partial_\varphi$ separately.
 
 The process of finding a solution is similar to the scalar cloud case described in Chapter \ref{ch:intro}.
@@ -520,7 +463,7 @@ Just as in the KBHsSH case, this existence line will then form one of the bounda
   \begin{center}
     \includegraphics[width=0.7\textwidth]{papers/Proca/wM-m1-comparison.pdf}
   \end{center}
- \caption{Existence line for Proca stationary clouds with $m=1$ (blue dotted line) and the comparable existence line for scalar stationary clouds (with $m=1=\ell$, $n=0$, $cf.$~\cite{Benone:2014ssa}, black double dotted line), in an ADM mass $vs.$ frequency $w/m=\Omega_H$ diagram of Kerr BHs. Both axes are shown in units of the scalar/Proca field mass $\mu$. The black solid line corresponds to extremal Kerr BHs and non-extremal solutions exist below that line. Two red lines describing scalar boson stars (dotted) and Proca stars (solid) are also shown, that will be described in the next section.}
+  \caption{Existence line for Proca stationary clouds with $m=1$ (blue dotted line) and the comparable existence line for scalar stationary clouds (with $m=1=\ell$, $n=0$, $cf.$~\cite{Benone:2014ssa}, black double dotted line), in an ADM mass $vs.$ frequency $w/m=\Omega_H$ diagram of Kerr BHs. Both axes are shown in units of the scalar/Proca field mass $\mu$. The black solid line corresponds to extremal Kerr BHs and non-extremal solutions exist below that line. Two red lines describing scalar boson stars (dotted) and Proca stars (solid) are also shown, that will be described in the next section. The two black dots correspond to the Proca and boson star solutions analyzed in Fig. \ref{PS1}.}
   \label{clouds}
 \end{figure}
 
@@ -546,7 +489,7 @@ we could not find any numerical indication for the existence of $m\geq 1$ nodele
 \label{sec_stars}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 The stationary Proca clouds described in the previous section form one of the central ingredients to understand KBHsPH.
-They also form a part of the boundary of the domain of existence of these BHs, as we shall see in the next section. The other central ingredient corresponds to Proca stars, which again will form a part of the boundary of the domain of existence of KBHsPH. We shall now briefly review the relevant properties of these solutions, recently found in~\cite{Brito:2015pxa}, for understanding KBHsPH.
+They also form a part of the boundary of the domain of existence of these BHs, as we shall see in the next section. The other central ingredient corresponds to Proca stars, which again will form a part of the boundary of the domain of existence of KBHsPH. We shall now briefly review the relevant properties of these solutions, recently found in~\cite{Brito:2015pxa}, in order to understand KBHsPH better.
 
 Proca stars can be either spherically symmetric and static or axially symmetric and stationary. The former are found by taking a general spherically symmetric ansatz for the line element and an ansatz of the form $\mathcal{A}=e^{-iwt}\left[f(r)dt+ig(r)dr \right]$ for the Proca field.
 With this ansatz, however, there are no BH solutions\cite{Herdeiro:2016tmi}. The latter are found by taking a metric ansatz of the form~\eqref{eqn:HBH-ansatz}, with $r_H=0$, with unspecified functions $F_0,F_1,F_2$ and the Proca potential ansatz~\eqref{procaclouds}, with unspecified functions $V,H_2,H_3$.
@@ -587,13 +530,14 @@ Following~\cite{Herdeiro:2014goa} and the discussion in Chapter \ref{ch:intro}, 
  q\equiv \frac{mQ}{J} \ ,
  \label{jq}
  \end{equation}
- which is obviously $q=1$ for all Proca stars, but will be $q\in (0,1]$ for KBHsPH.
+ which is obviously $q=1$ for all Proca stars, but will be $q\in [0,1]$ for KBHsPH.
  
  For $m=1$, the case in which we focus here, the Proca star solutions 
 appear to form a spiral in an ADM mass, $M$, $vs.$ Proca field frequency, $w$, diagram, starting from $M=0$ for $w=\mu$, in which limit the Proca field becomes very diluted and the solution trivializes. 
 At some intermediate frequency, a maximal ADM mass is attained. For $m=1$ this frequency is $w_{\rm max}/\mu=0.839$ and the maximal mass is $\mu M_{\rm max}=1.568$, a slightly larger value than for the corresponding scalar rotating boson star (for which $\mu M_{\rm max}=1.315$)~\cite{Brito:2015pxa}. 
+This structure is very reminiscent of boson stars.
  
-In Fig.~\ref{clouds}, we display the $m=1$ Proca star and scalar boson star curves (red solid and dotted lines). Comparing them, we observe: $(i)$ the slightly larger maximal mass for the Proca stars; $(ii)$ that the backbending of the inspiraling curve occurs, for Proca stars, for a larger value of the frequency parameter, and hence they exist in a narrower frequency interval; $(iii)$ that whereas for scalar boson stars with $m=1$ it was possible to obtain a third branch of solutions (after the second backbending) numerics become very difficult for Proca stars already on the second branch;\footnote{In the spherically symmetric case, 
+In Fig.~\ref{clouds}, we display the $m=1$ Proca star and scalar boson star curves (red solid and dotted lines). Comparing them, we observe: $(i)$ the slightly larger maximal mass for the Proca stars; $(ii)$ that the backbending of the inspiraling curve occurs for a larger value of the frequency parameter for Proca stars, and hence they exist in a narrower frequency interval; $(iii)$ whereas for scalar boson stars with $m=1$ it was possible to obtain a third branch of solutions (after the second backbending) numerics become very difficult for Proca stars already on the second branch;\footnote{In the spherically symmetric case, 
 the results in \cite{Brito:2015pxa} show the existence of a very similar picture for both 
   Proca stars and scalar boson stars, with the occurance  of secondary branches (together with the corresponding
 spiral in a $(w,M)$-diagram) also in the former case.} for example, 
@@ -603,8 +547,8 @@ Finally, in complete analogy with the scalar boson star case, the Proca star lin
 Although spinning Proca stars are quite similar to spinning scalar boson stars in many aspects, the energy and angular momentum density of the former exhibit novel features with respect to the latter.
 Spinning scalar boson stars for generic $m\geqslant 1$ are often described as an effective mass torus in general relativity~\cite{Schunck:1996he}, since surfaces of constant energy density present a toroidal topology sufficiently close to the centre of the star (see $e.g.$ the plots in~\cite{Herdeiro:2014ima}).
 Spinning Proca stars, on the other hand, have a different structure for $m=1$ and $m>1$ as shown in Figs.~\ref{PS1}--\ref{3D} for illustrative cases (with $w=0.8$ and along the first branch for all examples).
-For $m=1$, the Proca star's energy density has a maximum at the origin and a second maximum (smaller) at some radial distance, thus presenting a composite-like structure, $cf.$ Fig.~\ref{PS1} (top left panel): instead of being toroidal some constant energy surfaces are \textit{Saturn-like} - Fig.~\ref{3D} (left panel).
-The angular momentum density, on the other hand, is zero at the origin and has two local positive maxima at some radii and one local negative minimum between them -- Fig.~\ref{PS1} (top right panel); in particular this means there is a counter-rotating toroidal-like region.
+For $m=1$, the Proca star's energy density has a maximum at the origin and a second maximum (smaller) at some radial distance, thus presenting a composite-like structure, $cf.$ Fig.~\ref{PS1} (top left panel): instead of being toroidal, constant energy surfaces are \textit{Saturn-like} - Fig.~\ref{3D} (left panel).
+The angular momentum density, on the other hand, is zero at the origin and has two local positive maxima at some radii and one local negative minimum between them -- Fig.~\ref{PS1} (top right panel); interestingly this means there is a counter-rotating toroidal-like region.
 For $m>1$ the Proca star's energy density vanishes at the origin and two local maxima arise at different radial values, $cf.$ Fig.~\ref{PS2} (top left panel).
 Thus some constant energy density surfaces are \textit{di-ring-like} - Fig.~\ref{3D} (right panel).
 The angular momentum density is similar to the $m=1$ case -- Fig.~\ref{PS2} (top right panel).
@@ -649,7 +593,7 @@ Finally, we discuss how ``compact'' these Proca stars are.
 Proca stars, like their scalar cousins, have no surface, $i.e.$ the Proca field decays exponentially towards infinity.
 Thus, there is no unique definition of the Proca star's ``radius''.
 To obtain an estimate we follow the discussion in~\cite{AmaroSeoane:2010qx,Herdeiro:2015gia}.
-Using the ``perimeteral'' radius, $i.e.$, a radial coordinate $R$ such that a circumference along the equatorial plane has perimeter $\simeq 2\pi R$,  we compute $R_{99}$, the perimeteral radius containing 99\% of the Proca star mass, $M_{99}$. Then, we define the inverse compactness by comparing $R_{99}$ with the Schwarzschild radius associated to 99\% of the Proca star's mass, $R_{Schw}=2M_{99}$:
+Using the ``perimeteral'' radius, $i.e.$ a radial coordinate $R$ such that a circumference along the equatorial plane has perimeter $\simeq 2\pi R$,  we compute $R_{99}$, the perimeteral radius containing 99\% of the Proca star mass, $M_{99}$. Then, we define the inverse compactness by comparing $R_{99}$ with the Schwarzschild radius associated to 99\% of the Proca star's mass, $R_{Schw}=2M_{99}$:
 %
 \begin{equation}
 {\rm Compactness}^{-1}\equiv  \frac{R_{99}}{2M_{99}} \ .
@@ -657,7 +601,7 @@ Using the ``perimeteral'' radius, $i.e.$, a radial coordinate $R$ such that a ci
 \end{equation}
 %
 The result for the inverse compactness of Proca stars with $m=1$ is exhibited in Figure~\ref{compactnessfig}.
-With this measure, the inverse compactness is always greater than unity; $i.e.$, Proca stars are less compact than BHs, as one would expect, but they are also less compact than comparable scalar boson stars.
+With this measure, the inverse compactness is always greater than unity; $i.e.$, Proca stars are less compact than BHs, as one would expect, but, as can be seen from the figure, they are also less compact than comparable scalar boson stars.
 
 \begin{figure}[h!]
   \begin{center}
@@ -681,9 +625,9 @@ Thus, $r=r_H$ is the location of the event horizon if the metric is regular ther
 
 For $r_H=0$, this ansatz reduces to the one discussed in the previous section for Proca stars, except for the replacement given by Eq.~\eqref{ww}.
 The line element form used for Proca stars is useful to tackle the behaviour at the origin, whereas the one used for BHs is useful to tackle the behaviour on a rotating horizon wherein $W$ reduces to the horizon angular velocity, $\Omega_H$.
-Indeed, following null geodesic generators ($ds^2=0$) on the horizon ($r=r_H$), assuming $F_2$ is finite therein, implies $d\varphi=W(r_H)dt$ and thus $W(r_H)=\Omega_H$, the angular velocity as measured by the observer at infinity.
+Indeed, following null geodesic generators, $ds^2=0$ on the horizon, assuming $F_2$ is finite there, implies $d\varphi=W(r_H)dt$ and thus $W(r_H)=\Omega_H$, the angular velocity as measured by the observer at infinity.
 
-The Proca field ansatz is the same as for the stationary Proca clouds (and Proca stars up to the replacements given by Eq.~\eqref{ww}),given by Eq.~\eqref{procaclouds}.
+The Proca field ansatz is the same as for the stationary Proca clouds (and Proca stars up to the replacements given by Eq.~\eqref{ww}), given by Eq.~\eqref{procaclouds}.
 This, again, introduces two parameters: $w>0$, $m\in \mathbb{Z}$.
 As for Proca stars we shall focus here on $m=1$, and take the sychronization condition~\eqref{synchronization} that we can rewrite in this context as (for general $m$)
 \begin{equation}
@@ -697,13 +641,10 @@ A careful inspection of the components of the energy-momentum tensor that have i
 \begin{equation}
 \frac{w-mW(r_H)}{N(r_H)} 
 \end{equation}
-to be finite and hence it requires Eq.~\eqref{synchronization2} to be fulfilled.
+to be finite there and hence it requires Eq.~\eqref{synchronization2} to be fulfilled.
 The same can be observed in the Einstein equations for KBHsSH, presented in~\cite{Herdeiro:2015gia}.
-It is interesting to remark that this finiteness condition, i.e. Eq.~\eqref{synchronization2}, is not necessarily related to superradiance, as the higher dimensional examples in~\cite{Brihaye:2014nba,Herdeiro:2015kha} illustrate. 
 
-
-The Einstein-Proca equations are solved with the following boundary conditions (which again we have found to be compatible with an approximate construction of the solutions
-on the boundary of the domain of integration):  
+The Einstein-Proca equations are solved with the following boundary conditions:
 \begin{description}
 \item[i)] at infinity, the same as for Proca stars,~\eqref{bccloudslarge} and~\eqref{bcstarslarge};
 \item[ii)] on the symmetry axis, the same as for Proca stars,~\eqref{bccloudsaxis} and~\eqref{bcstarsaxis};
@@ -722,7 +663,7 @@ The Einstein-Proca equations,shown in Appendix \ref{appendixb}), are solved nume
 \subsection{Physical Quantities}
 \label{subsec_II}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
-In the following we shall describe some physical quantities that will be monitored from the numerical solutions we have obtained.
+In the following we shall describe some physical quantities that will be obtained from the numerical solutions we have found.
 The ADM mass, $M$, and ADM angular momentum, $J$, are read off from the asymptotic expansion of the appropriate metric components:
 %
 \begin{equation}
@@ -732,19 +673,19 @@ g_{tt} =-1+\frac{2M}{r}+\dots \ ,\qquad ~~g_{\varphi t}=-\frac{2J}{r}\sin^2\thet
 %
 We also compute the horizon mass and angular momentum by using the appropriate Komar integrals associated to the corresponding Killing vector fields ${\bf k}$ and ${\bf m}$:
 \begin{equation}
-M_H=-\frac{1}{8\pi}\oint_{\mathcal{H}}dS_{\alpha\beta}D^\alpha k^\beta \ , \qquad 
-J_H=\frac{1}{16\pi}\oint_{\mathcal{H}}dS_{\alpha\beta}D^\alpha m^\beta \ .
+M_H=-\frac{1}{8\pi}\oint_{\mathcal{H}}dS_{ab}D^a k^b \ , \qquad 
+J_H=\frac{1}{16\pi}\oint_{\mathcal{H}}dS_{ab}D^a m^b \ .
 \end{equation}
 %
-Both $M$ and $J$ can also be computed as Komar integrals at infinity.
+The asymptotic quantities, $M$ and $J$, can also be computed as Komar integrals at infinity.
 Then, applying Gauss's law, one obtains a relation with $M_H$ and $J_H$ together with volume integrals on a spacelike surface with a boundary at the (spatial section of the) horizon.
 By making use of the Killing identity and the Einstein equations one obtains:
 \begin{equation}
-M=M_H-2\int_{\Sigma}dS_{\alpha}\left(T^\alpha_\beta k^\beta-\frac{1}{2}Tk^\alpha\right) \equiv M_H+M^{(\mathcal{P})}
+M=M_H-2\int_{\Sigma}dS_{a}\left(T^a_b k^b-\frac{1}{2}Tk^a\right) \equiv M_H+M^{(\mathcal{P})}
 \end{equation}
 This defines the energy stored in the Proca field (outside the horizon):
 \begin{equation}
-M^{({\cal P})}\equiv - \int_{\Sigma} dr d\theta d\varphi(2T_t^t-T_\alpha^\alpha) \sqrt{-g} \ .
+M^{({\cal P})}\equiv - \int_{\Sigma} dr d\theta d\varphi(2T_t^t-T_a^a) \sqrt{-g} \ .
 \label{ed}
 \end{equation}
 %
@@ -769,7 +710,7 @@ M^{({\cal P})}=2w Q
 \left[
 \frac{1}{2} 
 \left(
-{\mathcal{A}}_\beta \bar{ {\mathcal{F}}}^{r \beta}+\bar{\mathcal{A}}_\beta { {\mathcal{F}}}^{r \beta}
+{\mathcal{A}}_b \bar{ {\mathcal{F}}}^{r b}+\bar{\mathcal{A}}_b { {\mathcal{F}}}^{r b}
 \right)
 -\left({\mathcal{A}}_t \bar{ {\mathcal{F}}}^{r t}+\bar{\mathcal{A}}_t { {\mathcal{F}}}^{r t}
 \right)  
@@ -778,7 +719,7 @@ M^{({\cal P})}=2w Q
 with
 \begin{equation}
 \label{ProcaU}
-{\cal U}\equiv \int _\Sigma  dr d\theta d\varphi  {\mathcal{A}}_\alpha \bar {\mathcal{A}}^\alpha \sqrt{-g}\ .
+{\cal U}\equiv \int _\Sigma  dr d\theta d\varphi  {\mathcal{A}}_a \bar {\mathcal{A}}^a \sqrt{-g}\ .
 \end{equation}
 
 
@@ -788,7 +729,7 @@ The horizon temperature and event horizon area of the KBHsPH solutions are compu
 T_H=\frac{1}{4\pi r_H}e^{(F_0-F_1)|_{r=r_H}} \ , \qquad
  A_H=2\pi r_H^2 \int_0^\pi d\theta \sin \theta  e^{(F_1+F_2)|_{r=r_H}}\ . 
  \end{eqnarray}
-Then, the ADM quantities $M,J$ are related with $T_H,S,Q,M^{({\cal P})}$, where $S=A_H/4$ is the horizon entropy, through a Smarr formula  
+Then, the ADM quantities $M,J$ are related to $T_H,S,Q,M^{({\cal P})}$, where $S=A_H/4$ is the horizon entropy, through a Smarr formula  
 %
 \begin{eqnarray}
 \label{Psmarr} 
@@ -811,15 +752,7 @@ can be written in a Kerr-like form
 M=2 T_H S +2\Omega_H J-\mu^2 {\cal U} \ ,
 \end{eqnarray}
 which renders explicit the fact that the solutions are supported by
-a nonzero mass term of the Proca field.
-
-Finally, we observe that Proca stars
-satisfy a simple relation, which results again from relations (\ref{nr1}) and (\ref{nr2}):\footnote{One can similarly show that KBHsSH and scalar boson stars satisfy relations analogous to
-(\ref{smarr-new1}) and  (\ref{smarr-new2}), respectively.} 
-\begin{eqnarray}
-\label{smarr-new2} 
-M=2 w Q-\mu^2 {\cal U}=2\frac{w}{m} J-\mu^2 {\cal U}\ .
-\end{eqnarray}
+a nonzero mass term of the Proca field, as is evident from the last term in the equation.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{The domain of existence and phase space}
@@ -837,20 +770,20 @@ The result for the $m=1$ family of KBHsPH is shown in Fig.~\ref{figdomain} obtai
     \includegraphics[width=0.7\textwidth]{papers/Proca/BH-w-M-with-points.pdf}
       % \includegraphics[width=8.1cm]{papers/Proca/scalar-BH-w-M.pdf}
   \end{center}
-  \caption{ADM mass $vs.$ frequency $w$ diagram for $m=1$ KBHsPH. The red solid lines correspond to the solitonic limit. The blue dotted lines are the Kerr limit, also shown in Fig.~\ref{clouds}. Kerr solutions exist below the black solid line, which corresponds to extremal Kerr solutions. The hairy BHs exist in the blue shaded region. Points I,III,IV,V, in each case, correspond to specific solutions for which the numerical data is publicly available~\cite{datakbhph,datakbhsh}. The right panel also shows the extremal hairy BHs (green dashed) line.}
+  \caption{ADM mass $vs.$ frequency $w$ diagram for $m=1$ KBHsPH. The red solid lines correspond to the solitonic limit. The blue dotted lines are the Kerr limit, also shown in Fig.~\ref{clouds}. Kerr solutions exist below the black solid line, which corresponds to extremal Kerr solutions. The hairy BHs exist in the blue shaded region. Points I,III,IV,V, in each case, correspond to specific solutions for which the numerical data is publicly available in Appendix \ref{appendixd}~\cite{datakbhph,datakbhsh}. The right panel also shows the extremal hairy BHs (green dashed) line.}
   \label{figdomain}
 \end{figure}
 %
 
-
-Based on the discussions of KBHsSH~\cite{Herdeiro:2014goa,Herdeiro:2015gia,Herdeiro:2015tia}, and as already partly discussed, the domain of existence of KBHsPH should be bounded by three lines: the Proca clouds existence line discussed in Section~\ref{sec_clouds}, the Proca star line discussed in Section~\ref{sec_stars} and the line of extremal KBHsPH ($i.e.$ zero temperature).
-So far, the last of the three were only obtained by extrapolating to $T_H=0$ the non-extremal solutions, as our attempts to construct the extremal KBHsPH solutions by directly solving the Einstein-Proca field equations were unsuccessful (unlike the scalar case, as reported in~\cite{Herdeiro:2015gia} and Chapter \ref{ch:SI} for self-interacting solutions).
+Just as for KBHsSH, the domain of existence of KBHsPH should be bounded by three lines: the Proca clouds existence line discussed in Section~\ref{sec_clouds}, the Proca star line discussed in Section~\ref{sec_stars} and the line of extremal KBHsPH ($i.e.$ zero temperature).
+So far, the last of the three was only obtained by extrapolating to $T_H=0$ the non-extremal solutions, as our attempts to construct the extremal KBHsPH solutions by directly solving the Einstein-Proca field equations were unsuccessful (unlike the scalar case, as reported in~\cite{Herdeiro:2015gia} and Chapter \ref{ch:SI} for self-interacting solutions).
 For this reason we have chosen not to display this line in Fig.~\ref{figdomain}, for the Proca case.
 Another technical difficulty arises in trying to connect the set of (extrapolated) extremal solutions with the set of Proca stars.
 As for the case of KBHsSH, these two curves are likely to meet in a critical point at the center of the 
 Proca stars spiral; however, validation of this hypothesis is a numerical challenge, both for the Proca and scalar case.
 
-In Fig.~\ref{figdomain} we have singled out four particular solutions for each case, denoted I,III,IV and V. The numerical data for these four solutions, together with the data for a vacuum Kerr solution with the same ADM mass and angular momentum as that of configuration III, for each case, has been made publicly available for community use~\cite{datakbhph,datakbhsh}. The corresponding parameters are detailed in Appendix~\ref{appendixd}.
+In Fig.~\ref{figdomain} we have singled out four particular solutions for each case, denoted I,III,IV and V. The numerical data for these four solutions, together with the data for a vacuum Kerr solution with the same ADM mass and angular momentum as that of configuration III, for each case, has been made publicly available for community use~\cite{datakbhph,datakbhsh}.
+The corresponding parameters are detailed in Appendix~\ref{appendixd} along with similar data for KBHsSH.
 
 In Fig.~\ref{fig2} we exhibit the phase space, $i.e.$ ADM mass $vs.$ ADM angular momentum diagram for $m=1$ solutions of KBHsPH.
 The plot is quite similar to the top left panel of Fig.~\ref{fig:no-HBHs} and the features we wish to emphasize is that, as for the scalar case, one observes violation of the Kerr bound (in terms of ADM quantities) and non-uniqueness, $i.e$ there are both hairy and vacuum Kerr BHs with the same ADM mass and angular momentum ($cf.$ Appendix~\ref{appendixd}). 
@@ -865,8 +798,10 @@ The plot is quite similar to the top left panel of Fig.~\ref{fig:no-HBHs} and th
 \end{figure}
  
 
-The violation of the Kerr bound also occurs in terms of \textit{horizon} quantities, as shown in Fig.~\ref{vconjecture} (right panel). For these solutions the conjecture put forward in~\cite{Herdeiro:2015moa} concerning the horizon linear velocity $v_H$, as defined therein, holds: despite violating the Kerr bound both in terms of ADM and horizon quantities, $v_H$ never exceeds the speed of light.  We recall $v_H$ is defined as follows, for asymptotically flat, stationary and axi-symmetric spacetimes. On a spatial section of the event horizon one computes the proper length of all closed orbits of ${\bf m}$. Let $L_{\rm max}$ be the maximum of all such proper lengths; the corresponding circumferencial radius, $R_c$, is $R_c\equiv {L_{\rm max}}/({2\pi})$. 
-The horizon linear velocity is $v_H \equiv R_c \Omega_H$ \cite{Herdeiro:2015moa}.
+The violation of the Kerr bound also occurs in terms of \textit{horizon} quantities, as shown in Fig.~\ref{vconjecture} (right panel). For these solutions the conjecture put forward in~\cite{Herdeiro:2015moa} concerning the horizon linear velocity $v_H$, as defined therein, holds: despite violating the Kerr bound both in terms of ADM and horizon quantities, $v_H$ never exceeds the speed of light.
+We recall $v_H$ is defined as follows: for asymptotically flat, stationary and axi-symmetric spacetimes, on a spatial section of the event horizon one computes the proper length of all closed orbits of ${\bf m}$.
+If $L_{\rm max}$ is the maximum of all such proper lengths; the corresponding circumferencial radius is $R_c\equiv {L_{\rm max}}/({2\pi})$. 
+Then the horizon linear velocity is $v_H \equiv R_c \Omega_H$ \cite{Herdeiro:2015moa}.
 
 \begin{figure}[h!]
   \begin{center}
@@ -949,44 +884,7 @@ In this chapter we have shown that dropping this assumption Kerr BHs with Proca 
 These two assumptions, together, allow the two real Proca fields to oscillate, with the same frequency but opposite phases, hence cancelling out gravitational radiation emission (as well as Proca radiation emission).
 It remains as an open question if the same could be achieved with a single real Proca field, especially in view of the result in~\cite{Wang:2015fgp}, since such real Proca field already has two independent modes. 
 
-% \bigskip
-%
-% The existence of KBHsPH -- to the best of our knowledge the first example of (fully non-linear)   
-% BHs with (Abelian) vector hair -- is anchored  in the synchronization/superradiance zero mode condition
-% %
-% All previously constructed examples which employed this mechanism have scalar hair, 
-% both in four spacetime dimensions~\cite{Herdeiro:2014goa,Herdeiro:2015gia,Kleihaus:2015iea,Herdeiro:2015tia} and in higher dimensions~\cite{Brihaye:2014nba,Herdeiro:2015kha}, 
-% including the example in five dimensional asymptotically Anti-de-Sitter space found in~\cite{Dias:2011at}. 
-% This further shows the generality of the mechanism and lends support to the conjecture in~\cite{Herdeiro:2014goa,Herdeiro:2014ima}.
-%
-% We also remark that  the Proca model considered here can be regarded as a proxy 
-% for more realistic models with a gauged scalar field, where the gauge fields acquire a mass \textit{dynamically}, via the Higgs mechanism. A familiar example in this direction is the non-Abelian Proca model,
-% whose solutions contain already all basic properties of the Yang-Mills--Higgs sphalerons
-% % which arise dynamically from  Yang-Mills---Higgs solutions 
-% in the Standard Model \cite{Greene:1992fw}. 
-% %
-% As such, the results in this chapter suggest that one should
-% reconsider the no-hair theorem for the Abelian-Higgs model~\cite{Adler:1978dp}.
-%
+\bigskip
 
-% \bigskip
-%
-% Several direct generalizations/applications of these solutions are possible. 
-% At the level of constructing further 
-% solutions, we anticipate that 
-% $(i)$ self-interacting Proca hair will lead to new solutions, 
-% which, if the scalar field case is a good guide~\cite{Herdeiro:2015tia}, can have a much larger ADM mass (but not horizon mass)
-% and
-% $(ii)$ hybrid solutions with scalar plus Proca hair are possible. 
-% At the level of possible astrophysics phenomenology, 
-% it would be interesting to look in detail to the geodesic flow, 
-% in particular to the frequency at the innermost stable circular orbit (ISCO), 
-% quadrupoles as well as to the lensing and shadows of these new BHs,
-% following~\cite{Cunha:2015yba} (see also the review~\cite{Johannsen:2015mdd}). 
-
-%
-% \vspace{0.5cm} 
-%  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% \noindent
-% \section*{Acknowledgements}
-% We would like to thank Richard Brito and Vitor Cardoso for a fruitful collaboration on Proca stars. We also thank J. Rosa, M. Sampaio and M. Wang for discussions on Proca fields. C. H. and E. R. acknowledge funding from the FCT-IF programme. H.R. is supported by the grant PD/BD/109532/2015 under the MAP-Fis Ph.D. programme. This work was partially supported by  the  H2020-MSCA-RISE-2015 Grant No.  StronGrHEP-690904, and by the CIDMA project UID/MAT/04106/2013. Computations were performed at the Blafis cluster, in Aveiro University.
+In the next chapter, we move back to the scalar hair case but now we will consider both a charged black hole and a charged field.
+That is, Kerr-Newman black holes with gauged or ungauged scalar hair.

@@ -22,6 +22,9 @@ mun engi maður \\
 
 It is to be expected that KBHsSH, just like the Kerr solution, admit electrically charged generalizations.
 The astrophysical interest of such solutions is, perhaps, more limited due to efficient discharge mechanisms, but understanding their existence and their physical properties is of relevance to fully grasp the impact of this scalar (or other) hair on the paradigmatic BHs of General Relativity.
+In addition to this, the Kerr-Newman solution introduces some interesting features to the rotating black hole spacetime.
+Namely, a energy and angular momentum component \emph{outside} the horizon and a dipole magnetic moment induced by the rotating electric charge.
+The corresponding gyromagnetic ratio turns out to have precisely the non-anomalous electron value, $g=2$.
 
 In this chapter we will show that this is the case and to this end, we will first consider an ungauged scalar field around a Kerr-Newman black hole.
 The domain of these solutions is bounded by uncharged boson stars and as such, no new soliton solutions arise.
@@ -65,25 +68,21 @@ This model is invariant under a \textit{global} transformation $\Psi\rightarrow 
 
 
 
-Kerr-Newman black holes with ungauged scalar hair (KNBHsUSH) are obtained using the metric, scalar field and electromagnetic potential ansatz given by
+Kerr-Newman black holes with ungauged scalar hair (KNBHsUSH) are obtained using the metric and scalar field given by Eqs. \eqref{eqn:HBH-ansatz} and \eqref{eqn:field-ansatz}, and the electromagnetic potential ansatz is
 %
 \begin{align}
-  \label{metric_ansatz}
-  ds^2 &= -e^{2F_0}Ndt^2 + e^{2F_1}\left( \frac{dr^2}{N} + r^2d\theta^2 \right) + e^{2F_2}r^2\sin^2\theta \left(d\varphi - Wdt \right)^2 \ ,\\
-\label{scalar_ansatz}
-\Psi &= \phi(r,\theta)e^{i(m\varphi-w t)}~, \\
  \label{electric_ansatz}
  A_adx^a &= \left( A_t - A_\varphi W\sin\theta \right)dt + A_\varphi\sin\theta d\varphi \ ,
 \end{align}
-where $N\equiv 1-r_H/r$ and $r_H$ is a constant describing the event horizon location in this coordinate system; the metric ansatz functions $F_i,W$, $i=0,1,2$, as well as $\phi$, $A_t$ and $A_\varphi$, depend on the spheroidal coordinates $r$ and $\theta$ only; $w\in \mathbb{R}^+$ is the scalar field frequency and $m=\pm 1,\pm 2$\dots is the azimuthal harmonic index.
-As in the previous chapters, we shall focus on the case nodeless $m=1$ solutions as an illustrative case.
+where $A_t$ and $A_\varphi$, depend only on the spheroidal coordinates $r$ and $\theta$ just as the metric and scalar field functions.
+As in the previous chapters, we shall focus on nodeless $m=1$ solutions as an illustrative case.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Boundary conditions}
 \label{KNBCs}
 % %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 In order to find Kerr-Newman black holes with ungauged scalar hair, we must impose boundary conditions.
-In addition to the boundary conditions described in Appendix \ref{BCs}, we require that at spatial infinity
+In addition to the boundary conditions described in Appendix \ref{BCs} for KBHsSH, we require that at spatial infinity
 \begin{equation}
   \lim_{r\rightarrow\infty}A_\varphi=\lim_{r\rightarrow\infty}A_t=0\ .
 \end{equation}
@@ -91,10 +90,11 @@ Observe that the last equality could be changed to a constant, rather than zero,
 
 On the symmetry axis, $i.e.$ at $\theta=0,\pi$, axial symmetry and regularity require that
 \begin{equation}
+  \label{ABCs}
   \partial_\theta A_t = \phi = A_\varphi = 0\ .
 \end{equation} 
 % %
-By writing an approximate form of the solution near the horizon as a power series in the coordinate $x$ (cf. Appendix \ref{BCs}), we find
+By writing an approximate form of the solution near the horizon as a power series in the coordinate $x=\sqrt{r^2-r_H^2}$, we find
 \begin{equation}
   A_t \big|_{x=0} =  \Phi_H,~~ \partial_x A_\varphi \big|_{x=0}=0 ,
 \end{equation}
@@ -108,12 +108,12 @@ where $\Phi_H$ is the horizon electrostatic potential.
 % These quantities can be split into the horizon contribution -- computed as a Komar integral on the horizon -- and the matter contributions, composed of the scalar field and electromagnetic parts, computed as the volume integrals of the appropriate energy-momentum tensor components: 
 % %
 The contribution of the electromagnetic field changes some of the physical quantities described in Appendix \ref{BCs}.
-Namely, each equation in Eq. \eqref{MH-hor} obtains a new term
+Namely, each equation in Eq. \eqref{MH-hor} obtains a new contribution from the electromagnetic field
 \begin{eqnarray}
   \label{KNMH-hor}
   M=M^\Psi+M^{\rm EM}+M_H\ , \qquad J=J^\Psi+J^{\rm EM}+J_H\ ,
 \end{eqnarray}
-where $M^{\rm EM}$ and $J^{\rm EM}$ are the mass and angular momentum contributions of the electromagnetic field.
+where $M^{\rm EM}$ and $J^{\rm EM}$ are the mass and angular momentum contributions of the electromagnetic field respectively.
 The solutions possess an electric charge $Q_E$ that can be computed using Gauss's law, 
 on any closed 2-surface covering the horizon. 
 Alternatively, $Q_E$ can be computed from the decay of the 4-potential, together with the magnetic dipole moment $\mu_M$:
@@ -149,7 +149,7 @@ Finally, observe that relations \eqref{KNsmarr} and \eqref{KNMH-hor} are consist
 together with the electromagnetic relation $M^{\rm EM}=\Phi_HQ_E+2\Omega_HJ^{\rm EM}$.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{The results }
+\subsection{Results }
 \label{sec_results_u}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % As in the previous work \cite{Herdeiro:2015gia,Herdeiro:2016tmi} and previous chapters of this essay
@@ -161,12 +161,11 @@ together with the electromagnetic relation $M^{\rm EM}=\Phi_HQ_E+2\Omega_HJ^{\rm
 % In particular this means we set $\mu Q_E\rightarrow Q_E$; 
 % note that $\Phi_H$ is dimensionless (in units such that $4\pi \epsilon_0=1$). 
 
-Let us start by getting an overview of the domain of existence of KNBHsUSH. 
-This requires fixing the new degree of freedom, related to electric charge. 
+In order to obtain an overview of the domain of existence of KNBHsUSH we have to fix the new degree of freedom, related to electric charge. 
 As was briefly mentioned above, similarly to the
 KN case, no solitonic limit exists, for a nonzero $Q_E$.
 Thus, for most of the numerical solutions we have chosen to fix the electrostatic potential on the horizon $\Phi_H$
-and vary the remaining  input parameters $\Omega_H$ and $r_H$.
+and vary the remaining  input parameters $w$ and $r_H$.
 This allows these  two-dimensional sections of the full domain of existence to reach the solitonic limit, 
 wherein the horizon area vanishes and the electrostatic potential becomes constant everywhere and pure gauge.
 
@@ -179,8 +178,9 @@ this domain of existence is bounded by boson stars (red solid line),
 the KN limit (blue dotted line -- dubbed \textit{existence line}) 
 and the extremal KNBHsUSH limit (green dashed line). 
 The last two limits vary with the electrostatic potential whereas the first one does not; 
-this can be observed in the right panel, where part of the line of extremal KNBHsUSH is shown for $\Phi_H=0; 0.6$ and $0.8$, as well as the corresponding existence line and the line for extremal KN BHs (black solid lines). 
-The trend is that the larger the electrostatic potential becomes, the lower the mass of the extremal KN BH is, along the existence line (henceforth dubbed as \textit{Hod point}, following~\cite{Herdeiro:2015tia}), whence the line of extremal KNBHsUSH starts. This is the expected result from the known behaviour of KN BHs. Another trend, illustrated by comparing the main left panel with the inset, is that for higher $\Phi_H$, there are extremal hairy BHs with lower horizon angular velocity.
+this can be observed in the right panel, where part of the line of extremal KNBHsUSH is shown for $\Phi_H=0$, $0.6$ and $0.8$, as well as the corresponding existence line and extremal Kerr-Newman BHs (black solid lines). 
+The trend is that the larger the electrostatic potential becomes, the lower the mass of the extremal Kerr-Newman BH is, along the existence line (henceforth dubbed as \textit{Hod point}, following~\cite{Herdeiro:2015tia}), whence the line of extremal KNBHsUSH starts. This is the expected result from the known behaviour of Kerr-Newman BHs. Another trend, illustrated by comparing the main left panel with the inset, is that for higher $\Phi_H$, there are extremal hairy BHs with lower horizon angular velocity.
+Note that the maximal frequency of extremal KNBHsUSH increases as can be seen from the right panel of Fig. \ref{fig:w-M}.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{figure}[h!]
@@ -197,7 +197,7 @@ The trend is that the larger the electrostatic potential becomes, the lower the 
   
  In Fig.~\ref{fig:w-g} (left panel), we exhibit the ratio $ M^{\Psi}/M$, which gives another measure of hairiness
    as a function of $\Omega_H$,
-for $\Phi_H=0.3$. The figure shows that small fractions of the total energy in the hair are only allowed for sufficiently large horizon angular velocity. When the angular velocity is small, equilibrium between the hair and the horizon is only possible for solutions with $q$ close to unity, $i.e.$, boson star-like. 
+for $\Phi_H=0.3$. The figure shows that small fractions of the total energy in the hair are only allowed for sufficiently large horizon angular velocity. When the angular velocity is small, equilibrium between the hair and the horizon is only possible for solutions with $q$ close to unity, $i.e.$ boson star-like. 
 The inset in this figure shows the $(\Omega_H,Q_E)$ domain of existence of the KNBHsUSH solutions. It illustrates that the electric charge of the solutions, for fixed $\Omega_H$ between that of the Hod point and the maximum allowed frequency, $\Omega_H=\mu$, is maximized along the existence line (and in particular at the Hod point). But for lower values of the frequency, slightly larger charges than that found at the Hod point are possible, occurring along the extremal hairy BHs line.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -207,7 +207,7 @@ Rotating charges give rise to a magnetic dipole moment, $\mu_M$.
 In classical electromagnetism, a generic relation of the form~\eqref{gyro}, 
 between $\mu_M$ and the total angular momentum, mass and charge can be derived, 
 for systems with constant ratio of charge to mass density, yielding $g=1$. 
-When experiments such as that performed for Stern and Gerlach in the early XXth century, 
+When experiments such as that performed for Stern and Gerlach in the early 20th century, 
 showed that the electron should have $g=2$, it became clear that a new fundamental description 
 for the electron was necessary, beyond the scope of the non-relativistic quantum theory. 
 Such a description appeared with the Dirac equation, which, from first principles predicts $g=2$, 
@@ -295,7 +295,7 @@ This model is invariant under the $local$ U(1) gauge transformation
 \label{gauge-transf}
 \Psi \to \Psi e^{-i q_E \alpha}\ ,~~A_a\to A_a+\partial_a \alpha \ ,
 \end{eqnarray}
-where $\alpha$ is a real function. One consequence of this gauge invariance is that the $(t, \varphi)$-dependence of the scalar field ansatz~\eqref{scalar_ansatz}, 
+where $\alpha$ is a real function. One consequence of this gauge invariance is that the $(t, \varphi)$-dependence of the scalar field ansatz~\eqref{eqn:field-ansatz}, 
 can now be gauged away by applying the local $U(1)$ symmetry
 (\ref{gauge-transf})
 with $\alpha =  (m\varphi -w t)/q_E$.  This, however, also changes the gauge field, as $A_t\to A_t-w/q_E$,
@@ -357,8 +357,8 @@ in agreement with the result found in the linear theory~\cite{Hod:2014baa,Benone
 
 As mentioned in the introduction to this chapter, the electrically charged boson stars form a part of the domain of existence of KNBHsGSH. 
 Thus we have paid special attention to this limiting case.
-These solutions  are obtained by considering the ansatz~\eqref{metric_ansatz}--\eqref{electric_ansatz} with $r_H=0$ 
-and replacing the boundary conditions at the horizon~\eqref{bch1} 
+These solutions  are obtained by considering the ansatz~\eqref{eqn:HBH-ansatz}--\eqref{electric_ansatz} with $r_H=0$ 
+and replacing the boundary conditions at the horizon,~\eqref{bch1} and \eqref{ABCs},
 by the following boundary conditions at the origin
 \begin{eqnarray}
 \label{bc0} 
@@ -378,7 +378,7 @@ $0<w_{min}<w<\mu$.
 In particular, we observe that the minimal frequency increases with $q_E$. 
 After this minimal frequency, a backbending towards larger values of $w$ occurs, yielding a second branch of solutions. 
 A second backbending, towards
-smaller values of $w$,  is observed as the frequency reaches a maximal value along the second branch, $w\to w_{max}$, whose value increases again with $q_E$. 
+smaller values of $w$,  is observed as the frequency reaches a maximal value along the second branch, $w\to w^{\rm 2nd}_{\rm max}$, whose value increases again with $q_E$. 
 Then, similarly to the ungauged limit, a third branch of solutions develops -- not shown in Fig.~\ref{fig:w-M-gauged} (left panel).
 Subsequently, we expect the existence of an inspiraling behaviour of the solutions, 
 in analogy with uncharged boson stars, towards a limiting configuration.  
@@ -411,7 +411,7 @@ the gauge coupling constant $q_E$.
 For given values of $w$,
 spinning solutions exist up to a maximal
 value of the gauge coupling constant only, $q_E=(q_E)_{max}$.
-The physics rationale behind this behaviour 
+The physical rationale behind this behaviour 
 is similar to that discussed for the spherically symmetric case 
 \cite{Jetzer:1989av,Pugliese:2013gsa}.
 For $q_E>(q_E)_{max}$ the charge repulsion  becomes bigger than
@@ -435,11 +435,11 @@ We recall that for BHs, the frequency $w$ is fixed by the synchronization condit
 Then one finds three 
 possible behaviours for
 the resulting branches of BH solutions -- see Fig.~\ref{fig:q-AH-gauged} (left panel).
-($ii$) First, for small enough values of $\Omega_H$,
+($i$) First, for small enough values of $\Omega_H$,
  the branch of BHs connects two different boson stars; 
 as $r_H\to 0$ the horizon area vanishes, $q\to 1$, while the temperature
  diverges.
-($ii$( For intermediate values of  $\Omega_H$,
+($ii$) For intermediate values of  $\Omega_H$,
 the branch of solutions ends in an extremal KNBHsGSH solution. 
 These limiting configurations have finite
 horizon size   and global charges, $0<q<1$ and appear to possess 
@@ -450,7 +450,7 @@ a charged boson star and a set of critical KN solutions (with $q=0$ and $A_H>0$)
 on an {\it existence line}. 
 
  In Fig.~\ref{fig:q-AH-gauged} (right panel) we exhibit the (Komar) energy density and angular momentum density (in the inset) for an illustrative example of a KNBHGSH  with physical input parameters 
-$r_H=0.24, w =0.86, q_E =0.2, \Phi_H=0.1$. 
+$r_H=0.24$, $w =0.86$, $q_E =0.2$, $\Phi_H=0.1$. 
 These densities have a contribution from both the electromagnetic and the scalar field. The main feature we wish to emphasize is the composite structure revealed by the plots. KN BHs have an (electromagnetic) energy and angular momentum density that decays with the radial coordinate, whereas KBHsSH 
 (and boson stars)
 have toroidal-like distributions for the (scalar) energy and angular momentum densities. 
@@ -482,7 +482,7 @@ $\Phi_H=0.1$. (Right panel)
 
 
 %%%%%%%%%%%%%%%%%%%%%%
-\section{Remarks}
+\section{Discussion}
 \label{sec_remarks}
 %%%%%%%%%%%%%%%%%%%%%%%
 
@@ -493,21 +493,7 @@ In particular it is bounded by three curves, corresponding do the solitonic limi
 In the gauged case, the solitonic limit corresponds to rotating charged boson stars, which until now had not been studied in the literature. 
 
 These results indicate that by adding scalar hair to the electrically charged Kerr-Newman blackhole suppresses some of the electromagnetic properties of the black hole.
+As an example of this we have considered the gyromagnetic ratio, $g$, and found that it is always lower than the well known the relativistic (Dirac) value for Kerr-Newman black holes, $g=2$~\cite{Carter:1968rr}, only reaching the limit when the hair vanishes.
 
-% As an example of a novel physical property of these solutions we have considered the gyromagnetic ratio, $g$. This quantity measures how a magnetic dipole moment is induced by the charge and angular momentum of the BH. It is well known the relativistic (Dirac) value holds for the KN BH, $g=2$~\cite{Carter:1968rr}. We have shown that the gyromagnetic ratio of these hairy charged BHs is always $g\leqslant 2$, with equality attained only in the ``bald" case. Thus, the scalar hair leads to a suppression of the magnetic dipole moment.
-%
-% There are other interesting applications for these solutions. As an example we mention testing the no-short hair conjecture. As originally stated~\cite{Nunez:1996xv}, this conjecture suggested that, when hair exists around a spherically symmetric BH, the `hair' should extend
-% beyond $3r_+/2$, where $r_+$ is the areal radius of the event horizon. This radius coincides with the location of the
-% circular null geodesic for the Schwarzschild solution, which led to an improved version of the conjecture that the hair must extend beyond the null circular orbit of the spacetime~\cite{Hod:2011aa}. For rotating BHs, an analysis of linearized hair suggested the no-short hair conjecture holds for uncharged BHs~\cite{Hod:2016dkn}, but may be violated for electrically charged ones~\cite{Hod:2014sha,Hod:2015ynd}. The latter possibility can be tested using the fully non-linear solutions of the Einstein-Maxwell-Klein-Gordon field equations discussed here. 
-
-%
-%
-%
-%
-%
-%
-%
-% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% \section*{Acknowledgements}
-% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% C. H. and E. R. acknowledge funding from the FCT-IF programme. H.R. is supported by the grant PD/BD/109532/2015 under the MAP-Fis Ph.D. programme. This  work  was  partially  supported  by  the  H2020-MSCA-RISE-2015  Grant  No. StronGrHEP-690904,  and  by  the  CIDMA  project  UID/MAT/04106/2013.  Computations were performed at the BLAFIS cluster, in Aveiro University.
+There are other interesting applications for these solutions such as testing the no-short-hair conjecture.
+This will be discussed further in Chapter \ref{ch:conclusions}.

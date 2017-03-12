@@ -1,0 +1,276 @@
+\documentclass[xcolor=dvipsnames]{beamer}
+
+\usepackage{t1enc}
+\usepackage{etex}
+\usepackage{amsmath} 
+\usepackage{amsfonts} 
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{tikz}
+\usepackage{mathrsfs}
+\usepackage{multicol}
+\usepackage{animate,media9}
+
+
+\mode<presentation>
+{
+  \usetheme{Pittsburgh}      % or try Darmstadt, Madrid, Warsaw, ...
+  \usecolortheme{orchid} % or try albatross, beaver, crane, ...
+  \usefonttheme{serif}  % or try serif, structurebold, ...
+  \setbeamertemplate{navigation symbols}{}
+  % \setbeamertemplate{caption}[numbered]
+  \setbeamertemplate{headline}{%
+  \leavevmode%
+    \hbox{%
+      \begin{beamercolorbox}[wd=\paperwidth,ht=5.0ex,dp=1.125ex]{palette quaternary}%
+      \insertsectionnavigationhorizontal{\paperwidth}{\hskip0pt plus1filll}{}
+      \insertsubsectionnavigationhorizontal{\paperwidth}{\hskip10pt plus1filll}{}
+      \end{beamercolorbox}%
+   }
+  }
+} 
+
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+
+\usepackage{pgfpages}
+% \pgfpagesuselayout{resize to}[%
+%   physical paper width=8in, physical paper height=6in]
+
+\title[]{Kerr black holes with hair}
+\author[Helgi,Carlos,Eugen] % (optional, for multiple authors)
+{\textbf{Helgi Freyr Rúnarsson}\\[3mm] \small{\and C.~Herdeiro \and E. Radu \and P. Cunha \and J. Delgado}}% \and J. C. Degollado\inst{2}}}
+\institute[Universities Here and There] % (optional)
+{
+  % \inst{1}%
+  Department of Physics and CIDMA\\
+  Universidade de Aveiro
+  % \and
+  % \inst{2}%
+  % Guadalajara University
+}
+\date % (optional)
+{ENAA 2016, 9th of September, 2016}
+
+\begin{document}
+\begin{frame}[plain]
+  \titlepage
+\end{frame}
+
+\begin{frame}{Black holes}
+  \begin{itemize}[<+->]
+    \item Black holes most likely exist.
+    \item Very heavy, and compact, objects seem to reside at the center of most galaxies.
+    \item In the next decade or so, VLBIs will be able to resolve the center of galaxies.
+    \item It is therefore an excellent time to consider alternatives to the paradigmatical Kerr black holes of Einstein's general relativity.
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Public service announcement}
+  \begin{itemize}[<+->]
+    \item The solutions I will discuss:
+  \begin{itemize}[<+->]
+    \item are completely within Einstein's general relativity,
+    \item obey all energy conditions,
+    \item can provide distinct, and unique, phenomenology.
+  \end{itemize}
+  \end{itemize}
+\end{frame}
+
+\subsection{}
+\begin{frame}[plain]{}
+  \tableofcontents
+\end{frame}
+
+\section{Introduction}
+
+\begin{frame}{Black hole uniqueness}
+  \begin{itemize}[<+->]
+    \item There exist a plethora of no-hair theorems.
+    \item And black hole solutions that evade those theorems in a variety of manners.
+    \item Most of those black holes have little to do with astrophysics.
+    \item See review by Herdeiro and Radu from 2015.
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{An example of a no-scalar-hair theorem}
+  \begin{itemize}[<+->]
+    \item For a Lagrangian of the form:
+      \begin{align*}
+        \mathcal{L} &= \frac{1}{4}R - \frac{1}{2}\nabla_a \Phi \nabla^a \Phi - V\left( \Phi \right),
+      \end{align*}
+    \item with the following assumptions:
+      \begin{enumerate}
+        \item minimally coupled scalar field,
+        \item traditional energy conditions on $V$,
+        \item scalar field inherits the isometries of the metric.
+      \end{enumerate}
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Kerr black holes with scalar hair (KBHsSH)}
+  \begin{itemize}[<+->]
+    \item By violating assumption 3, we find black hole solutions that are:
+      \begin{itemize}
+        \item asymptotically flat,
+        \item regular on and outside an event horizon,
+        \item continuously connected to Kerr black holes,
+        \item and possess an independent scalar charge.
+      \end{itemize}
+    \item Violate the assumption such that $T_{ab}$ has the same isometries as the metric.
+    \item Kerr black holes with scalar hair \tiny{[Herdeiro, Radu 2014]}
+  \end{itemize}
+\end{frame}
+
+\section{Kerr black holes with scalar hair}
+\subsection{Boson stars}
+\begin{frame}
+  \tableofcontents[currentsubsection]
+\end{frame}
+
+
+\begin{frame}{Boson stars}
+  \begin{itemize}[<+->]
+    \item Boson stars are horizonless self-gravitating solitons described by the Einstein-Klein-Gordon equations. \tiny{[Kaup 1968; Ruffini, Bonazzola 1969]}
+    \item Can be thought of as the balance between the dispersion and the self-gravity of the scalar field.
+    \item We are interested in rotating solutions and they can be described by the following metric and field ansatz:
+      \begin{equation*}
+        ds^2 = -e^{2F_0}dt^2 + e^{2F_1}\left( dr^2 + r^2d\theta^2 \right) + e^{2F_2}r^2\sin^2\theta\left( d\varphi-Wdt \right)^2, 
+      \end{equation*}
+      \begin{equation*}
+        \Phi = \phi(r,\theta)e^{i\left( m\varphi-wt \right)}
+      \end{equation*}
+    \item They are only preserved by a single helicoidal Killing vector field:
+      \begin{equation*}
+        \frac{\partial}{\partial t} + \frac{w}{m}\frac{\partial}{\partial \varphi}
+      \end{equation*}
+    \item They have a conserved Noether-charge, $Q$, and for boson stars $J=mQ$, where $J$ is the angular momentum of the boson star.
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Boson stars}
+  \begin{center}
+    \includegraphics[width=\textwidth]{boson-stars.pdf}
+  \end{center}
+\end{frame}
+
+\subsection{Linear analysis}
+\begin{frame}
+  \tableofcontents[currentsubsection]
+\end{frame}
+
+\begin{frame}{Linear analysis: Klein-Gordon equation}
+  \begin{itemize}[<+->]
+    \item If one considers the Klein-Gordon in the background of Kerr spacetime with the following solution ansatz,
+      \begin{equation*}
+        \Phi = e^{-iwt}e^{im\varphi}S_{\ell m}(\theta)R_{\ell m}(r).
+      \end{equation*}
+    \item One finds the Teukolsky equation \tiny{[Teukolsky 1972; Brill et al. 1972]} 
+    \item which yields quasi-bound states.
+    \item I.e., $w=w_R + i w_I$. Where a critical frequency, $w_c=m\Omega_H$, exists such that
+      \begin{itemize}
+        \item $w_R>w_c\rightarrow w_I<0$ and the field decays. \tiny{[Degollado et al. 2012]}
+        \item $w_R<w_c\rightarrow w_I>0$ and we find superradiant states, i.e. states that grow with time. \tiny{[Press, Teukolsky 1972; Degollado, Herdeiro 2014]}
+        \item At the threshold of the superradiant states, $w_R=w_c$, we find true bound states: scalar-clouds. \tiny{[J. Degollado, C. Herdeiro, HR \textit{\ldots to appear \ldots}]}
+      \end{itemize}
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Scalar clouds around Kerr black holes}
+  \begin{center}
+    \includegraphics[width=0.8\textwidth]{clouds.pdf}
+  \end{center}
+\end{frame}
+
+\subsection{Black hole solutions}
+\begin{frame}
+  \tableofcontents[currentsubsection]
+\end{frame}
+\begin{frame}{Kerr black holes with scalar hair}
+  \begin{itemize}[<+->]
+    \item It is ``simple'' to inject a black hole to the center of a boson star:
+      \begin{equation*}
+        ds^2 = -e^{2F_0}\textcolor{red}{N}dt^2 + e^{2F_1}\left( \frac{dr^2}{\textcolor{red}{N}} + r^2d\theta^2 \right) + e^{2F_2}r^2\sin^2\theta\left( d\varphi-Wdt \right)^2, 
+      \end{equation*}
+      where $N=1-\frac{r_H}{r}$.
+    \item We find the solutions numerically
+      \begin{center}
+        \includegraphics[width=0.5\textwidth]{HBHs.pdf}
+      \end{center}
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Kerr black holes with scalar hair}
+  \begin{center}
+    \includegraphics[width=0.8\textwidth]{HBHs.pdf}
+  \end{center}
+\end{frame}
+
+\section{$Q$-clouds}
+
+\begin{frame}{$Q$-clouds}
+  Discuss $Q$-clouds. Take one of the JCs or seminars I have given and just put it in here?
+\end{frame}
+
+\section{Kerr black holes with self-interacting scalar hair}
+\begin{frame}
+  \tableofcontents[currentsubsection]
+\end{frame}
+\begin{frame}{Self-interacting scalar hair \\\tiny{C. Herdeiro, E. Radu, HR, PRD 92, 084059 (2015)}}
+  Spend 5-10 mins on this part. Add plots etc
+  \begin{itemize}[<+->]
+    \item Self-interacting boson stars have been shown to alleviate the astrophysically low masses of mini boson stars \tiny{[Colpi et al (1986); Ryan (1996)]}.
+    \item By adding positive $\phi^4$ self-interactions to the scalar field, we found generalizations of KBHsSH.
+    \item These solutions can be more massive than the non-self-interacting ones.
+    \item However, this increase in mass comes solely from the scalar field and not the central black hole.
+    \item Therefore, these solutions are ``hairier but not heavier''.
+  \end{itemize}
+\end{frame}
+
+\section{Kerr black holes with Proca hair}
+\begin{frame}{Proca hair \\\tiny{C. Herdeiro, E. Radu, HR, (2016)}}
+  Spend 5-10 mins on this part. Add plots, some discussion on the differences and maybe no-hair? probably not\dots
+  \begin{itemize}[<+->]
+    \item Since Proca fields can ``suffer'' from superradiance around Kerr black holes and rotating Proca stars have been shown to exist \tiny{[Brito, Cardoso, Herdeiro, Radu (2015)]}
+    \item we expect Kerr black holes with Proca hair (KBHsPH) to exist.
+    \item We did indeed find such solutions.
+    \item Their properties are very similar to those of KBHsSH.
+    \item One notable difference is that their energy densities possess a second local maximum.
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Proca hair \\\tiny{C. Herdeiro, E. Radu, HR, (2016)}}
+  \begin{center}
+    \includegraphics[width=0.5\textwidth]{proca-w-M.pdf}
+    \includegraphics[width=0.5\textwidth]{proca-ro.pdf}
+  \end{center}
+\end{frame}
+
+\section{Kerr-Newman black holes with scalar hair}
+\begin{frame}{Kerr-Newman black holes with scalar hair \\ \tiny{J. Delgado, C. Herdeiro, E. Radu, HR, \ldots\textit{to appear}\ldots (2016)}}
+  Spend 5-10 mins on this part. Add plots etc
+  \begin{itemize}[<+->]
+    \item We have found electrically charged solutions.
+    \item Kerr-Newman black holes with gauged/ungauged scalar hair.
+    \item We have found that for certain configurations, the scalar hair suppresses properties of the central black hole.
+    \item For example, the gyromagnetic ratio of these configurations is $g<2$, only reaching the limit for vanishing hair.
+  \end{itemize}
+\end{frame}
+
+\section{Conclusions}
+
+\begin{frame}{Conclusions}
+  \begin{itemize}[<+->]
+    \item Kerr black holes can support scalar hair in classical general relativity.
+    \item Their phenomenology can be quite distinct as compared to their Kerr black hole counterparts.
+    \item We have already found generalizations of these black holes:
+      \begin{itemize}
+        \item a scalar field with self-interactions, i.e. $V(\Phi)=\mu^2\Phi^2+\ldots$. We have already considered $\sim\Phi^4$ and $\sim\Phi^6$ terms \tiny{[C. Herdeiro, E. Radu, HR (2015)]}.
+        \item scalar field and black hole possess an electric charge \tiny{[J. Delgado, C. Herdeiro, E. Radu, HR (2016)]}
+        \item consider other fields, such as Proca fields. \tiny{[C. Herdeiro, E. Radu, HR (2016)]}
+        \item These generalizations hint of a more general mechanism where the ``synchronization condition'' $w=m\Omega_H$ generates hairy black holes.
+      \end{itemize}
+  \end{itemize}
+\end{frame}
+
+\end{document}

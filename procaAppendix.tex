@@ -1,7 +1,7 @@
-\chapter{Einstein-Proca equations of motion}
+\chapter{Equations of motions and explicit form of metric functions for the Proca model}
 \label{appendixb}
 
-
+\section{Einstein-Proca equations of motion}
 
 As an illustrative example, we provide here explicit expressions for the equations of motion solved by KBHsPH. The components of the Einstein tensor for the ansatz~\eqref{eqn:HBH-ansatz} are:
 
@@ -11,15 +11,16 @@ N \left[r^2 ({F_1}_{,rr}+ {F_2}_{,r}^2+
 {F_2}_{,rr})
 +r( 
 {F_1}_{,r}+3  {F_2}_{,r})+1\right] + 2 r N'  \left(r 
-{F_1}_{,r}+r {F_2}_{,r}+2\right)+4 {F_1}_{,\theta\theta}\nonumber \\
+{F_1}_{,r}+r {F_2}_{,r}+2\right)\nonumber \\
+&&+4 {F_1}_{,\theta\theta}
 %
-&& +4  
+ +4  
 {F_2}_{,\theta}^2+4  {F_2}_{,\theta\theta}
 %
 +8
 \cot \theta {F_2}_{,\theta}-4 
-%
- +r^4 \sin ^2\theta e^{2 ({F_2}-F_0)} 
+\nonumber \\
+&& +r^4 \sin ^2\theta e^{2 ({F_2}-F_0)} 
  \left\{
  \frac{2W W_{,r}}{r}(- r {F_0}_{,r} +3r{F_2}_{,r}+4 )
  +W_{,r}^2+2W W_{,rr} 
@@ -29,13 +30,15 @@ N \left[r^2 ({F_1}_{,rr}+ {F_2}_{,r}^2+
 {F_0}_{,\theta}+3 {F_2}_{,\theta}+3 \cot\theta\right)+ W_{,\theta\theta}\right]+ W_{,\theta}^2}{r^2N} \right\},
 \end{eqnarray}
 
-\begin{equation}
+\begin{eqnarray}
 \frac{2Ne^{2(F_0+F_1-F_2)}}{\sin^2\theta}{\bf G_{t\phi }}=   W_{,\theta} \left[ {F_0}_{,\theta}-3 \left( 
-{F_2}_{,\theta}+\cot\theta\right)\right]- \left\{r N 
+{F_2}_{,\theta}+\cot\theta\right)\right] \nonumber\\
+-
+\left\{r N 
 \left[W_{,r} \left(-r {F_0}_{,r}+3 r 
 {F_2}_{,r}+4\right)+r 
 W_{,rr}\right]+W_{,\theta\theta}\right\}  ,
-\end{equation}
+\end{eqnarray}
 
 
 
@@ -58,7 +61,8 @@ W_{,rr}\right]+W_{,\theta\theta}\right\}  ,
  && e^{2F_1}r^2{\bf G_{r\theta}}=
  %
 \cot\theta (
-{F_1}_{,r} -{F_2}_{,r} )-{F_0}_{,r\theta}-{F_2}_{,r\theta}+\frac{{F_0}_{,\theta}+{F_1}_{,\theta}}{r}+\frac{r^2 \sin ^2\theta 
+{F_1}_{,r} -{F_2}_{,r} )-{F_0}_{,r\theta}-{F_2}_{,r\theta}+\frac{{F_0}_{,\theta}+{F_1}_{,\theta}}{r}\nonumber \\ 
+&&+\frac{r^2 \sin ^2\theta 
 W_{,\theta} W_{,r} e^{2( {F_2}- {F_0})}-N'( {F_0}_{,\theta}-{F_1}_{,\theta})}{2 
 N} \nonumber \\ 
 && + {F_0}_{,r} ({F_1}_{,\theta}-{F_0}_{,\theta})+
@@ -208,7 +212,9 @@ V_{,\theta}+ (\sin\theta
  \nonumber \\
 %
 &&
-+\frac{e^{-2 {F_0}}}{N} \left\{[ (w-{m}W) {H_1}+V_{,r}+ W{H_3}_{,r}\sin\theta ] \left[(w-{m}W) {H_2}+V_{,\theta}+W
++\frac{e^{-2 {F_0}}}{N} \left\{[ (w-{m}W) {H_1}+V_{,r}+ W{H_3}_{,r}\sin\theta ]\right. 
+\nonumber \\
+&&\left.\left[(w-{m}W) {H_2}+V_{,\theta}+W
 (\sin\theta{H_3})_{,\theta}\right]
 \right\},
 \end{eqnarray}
@@ -466,13 +472,10 @@ r^2 [N  {H_3}_{,r}]'
 \left(r {F_2}_{,r}+1\right) {H_1}]
 + r^2N{H_3}_{,r} \left({F_0}_{,r} 
 -{F_2}_{,r}\right)
-+\frac{ r^2e^{-2F_0} }{N} 
+\nonumber \\
+&&+\frac{ r^2e^{-2F_0} }{N} 
 \left\{
 {H_3}e^{2 {F_1}} \left({m}  W-w \right)^2 
- \right. \nonumber \\
-%
-&&
-\left.
 - e^{2 {F_2}}\sin\theta W_{,\theta} [
  {H_2} (w-{m} W)+(\sin \theta
 {H_3})_{,\theta} W+V_{,\theta}]\right\}=0 .
@@ -499,148 +502,60 @@ e^{-2 {F_1}} \left\{r^2 N{H_1}( {F_0}_{,r}+ {F_2}_{,r})
 -{m} \csc \theta e^{-2 {F_2}} {H_3}=0 \ .
 \end{eqnarray}
 
+\section{Metric functions for stationary Proca clouds}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% \section{Angular momentum -- Noether charge relation and 
-% a simplified Smarr formula}
-% \label{appendixc}
-% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% As discussed in the main text, the relation $J = m Q$ [equation~\eqref{amnc}] holds for Proca stars, in analogy with the case of scalar boson stars. In contrast with the latter, however, the angular momentum \textit{density} and Noether charge \textit{density} are $not$ proportional; the proportionality only holds at the level of the integrated quantities, but with the further subtlety of a possible boundary term if a horizon is present. This is an interesting distinction between the two types of stars (and hairy BHs) which could not be anticipated.
+Note however that $F_i,W$ are functions of the spheroidal coordinates $(r,\theta)$, which read, explicitly,\footnote{The parameters $b$ (here) and $c_t$ (in~\cite{Herdeiro:2015gia}) relate as $b=-c_t$.}
 %
-% To prove the relation~\eqref{amnc}, one starts with the  expression of the angular momentum density:
-% \begin{eqnarray}
-% \label{s1}
-% T_\varphi^t=\frac{1}{2}
-% \left [
-%  {\mathcal{F}}_{\alpha \varphi} \bar{\mathcal{F}}^{\alpha t}+\bar{\mathcal{F}}_{\alpha \varphi}  {\mathcal{F}}^{\alpha t}
-%  +\mu^2 (
-% \mathcal{A}_{\varphi} \bar{\mathcal{A}}^{t}
-%  +\bar{\mathcal{A}}_{\varphi}\mathcal{A}^{t}
-% )
-% \right ]  \ ,
-% \end{eqnarray}
-% where one introduces the expressions  
-% \begin{eqnarray}
-% \label{s2}
-%  {\mathcal{F}}_{\alpha \varphi} =\partial_\alpha {\mathcal{A}}_{\varphi}-i m {\mathcal{A}}_{\alpha}\ , \qquad 
-% \bar{ {\mathcal{F}}}_{\alpha \varphi} =\partial_\alpha \bar{{\mathcal{A}}}_{\varphi}+i m \bar{{\mathcal{A}}}_{\alpha} \ .
-% \end{eqnarray}
-% Thus
-% \begin{eqnarray}
-% \label{s3}
-% T_\varphi^t  
-% =\frac{1}{2}
-% \left\{
-% \frac{1}{\sqrt{-g}}\partial_\alpha \left[ ({\mathcal{A}}_\varphi \bar{ {\mathcal{F}}}^{\alpha t}+\bar{\mathcal{A}}_\varphi { {\mathcal{F}}}^{\alpha t}  )\sqrt{-g} \right]
-% -i m 
-% (
-% \mathcal{A}_{\alpha} \bar{ {\mathcal{F}}}^{\alpha t}
-% - 
-%  \bar{\mathcal{A}}_{\alpha}{ {\mathcal{F}}}^{\alpha t}
-% )
-% \right.
-% \nonumber 
-% \\
-% \left. - \frac{1}{\sqrt{-g}}\left[{\mathcal{A}}_\varphi\partial_\alpha( \bar{ {\mathcal{F}}}^{\alpha t}\sqrt{-g})
-% +\bar{\mathcal{A}}_\varphi \partial_\alpha({ {\mathcal{F}}}^{\alpha t} \sqrt{-g}) \right] 
-% +\mu^2 (
-% \mathcal{A}_{\varphi} \bar{\mathcal{A}}^{t}
-%  +\bar{\mathcal{A}}_{\varphi}\mathcal{A}^{t}
-% )
-% \right\} \ .
-% \end{eqnarray}
-% The above expression can be simplified by using the Proca equations (\ref{procafe}).
-% Then the second line is identically zero and one arrives at the expression
-% [with $j^t$ defined  in (\ref{j})]
-% \begin{eqnarray}
-% \label{s4}
-% T_\varphi^t  =m j^t 
-% + \nabla_\alpha P^\alpha \ ,
-% \end{eqnarray}
-% with
-% \begin{eqnarray}
-% \label{s5}
-%   P^\alpha= {\mathcal{A}}_\varphi \bar{ {\mathcal{F}}}^{\alpha t}+\bar{\mathcal{A}}_\varphi { {\mathcal{F}}}^{\alpha t}   \ .
-% \end{eqnarray}
-% Thus, the angular momentum density and Noether charge density (multiplied by the azimuthal harmonic index $m$) differ by a total divergence. We have checked that $\nabla_\alpha P^\alpha$ is locally nonzero, as illustrated in Fig.~\ref{fignc}. 
-%
-% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% \begin{figure}[h!]
-%   \begin{center}
-%     \includegraphics[width=8.1cm]{papers/Proca/PS-jt-m1.pdf}
-%       \includegraphics[width=8.1cm]{papers/Proca/PS-jt-m2.pdf}
-%   \end{center}
-%   \caption{Radial variation of the Noether charge density, $cf.$~\eqref{j}, for different constant $\theta$ sections of the Proca stars exhibited in Fig.~\ref{PS1} (left panel) and Fig.~\ref{PS2} (right panel). One can clearly observe the differences with the angular momentum density.}
-%   \label{fignc}
-% \end{figure}
-% %
-% For BHs, on the other hand, there is also a horizon contribution which, in general is non-zero:
-% \begin{equation}
-% J^{(\mathcal{P})}=mQ+ \oint_\mathcal{H}  P^r dS_r\ .
-% \label{JQBHs}
-% \end{equation}  
-% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-%
-% This result  contrasts with that for the scalar boson star case, wherein $T_\varphi^t =m j^t $. The total angular momentum and Noether charge, however, are equal in both cases, for stars. This follows from integrating (\ref{s4}) over a spacelike surface and using the Gauss's theorem:
-% \begin{eqnarray}
-% \label{s6}
-% \int T_\varphi^t \sqrt{-g} d^3 x =m \int j^t \sqrt{-g} d^3 x
-% + \oint_\infty  P^r dS_r\ .
-% \end{eqnarray}
-% Since the Proca field decays exponentially, the contribution from the $P^r$ term 
-% is zero and one arrives at (\ref{amnc}).
-%
-%
-%
-% By using a similar approach, one can easily prove the following identity, where use again the Proca equations (\ref{procafe}) together with
-% the expressions 
-% $ {\mathcal{F}}_{\alpha t} =\partial_\alpha {\mathcal{A}}_{t}+i w {\mathcal{A}}_{t}$,
-% $ \bar{\mathcal{F}}_{\alpha t} =\partial_\alpha \bar{\mathcal{A}}_{t}-i w \bar {\mathcal{A}}_{t}$:
-%  \begin{equation}
-% \label{sup1}
-% T^{\alpha}_\alpha-2T_t^t=
-% 2w j^t - \mu^2 {\mathcal{A}}_\alpha \bar{\mathcal{A}}^\alpha+
-% \nabla_\alpha U^\alpha,
-% \end{equation} 
-%  with
-% \begin{eqnarray}
-% \label{sup2}
-%  U^\alpha=\frac{1}{2} 
-% \left(
-% {\mathcal{A}}_\beta \bar{ {\mathcal{F}}}^{\alpha \beta}+\bar{\mathcal{A}}_\beta { {\mathcal{F}}}^{\alpha \beta}
-% \right)
-% -\left({\mathcal{A}}_t \bar{ {\mathcal{F}}}^{\alpha t}+\bar{\mathcal{A}}_t { {\mathcal{F}}}^{\alpha t}
-% \right)  ~.
-% \end{eqnarray}
-% For Proca stars,
-% the integration of the relation (\ref{sup1}) 
-% over a spacelike surface 
-% implies the Smarr formula (\ref{smarr-new2}). Here we use again the fact that the Proca field decays exponentially, while the contribution from  $U^r$ at $r=0$ vanishes.
-%
-% For BHs, however, $U^r$ gives a nontrivial horizon contribution. Then, a combination of (\ref{s4}) and (\ref{sup1}) leads to the simple relation
-% \begin{eqnarray}
-% \label{sup3}
-% \nonumber
-% &&T^{\alpha}_\alpha-2T_t^t-2\Omega_H T_\varphi^t =	 2(w-\Omega_H m) j^t - \mu^2 {\mathcal{A}}_\alpha \bar{\mathcal{A}}^\alpha \ \ \ \ \ \ \ \ \ \ \ 
-% \\
-% &&+
-% \frac{1}{\sqrt{-g}}
-% \partial_\alpha 
-% \bigg[\left(\frac{1}{2} 
-% \left(
-% {\mathcal{A}}_\beta \bar{ {\mathcal{F}}}^{\alpha \beta}+\bar{\mathcal{A}}_\beta { {\mathcal{F}}}^{\alpha \beta}
-% \right)
-% -\left(
-% ({\mathcal{A}}_t +\Omega_H {\mathcal{A}}_\varphi)\bar{ {\mathcal{F}}}^{\alpha t}
-%                 +
-% (\bar{\mathcal{A}}_t +\Omega_H \bar{\mathcal{A}}_\varphi){ {\mathcal{F}}}^{\alpha t}
-% \right)
-% \right)  
-% \sqrt{-g} 
-% \bigg] \ .
-% \end{eqnarray}
-% The integration of this identity leads to the simplified 
-% Smarr formula (\ref{smarr-new1}). Here one uses also the synchronization 
-% condition (\ref{synchronization}), 
-% together with  the boundary conditions (\ref{bccloudshorizon}).  
+\begin{eqnarray}
+\nonumber
+&&
+e^{2F_1}=\left(1+\frac{b}{r}\right)^2+b(b+r_H)\frac{\cos^2\theta}{r^2}\ ,
+\\
+\nonumber
+%\label{Kerr1}
+&&
+e^{2F_2}=e^{-2F_1}
+\left\{
+          \left[
+\left(1+\frac{b}{r}\right)^2+\frac{b(b+r_H)}{r^2}
+          \right]^2-b(b+r_H)\left(1-\frac{r_H}{r}\right)\frac{\sin^2\theta}{r^2}
+\right\}\ ,
+\\
+\nonumber
+&&
+F_0=-F_2 \ , \\
+&&
+\label{functionsKerr}
+\displaystyle{W=e^{-2(F_1+F_2)}
+\sqrt{b(b+r_H)}(r_H+2b)
+\frac{(1+\frac{b}{r})}{r^3}} \ .
+\end{eqnarray}
+The relation between these coordinates $(t,r,\theta,\varphi)$ and the standard Boyer-Lindquist coordinates $(t,R,\theta,\varphi)$ is simply a radial shift:
+\begin{equation}
+r=R-\frac{a^2}{R_H} \ , 
+\end{equation}
+where $R_H$ is the event horizon Boyer-Lindquist radial coordinate,  $R_H\equiv M+\sqrt{M^2-a^2}$, for a Kerr BH with mass $M$ and angular momentum $J=aM$. In the new coordinate system $(t,r,\theta,\varphi)$, the Kerr solution is parameterized by $r_H$ and $b$, which relate to the Boyer-Lindquist parameters as
+\begin{equation}
+r_H=R_H-\frac{a^2}{R_H} \ , \qquad b=\frac{a^2}{R_H} \ .
+\end{equation}
+Clearly, $r_H$ fixes the event horizon radius; $b$ is a spheroidal prolateness parameter (see Appendix \ref{prolatecoordinates}), and can be taken as a measure of non-staticity, since $b=0$ yields the Schwarzschild limit.
+
+The ADM mass, ADM angular momentum and horizon angular velocity read, in terms of the parameters $r_H,b$ (we set $G=1=c$)
+\begin{equation}
+\begin{array}{c}
+M=\frac{1}{2}(r_H+2b) \ , \ \ \ 
+J=\frac{1}{2}\sqrt{b(b+r_H)}(r_H+2b) \ , \ \ \
+%\nonumber
+%&&
+%A_H=4\pi (r_H-c_t)(r_H-2c_t),
+%\\
+%\nonumber
+%&&
+%T_H=\frac{r_H}{4\pi (r_H-c_t)(r_H-2c_t)},
+%\\
+\label{Kerr2}
+\displaystyle{\Omega_H=\frac{1}{r_H+2b}\sqrt{\frac{b}{r_H+b}}} \ .
+\end{array}
+\end{equation}
+The choice $r_H=-2b\neq 0$
+yields Minkowski spacetime expressed in spheroidal prolate coordinates (Appendix \ref{prolatecoordinates}). Extremality occurs when $r_H=0$.

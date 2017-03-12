@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Arch Linux) (preloaded format=pdflatex 2016.8.19)  13 SEP 2016 14:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Arch Linux) (preloaded format=pdflatex 2016.8.19)  1 NOV 2016 15:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -971,7 +971,8 @@ Package hyperref Warning: Option `bookmarks' has already been used,
 (hyperref)                setting the option has no effect on input line 89.
 
 (./thesis.aux (./acks.aux) (./abs.aux) (./intro.aux) (./spheroidalProlate.aux)
-(./BCs.aux) (./procaAppendix.aux) (./numericalData.aux) (./pub-list.aux))
+(./BCs.aux) (./procaAppendix.aux) (./numericalData.aux) (./pub-list.aux)
+(./translations.aux))
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 126.
@@ -989,8 +990,7 @@ LaTeX Font Info:    ... okay on input line 126.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 126.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 126.
 
-
-(/usr/share/texmf-dist/tex/latex/base/ts1cmr.fd
+ (/usr/share/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 126.
@@ -1137,7 +1137,7 @@ LaTeX Font Info:    Try loading font information for U+lasy on input line 130.
 (/usr/share/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-<Figs/uaLogoNew_colour.jpg, id=217, 304.53082pt x 325.96262pt>
+<Figs/uaLogoNew_colour.jpg, id=229, 304.53082pt x 325.96262pt>
 File: Figs/uaLogoNew_colour.jpg Graphic file (type jpg)
 
 <use Figs/uaLogoNew_colour.jpg>
@@ -1217,21 +1217,21 @@ File: Figs/uaLogoNew_colour.jpg Graphic file (type jpg)
 Package pdftex.def Info: Figs/uaLogoNew_colour.jpg used on input line 132.
 (pdftex.def)             Requested size: 120.92421pt x 129.43274pt.
 
-<Figs/Logo2_POPH.jpg, id=230, 211.7511pt x 110.0913pt>
+<Figs/Logo2_POPH.jpg, id=242, 211.7511pt x 110.0913pt>
 File: Figs/Logo2_POPH.jpg Graphic file (type jpg)
 
 <use Figs/Logo2_POPH.jpg>
 Package pdftex.def Info: Figs/Logo2_POPH.jpg used on input line 132.
 (pdftex.def)             Requested size: 54.72441pt x 28.45274pt.
 
-<Figs/QREN_Logotipo.jpg, id=231, 441.65pt x 188.705pt>
+<Figs/QREN_Logotipo.jpg, id=243, 441.65pt x 188.705pt>
 File: Figs/QREN_Logotipo.jpg Graphic file (type jpg)
 
 <use Figs/QREN_Logotipo.jpg>
 Package pdftex.def Info: Figs/QREN_Logotipo.jpg used on input line 132.
 (pdftex.def)             Requested size: 66.58832pt x 28.45274pt.
 
-<Figs/Uniao_Europeia_FSE.png, id=232, 126.4725pt x 104.39pt>
+<Figs/Uniao_Europeia_FSE.png, id=244, 126.4725pt x 104.39pt>
 File: Figs/Uniao_Europeia_FSE.png Graphic file (type png)
 
 <use Figs/Uniao_Europeia_FSE.png>
@@ -1396,39 +1396,28 @@ Chapter 1.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [25]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [26]
-[27]
+[26] [27]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [28]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [29]
-Underfull \vbox (badness 4403) has occurred while \output is active []
-
- [30]
-[31] [32] <Figs/unstable-OmegaH-M-clouds.pdf, id=669, 361.35pt x 252.945pt>
+[29] [30] [31] [32]
+<Figs/unstable-OmegaH-M-clouds.pdf, id=686, 361.35pt x 252.945pt>
 File: Figs/unstable-OmegaH-M-clouds.pdf Graphic file (type pdf)
 
 <use Figs/unstable-OmegaH-M-clouds.pdf>
 Package pdftex.def Info: Figs/unstable-OmegaH-M-clouds.pdf used on input line 2
-25.
+37.
 (pdftex.def)             Requested size: 287.01825pt x 200.9105pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [33]
 [34 <./Figs/unstable-OmegaH-M-clouds.pdf>]
-<Figs/BH-w-M.pdf, id=714, 361.35pt x 252.945pt>
+<Figs/BH-w-M.pdf, id=731, 361.35pt x 252.945pt>
 File: Figs/BH-w-M.pdf Graphic file (type pdf)
  <use Figs/BH-w-M.pdf>
-Package pdftex.def Info: Figs/BH-w-M.pdf used on input line 267.
+Package pdftex.def Info: Figs/BH-w-M.pdf used on input line 286.
 (pdftex.def)             Requested size: 287.01825pt x 200.9105pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
  [35]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -1455,85 +1444,85 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 238.
 
-[43] <papers/QClouds/Mw.jpeg, id=863, 361.35pt x 252.945pt>
+[43] <papers/QClouds/Mw.jpeg, id=879, 361.35pt x 252.945pt>
 File: papers/QClouds/Mw.jpeg Graphic file (type jpg)
 
 <use papers/QClouds/Mw.jpeg>
-Package pdftex.def Info: papers/QClouds/Mw.jpeg used on input line 317.
+Package pdftex.def Info: papers/QClouds/Mw.jpeg used on input line 314.
 (pdftex.def)             Requested size: 289.0859pt x 202.35622pt.
  [44 <./papers/QClouds/Mw.jpeg>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 326.
+(hyperref)                removing `math shift' on input line 323.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 326.
+(hyperref)                removing `math shift' on input line 323.
 
-[45] <papers/QClouds/Z-3d.jpeg, id=884, 361.35pt x 252.945pt>
+[45] <papers/QClouds/Z-3d.jpeg, id=901, 361.35pt x 252.945pt>
 File: papers/QClouds/Z-3d.jpeg Graphic file (type jpg)
 
 <use papers/QClouds/Z-3d.jpeg>
-Package pdftex.def Info: papers/QClouds/Z-3d.jpeg used on input line 397.
+Package pdftex.def Info: papers/QClouds/Z-3d.jpeg used on input line 394.
 (pdftex.def)             Requested size: 227.13893pt x 158.99377pt.
 
-<papers/QClouds/E-3d.jpeg, id=885, 361.35pt x 252.945pt>
+<papers/QClouds/E-3d.jpeg, id=902, 361.35pt x 252.945pt>
 File: papers/QClouds/E-3d.jpeg Graphic file (type jpg)
 
 <use papers/QClouds/E-3d.jpeg>
-Package pdftex.def Info: papers/QClouds/E-3d.jpeg used on input line 398.
+Package pdftex.def Info: papers/QClouds/E-3d.jpeg used on input line 395.
 (pdftex.def)             Requested size: 227.13893pt x 158.99377pt.
 
-<papers/QClouds/EMw-3D.jpeg, id=887, 361.35pt x 252.945pt>
+<papers/QClouds/EMw-3D.jpeg, id=904, 361.35pt x 252.945pt>
 File: papers/QClouds/EMw-3D.jpeg Graphic file (type jpg)
 
 <use papers/QClouds/EMw-3D.jpeg>
-Package pdftex.def Info: papers/QClouds/EMw-3D.jpeg used on input line 413.
+Package pdftex.def Info: papers/QClouds/EMw-3D.jpeg used on input line 410.
 (pdftex.def)             Requested size: 221.97253pt x 155.38005pt.
 
-<papers/QClouds/EMw-2D.jpeg, id=888, 361.35pt x 252.945pt>
+<papers/QClouds/EMw-2D.jpeg, id=905, 361.35pt x 252.945pt>
 File: papers/QClouds/EMw-2D.jpeg Graphic file (type jpg)
 
 <use papers/QClouds/EMw-2D.jpeg>
-Package pdftex.def Info: papers/QClouds/EMw-2D.jpeg used on input line 414.
+Package pdftex.def Info: papers/QClouds/EMw-2D.jpeg used on input line 411.
 (pdftex.def)             Requested size: 221.97253pt x 155.38005pt.
 
-<papers/QClouds/EMJ-3D.jpeg, id=889, 361.35pt x 252.945pt>
+<papers/QClouds/EMJ-3D.jpeg, id=906, 361.35pt x 252.945pt>
 File: papers/QClouds/EMJ-3D.jpeg Graphic file (type jpg)
 
 <use papers/QClouds/EMJ-3D.jpeg>
-Package pdftex.def Info: papers/QClouds/EMJ-3D.jpeg used on input line 415.
+Package pdftex.def Info: papers/QClouds/EMJ-3D.jpeg used on input line 412.
 (pdftex.def)             Requested size: 221.97253pt x 155.38005pt.
 
-<papers/QClouds/EMJ-2D.jpeg, id=890, 361.35pt x 252.945pt>
+<papers/QClouds/EMJ-2D.jpeg, id=907, 361.35pt x 252.945pt>
 File: papers/QClouds/EMJ-2D.jpeg Graphic file (type jpg)
 
 <use papers/QClouds/EMJ-2D.jpeg>
-Package pdftex.def Info: papers/QClouds/EMJ-2D.jpeg used on input line 416.
+Package pdftex.def Info: papers/QClouds/EMJ-2D.jpeg used on input line 413.
 (pdftex.def)             Requested size: 221.97253pt x 155.38005pt.
 
-<papers/QClouds/EAHw-3D.jpeg, id=891, 361.35pt x 252.945pt>
+<papers/QClouds/EAHw-3D.jpeg, id=908, 361.35pt x 252.945pt>
 File: papers/QClouds/EAHw-3D.jpeg Graphic file (type jpg)
 
 <use papers/QClouds/EAHw-3D.jpeg>
-Package pdftex.def Info: papers/QClouds/EAHw-3D.jpeg used on input line 417.
+Package pdftex.def Info: papers/QClouds/EAHw-3D.jpeg used on input line 414.
 (pdftex.def)             Requested size: 221.97253pt x 155.38005pt.
 
-<papers/QClouds/EAHw-2D.jpeg, id=892, 361.35pt x 252.945pt>
+<papers/QClouds/EAHw-2D.jpeg, id=909, 361.35pt x 252.945pt>
 File: papers/QClouds/EAHw-2D.jpeg Graphic file (type jpg)
 
 <use papers/QClouds/EAHw-2D.jpeg>
-Package pdftex.def Info: papers/QClouds/EAHw-2D.jpeg used on input line 418.
+Package pdftex.def Info: papers/QClouds/EAHw-2D.jpeg used on input line 415.
 (pdftex.def)             Requested size: 221.97253pt x 155.38005pt.
  [46 <./papers/QClouds/Z-3d.jpeg> <./papers/QClouds/E-3d.jpeg>] [47 <./papers/Q
 Clouds/EMw-3D.jpeg> <./papers/QClouds/EMw-2D.jpeg> <./papers/QClouds/EMJ-3D.jpe
 g> <./papers/QClouds/EMJ-2D.jpeg> <./papers/QClouds/EAHw-3D.jpeg> <./papers/QCl
 ouds/EAHw-2D.jpeg>]
-<papers/QClouds/Ew-fixed-AH.jpeg, id=902, 361.35pt x 252.945pt>
+<papers/QClouds/Ew-fixed-AH.jpeg, id=919, 361.35pt x 252.945pt>
 File: papers/QClouds/Ew-fixed-AH.jpeg Graphic file (type jpg)
 
 <use papers/QClouds/Ew-fixed-AH.jpeg>
-Package pdftex.def Info: papers/QClouds/Ew-fixed-AH.jpeg used on input line 445
+Package pdftex.def Info: papers/QClouds/Ew-fixed-AH.jpeg used on input line 442
 .
 (pdftex.def)             Requested size: 289.0859pt x 202.35622pt.
  [48 <./papers/QClouds/Ew-fixed-AH.jpeg>]) (./papers/selfInteractions/selfInter
@@ -1546,123 +1535,116 @@ Chapter 3.
 Underfull \vbox (badness 2050) has occurred while \output is active []
 
  [51]
-[52] <papers/selfInteractions/w-vs-M-BSs2.png, id=960, 1284.8pt x 963.6pt>
+[52]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [53]
+<papers/selfInteractions/w-vs-M-BSs2.png, id=985, 1284.8pt x 963.6pt>
 File: papers/selfInteractions/w-vs-M-BSs2.png Graphic file (type png)
 
 <use papers/selfInteractions/w-vs-M-BSs2.png>
 Package pdftex.def Info: papers/selfInteractions/w-vs-M-BSs2.png used on input 
-line 111.
+line 116.
 (pdftex.def)             Requested size: 328.62788pt x 246.47197pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[53] <papers/selfInteractions/max-mass.png, id=973, 578.16pt x 433.62pt>
+ [54 <./papers/selfInteractions/w-vs-M-BSs2.png>]
+<papers/selfInteractions/max-mass.png, id=995, 578.16pt x 433.62pt>
 File: papers/selfInteractions/max-mass.png Graphic file (type png)
 
 <use papers/selfInteractions/max-mass.png>
 Package pdftex.def Info: papers/selfInteractions/max-mass.png used on input lin
-e 125.
+e 130.
 (pdftex.def)             Requested size: 328.62788pt x 246.47124pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [54 <./papers/selfInteractions/w-vs-M-BSs2.png>] [55 <./papers/selfInteraction
-s/max-mass.png>] <papers/selfInteractions/w-vs-M-0.png, id=998, 1284.8pt x 963.
-6pt>
+ [55 <./papers/selfInteractions/max-mass.png>] <papers/selfInteractions/w-vs-M-
+0.png, id=1016, 1284.8pt x 963.6pt>
 File: papers/selfInteractions/w-vs-M-0.png Graphic file (type png)
 
 <use papers/selfInteractions/w-vs-M-0.png>
 Package pdftex.def Info: papers/selfInteractions/w-vs-M-0.png used on input lin
-e 163.
+e 175.
 (pdftex.def)             Requested size: 225.34381pt x 169.0001pt.
 
-<papers/selfInteractions/BH-w-Mtimes4.png, id=999, 1284.8pt x 963.6pt>
+<papers/selfInteractions/BH-w-Mtimes4.png, id=1017, 1284.8pt x 963.6pt>
 File: papers/selfInteractions/BH-w-Mtimes4.png Graphic file (type png)
 
 <use papers/selfInteractions/BH-w-Mtimes4.png>
 Package pdftex.def Info: papers/selfInteractions/BH-w-Mtimes4.png used on input
- line 164.
+ line 176.
 (pdftex.def)             Requested size: 225.34381pt x 169.0001pt.
 
-Underfull \vbox (badness 3780) has occurred while \output is active []
 
- [56 <./papers/selfInteractions/w-vs-M-0.png> <./papers/selfInteractions/BH-w-M
-times4.png>] <papers/selfInteractions/c2=0-J-M.png, id=1008, 1284.8pt x 963.6pt
->
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<papers/selfInteractions/c2=0-J-M.png, id=1022, 1284.8pt x 963.6pt>
 File: papers/selfInteractions/c2=0-J-M.png Graphic file (type png)
 
 <use papers/selfInteractions/c2=0-J-M.png>
 Package pdftex.def Info: papers/selfInteractions/c2=0-J-M.png used on input lin
-e 177.
+e 189.
 (pdftex.def)             Requested size: 225.34381pt x 169.0001pt.
 
-<papers/selfInteractions/c2=100-J-M.png, id=1009, 1284.8pt x 963.6pt>
+<papers/selfInteractions/c2=100-J-M.png, id=1023, 1284.8pt x 963.6pt>
 File: papers/selfInteractions/c2=100-J-M.png Graphic file (type png)
 
 <use papers/selfInteractions/c2=100-J-M.png>
 Package pdftex.def Info: papers/selfInteractions/c2=100-J-M.png used on input l
-ine 178.
+ine 190.
 (pdftex.def)             Requested size: 225.34381pt x 169.0001pt.
 
-<papers/selfInteractions/c2=350-J-M.png, id=1010, 1284.8pt x 963.6pt>
+<papers/selfInteractions/c2=350-J-M.png, id=1024, 1284.8pt x 963.6pt>
 File: papers/selfInteractions/c2=350-J-M.png Graphic file (type png)
 
 <use papers/selfInteractions/c2=350-J-M.png>
 Package pdftex.def Info: papers/selfInteractions/c2=350-J-M.png used on input l
-ine 179.
+ine 191.
 (pdftex.def)             Requested size: 225.34381pt x 169.0001pt.
 
-<papers/selfInteractions/c2=750-J-M.png, id=1011, 1284.8pt x 963.6pt>
+<papers/selfInteractions/c2=750-J-M.png, id=1025, 1284.8pt x 963.6pt>
 File: papers/selfInteractions/c2=750-J-M.png Graphic file (type png)
 
 <use papers/selfInteractions/c2=750-J-M.png>
 Package pdftex.def Info: papers/selfInteractions/c2=750-J-M.png used on input l
-ine 180.
+ine 192.
 (pdftex.def)             Requested size: 225.34381pt x 169.0001pt.
+ [56]
 
-<papers/selfInteractions/horizon-quantities.png, id=1013, 1284.8pt x 963.6pt>
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<papers/selfInteractions/horizon-quantities.png, id=1031, 1284.8pt x 963.6pt>
 File: papers/selfInteractions/horizon-quantities.png Graphic file (type png)
 
 <use papers/selfInteractions/horizon-quantities.png>
 Package pdftex.def Info: papers/selfInteractions/horizon-quantities.png used on
- input line 198.
+ input line 210.
 (pdftex.def)             Requested size: 328.62788pt x 246.47197pt.
- [57 <./papers/selfInteractions/c2=0-J-M.png> <./papers/selfInteractions/c2=100
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[57 <./papers/selfInteractions/w-vs-M-0.png> <./papers/selfInteractions/BH-w-Mt
+imes4.png>]
+Underfull \vbox (badness 6961) has occurred while \output is active []
+
+ [58 <./papers/selfInteractions/c2=0-J-M.png> <./papers/selfInteractions/c2=100
 -J-M.png> <./papers/selfInteractions/c2=350-J-M.png> <./papers/selfInteractions
-/c2=750-J-M.png>] [58 <./papers/selfInteractions/horizon-quantities.png>]
-<papers/selfInteractions/horizon-ratios.png, id=1028, 1284.8pt x 963.6pt>
+/c2=750-J-M.png>]
+<papers/selfInteractions/horizon-ratios.png, id=1046, 1284.8pt x 963.6pt>
 File: papers/selfInteractions/horizon-ratios.png Graphic file (type png)
 
 <use papers/selfInteractions/horizon-ratios.png>
 Package pdftex.def Info: papers/selfInteractions/horizon-ratios.png used on inp
-ut line 217.
+ut line 229.
 (pdftex.def)             Requested size: 328.62788pt x 246.47197pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [59 <./papers/selfInteractions/horizon-ratios.png>]
-<papers/selfInteractions/w-vs-M-Q-a=05.png, id=1038, 1284.8pt x 963.6pt>
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[59 <./papers/selfInteractions/horizon-quantities.png>]
+<papers/selfInteractions/w-vs-M-Q-a=05.png, id=1057, 1284.8pt x 963.6pt>
 File: papers/selfInteractions/w-vs-M-Q-a=05.png Graphic file (type png)
 
 <use papers/selfInteractions/w-vs-M-Q-a=05.png>
 Package pdftex.def Info: papers/selfInteractions/w-vs-M-Q-a=05.png used on inpu
-t line 259.
-(pdftex.def)             Requested size: 328.62788pt x 246.47197pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<papers/selfInteractions/horizon-ratios-Q.png, id=1042, 1284.8pt x 963.6pt>
-File: papers/selfInteractions/horizon-ratios-Q.png Graphic file (type png)
-
-<use papers/selfInteractions/horizon-ratios-Q.png>
-Package pdftex.def Info: papers/selfInteractions/horizon-ratios-Q.png used on i
-nput line 278.
+t line 270.
 (pdftex.def)             Requested size: 328.62788pt x 246.47197pt.
 
 
@@ -1671,162 +1653,236 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [60])
-(./papers/Proca/proca.tex [61 <./papers/selfInteractions/w-vs-M-Q-a=05.png>]
+ [60 <./papers/selfInteractions/horizon-ratios.png>]
+<papers/selfInteractions/horizon-ratios-Q.png, id=1066, 1284.8pt x 963.6pt>
+File: papers/selfInteractions/horizon-ratios-Q.png Graphic file (type png)
+
+<use papers/selfInteractions/horizon-ratios-Q.png>
+Package pdftex.def Info: papers/selfInteractions/horizon-ratios-Q.png used on i
+nput line 288.
+(pdftex.def)             Requested size: 328.62788pt x 246.47197pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[61 <./papers/selfInteractions/w-vs-M-Q-a=05.png>]) (./papers/Proca/proca.tex
 [62 <./papers/selfInteractions/horizon-ratios-Q.png>]
 Chapter 4.
 [63
 
 
 ] [64] [65] [66] [67] [68]
-<papers/Proca/wM-m1-comparison.pdf, id=1171, 361.35pt x 252.945pt>
+<papers/Proca/wM-m1-comparison.pdf, id=1187, 361.35pt x 252.945pt>
 File: papers/Proca/wM-m1-comparison.pdf Graphic file (type pdf)
 
 <use papers/Proca/wM-m1-comparison.pdf>
-Package pdftex.def Info: papers/Proca/wM-m1-comparison.pdf used on input line 5
-21.
+Package pdftex.def Info: papers/Proca/wM-m1-comparison.pdf used on input line 4
+64.
 (pdftex.def)             Requested size: 328.62788pt x 230.04137pt.
 
+Underfull \vbox (badness 4518) has occurred while \output is active []
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[69]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [70 <./papers/Proca/wM-m1-comparison.pdf>] [71] [72]
-<papers/Proca/PS-ro-m1.pdf, id=1246, 361.35pt x 252.945pt>
+ [69 <./papers/Proca/wM-m1-comparison.pdf>] [70] [71]
+<papers/Proca/PS-ro-m1.pdf, id=1255, 361.35pt x 252.945pt>
 File: papers/Proca/PS-ro-m1.pdf Graphic file (type pdf)
 
 <use papers/Proca/PS-ro-m1.pdf>
-Package pdftex.def Info: papers/Proca/PS-ro-m1.pdf used on input line 615.
+Package pdftex.def Info: papers/Proca/PS-ro-m1.pdf used on input line 559.
 (pdftex.def)             Requested size: 230.46748pt x 161.32846pt.
 
-<papers/Proca/PS-T34-m1.pdf, id=1247, 361.35pt x 252.945pt>
+<papers/Proca/PS-T34-m1.pdf, id=1256, 361.35pt x 252.945pt>
 File: papers/Proca/PS-T34-m1.pdf Graphic file (type pdf)
 
 <use papers/Proca/PS-T34-m1.pdf>
-Package pdftex.def Info: papers/Proca/PS-T34-m1.pdf used on input line 616.
+Package pdftex.def Info: papers/Proca/PS-T34-m1.pdf used on input line 560.
 (pdftex.def)             Requested size: 230.46748pt x 161.32846pt.
 
-<papers/Proca/BS-ro-m1.pdf, id=1248, 361.35pt x 252.945pt>
+<papers/Proca/BS-ro-m1.pdf, id=1257, 361.35pt x 252.945pt>
 File: papers/Proca/BS-ro-m1.pdf Graphic file (type pdf)
 
 <use papers/Proca/BS-ro-m1.pdf>
-Package pdftex.def Info: papers/Proca/BS-ro-m1.pdf used on input line 617.
+Package pdftex.def Info: papers/Proca/BS-ro-m1.pdf used on input line 561.
 (pdftex.def)             Requested size: 230.46748pt x 161.32846pt.
 
-<papers/Proca/BS-T34-m1.pdf, id=1249, 361.35pt x 252.945pt>
+<papers/Proca/BS-T34-m1.pdf, id=1258, 361.35pt x 252.945pt>
 File: papers/Proca/BS-T34-m1.pdf Graphic file (type pdf)
 
 <use papers/Proca/BS-T34-m1.pdf>
-Package pdftex.def Info: papers/Proca/BS-T34-m1.pdf used on input line 618.
+Package pdftex.def Info: papers/Proca/BS-T34-m1.pdf used on input line 562.
 (pdftex.def)             Requested size: 230.46748pt x 161.32846pt.
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<papers/Proca/PS-ro-m2.pdf, id=1256, 361.35pt x 252.945pt>
+ [72]
+<papers/Proca/PS-ro-m2.pdf, id=1271, 361.35pt x 252.945pt>
 File: papers/Proca/PS-ro-m2.pdf Graphic file (type pdf)
 
 <use papers/Proca/PS-ro-m2.pdf>
-Package pdftex.def Info: papers/Proca/PS-ro-m2.pdf used on input line 628.
+Package pdftex.def Info: papers/Proca/PS-ro-m2.pdf used on input line 572.
 (pdftex.def)             Requested size: 230.46748pt x 161.32846pt.
 
-<papers/Proca/PS-T34-m2.pdf, id=1257, 361.35pt x 252.945pt>
+<papers/Proca/PS-T34-m2.pdf, id=1272, 361.35pt x 252.945pt>
 File: papers/Proca/PS-T34-m2.pdf Graphic file (type pdf)
 
 <use papers/Proca/PS-T34-m2.pdf>
-Package pdftex.def Info: papers/Proca/PS-T34-m2.pdf used on input line 629.
+Package pdftex.def Info: papers/Proca/PS-T34-m2.pdf used on input line 573.
 (pdftex.def)             Requested size: 230.46748pt x 161.32846pt.
 
-<papers/Proca/BS-ro-m2.pdf, id=1258, 361.35pt x 252.945pt>
+<papers/Proca/BS-ro-m2.pdf, id=1273, 361.35pt x 252.945pt>
 File: papers/Proca/BS-ro-m2.pdf Graphic file (type pdf)
 
 <use papers/Proca/BS-ro-m2.pdf>
-Package pdftex.def Info: papers/Proca/BS-ro-m2.pdf used on input line 630.
+Package pdftex.def Info: papers/Proca/BS-ro-m2.pdf used on input line 574.
 (pdftex.def)             Requested size: 230.46748pt x 161.32846pt.
 
-<papers/Proca/BS-T34-m2.pdf, id=1259, 361.35pt x 252.945pt>
+<papers/Proca/BS-T34-m2.pdf, id=1274, 361.35pt x 252.945pt>
 File: papers/Proca/BS-T34-m2.pdf Graphic file (type pdf)
 
 <use papers/Proca/BS-T34-m2.pdf>
-Package pdftex.def Info: papers/Proca/BS-T34-m2.pdf used on input line 631.
+Package pdftex.def Info: papers/Proca/BS-T34-m2.pdf used on input line 575.
 (pdftex.def)             Requested size: 230.46748pt x 161.32846pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<papers/Proca/3DPS1-m=1-v2.pdf, id=1262, 227.40959pt x 163.812pt>
+<papers/Proca/3DPS1-m=1-v2.pdf, id=1277, 227.40959pt x 163.812pt>
 File: papers/Proca/3DPS1-m=1-v2.pdf Graphic file (type pdf)
 
 <use papers/Proca/3DPS1-m=1-v2.pdf>
-Package pdftex.def Info: papers/Proca/3DPS1-m=1-v2.pdf used on input line 641.
+Package pdftex.def Info: papers/Proca/3DPS1-m=1-v2.pdf used on input line 585.
 (pdftex.def)             Requested size: 173.56198pt x 125.0233pt.
 
-<papers/Proca/3DPS1-m=2-v2.pdf, id=1263, 217.7736pt x 154.17601pt>
+<papers/Proca/3DPS1-m=2-v2.pdf, id=1278, 217.7736pt x 154.17601pt>
 File: papers/Proca/3DPS1-m=2-v2.pdf Graphic file (type pdf)
 
 <use papers/Proca/3DPS1-m=2-v2.pdf>
-Package pdftex.def Info: papers/Proca/3DPS1-m=2-v2.pdf used on input line 642.
+Package pdftex.def Info: papers/Proca/3DPS1-m=2-v2.pdf used on input line 586.
 (pdftex.def)             Requested size: 173.56198pt x 122.87985pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<papers/Proca/w-Comp-Schw.pdf, id=1271, 361.35pt x 252.945pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [73 <./papers/Proca/PS-ro-m1.pdf> <./papers/Proca/PS-T34-m1.pdf> <./papers/Pro
+ca/BS-ro-m1.pdf> <./papers/Proca/BS-T34-m1.pdf>]
+<papers/Proca/w-Comp-Schw.pdf, id=1317, 361.35pt x 252.945pt>
 File: papers/Proca/w-Comp-Schw.pdf Graphic file (type pdf)
 
 <use papers/Proca/w-Comp-Schw.pdf>
-Package pdftex.def Info: papers/Proca/w-Comp-Schw.pdf used on input line 664.
+Package pdftex.def Info: papers/Proca/w-Comp-Schw.pdf used on input line 608.
 (pdftex.def)             Requested size: 328.62788pt x 230.04137pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[73] [74 <./papers/Proca/PS-ro-m1.pdf> <./papers/Proca/PS-T34-m1.pdf> <./papers
-/Proca/BS-ro-m1.pdf> <./papers/Proca/BS-T34-m1.pdf>] [75 <./papers/Proca/PS-ro-
-m2.pdf> <./papers/Proca/PS-T34-m2.pdf> <./papers/Proca/BS-ro-m2.pdf> <./papers/
-Proca/BS-T34-m2.pdf>]
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [76 <./papers/Proca/3DPS1-m=1-v2.pdf> <./papers/Proca/3DPS1-m=2-v2.pdf> <./pap
-ers/Proca/w-Comp-Schw.pdf>] [77] [78]
-<papers/Proca/BH-w-M-with-points.pdf, id=1419, 361.35pt x 252.945pt>
+ [74 <./papers/Proca/PS-ro-m2.pdf> <./papers/Proca/PS-T34-m2.pdf> <./papers/Pro
+ca/BS-ro-m2.pdf> <./papers/Proca/BS-T34-m2.pdf>]
+Underfull \vbox (badness 4927) has occurred while \output is active []
+
+ [75 <./papers/Proca/3DPS1-m=1-v2.pdf> <./papers/Proca/3DPS1-m=2-v2.pdf> <./pap
+ers/Proca/w-Comp-Schw.pdf>] [76] [77]
+<papers/Proca/BH-w-M-with-points.pdf, id=1415, 361.35pt x 252.945pt>
 File: papers/Proca/BH-w-M-with-points.pdf Graphic file (type pdf)
 
 <use papers/Proca/BH-w-M-with-points.pdf>
 Package pdftex.def Info: papers/Proca/BH-w-M-with-points.pdf used on input line
- 837.
+ 770.
+(pdftex.def)             Requested size: 328.62788pt x 230.04137pt.
+ [78]
+Underfull \vbox (badness 2134) has occurred while \output is active []
+
+ [79 <./papers/Proca/BH-w-M-with-points.pdf>]
+<papers/Proca/BH-J-M.pdf, id=1462, 361.35pt x 252.945pt>
+File: papers/Proca/BH-J-M.pdf Graphic file (type pdf)
+
+<use papers/Proca/BH-J-M.pdf>
+Package pdftex.def Info: papers/Proca/BH-J-M.pdf used on input line 794.
 (pdftex.def)             Requested size: 328.62788pt x 230.04137pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[79]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [80 <./papers/Proca/BH-w-M-with-points.pdf>]
-<papers/Proca/BH-J-M.pdf, id=1464, 361.35pt x 252.945pt>
-File: papers/Proca/BH-J-M.pdf Graphic file (type pdf)
-
-<use papers/Proca/BH-J-M.pdf>
-Package pdftex.def Info: papers/Proca/BH-J-M.pdf used on input line 861.
-(pdftex.def)             Requested size: 328.62788pt x 230.04137pt.
-
-<papers/Proca/ProcaBH-j-v-bound.pdf, id=1468, 361.35pt x 252.945pt>
+<papers/Proca/ProcaBH-j-v-bound.pdf, id=1466, 361.35pt x 252.945pt>
 File: papers/Proca/ProcaBH-j-v-bound.pdf Graphic file (type pdf)
 
 <use papers/Proca/ProcaBH-j-v-bound.pdf>
 Package pdftex.def Info: papers/Proca/ProcaBH-j-v-bound.pdf used on input line 
-873.
+808.
 (pdftex.def)             Requested size: 230.46748pt x 161.32846pt.
 
-<papers/Proca/ProcaBH-jKv-bound.pdf, id=1469, 361.35pt x 252.945pt>
+<papers/Proca/ProcaBH-jKv-bound.pdf, id=1467, 361.35pt x 252.945pt>
 File: papers/Proca/ProcaBH-jKv-bound.pdf Graphic file (type pdf)
 
 <use papers/Proca/ProcaBH-jKv-bound.pdf>
 Package pdftex.def Info: papers/Proca/ProcaBH-jKv-bound.pdf used on input line 
-874.
+809.
+(pdftex.def)             Requested size: 230.46748pt x 161.32846pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[80] <papers/Proca/BH-ro-m1.pdf, id=1475, 361.35pt x 252.945pt>
+File: papers/Proca/BH-ro-m1.pdf Graphic file (type pdf)
+
+<use papers/Proca/BH-ro-m1.pdf>
+Package pdftex.def Info: papers/Proca/BH-ro-m1.pdf used on input line 830.
+(pdftex.def)             Requested size: 230.46748pt x 161.32846pt.
+
+<papers/Proca/BH-T34.pdf, id=1476, 361.35pt x 252.945pt>
+File: papers/Proca/BH-T34.pdf Graphic file (type pdf)
+
+<use papers/Proca/BH-T34.pdf>
+Package pdftex.def Info: papers/Proca/BH-T34.pdf used on input line 831.
+(pdftex.def)             Requested size: 230.46748pt x 161.32846pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<papers/Proca/3Dbh.pdf, id=1481, 669.50125pt x 530.98375pt>
+File: papers/Proca/3Dbh.pdf Graphic file (type pdf)
+
+<use papers/Proca/3Dbh.pdf>
+Package pdftex.def Info: papers/Proca/3Dbh.pdf used on input line 841.
+(pdftex.def)             Requested size: 173.56198pt x 137.6555pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<papers/Proca/Ttr-horizon.pdf, id=1484, 185.0112pt x 147.9126pt>
+File: papers/Proca/Ttr-horizon.pdf Graphic file (type pdf)
+
+<use papers/Proca/Ttr-horizon.pdf>
+Package pdftex.def Info: papers/Proca/Ttr-horizon.pdf used on input line 850.
+(pdftex.def)             Requested size: 156.49014pt x 125.11691pt.
+
+<papers/Proca/T34-horizon.pdf, id=1485, 197.05621pt x 148.8762pt>
+File: papers/Proca/T34-horizon.pdf Graphic file (type pdf)
+
+<use papers/Proca/T34-horizon.pdf>
+Package pdftex.def Info: papers/Proca/T34-horizon.pdf used on input line 851.
+(pdftex.def)             Requested size: 170.71652pt x 128.98059pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<papers/Proca/BH-TH-AH.pdf, id=1494, 361.35pt x 252.945pt>
+File: papers/Proca/BH-TH-AH.pdf Graphic file (type pdf)
+
+<use papers/Proca/BH-TH-AH.pdf>
+Package pdftex.def Info: papers/Proca/BH-TH-AH.pdf used on input line 867.
+(pdftex.def)             Requested size: 230.46748pt x 161.32846pt.
+
+<papers/Proca/scalar-BH-TH-AH.pdf, id=1495, 361.35pt x 252.945pt>
+File: papers/Proca/scalar-BH-TH-AH.pdf Graphic file (type pdf)
+
+<use papers/Proca/scalar-BH-TH-AH.pdf>
+Package pdftex.def Info: papers/Proca/scalar-BH-TH-AH.pdf used on input line 86
+8.
 (pdftex.def)             Requested size: 230.46748pt x 161.32846pt.
 
 
@@ -1836,86 +1892,19 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [81 <./papers/Proca/BH-J-M.pdf>]
-<papers/Proca/BH-ro-m1.pdf, id=1483, 361.35pt x 252.945pt>
-File: papers/Proca/BH-ro-m1.pdf Graphic file (type pdf)
-
-<use papers/Proca/BH-ro-m1.pdf>
-Package pdftex.def Info: papers/Proca/BH-ro-m1.pdf used on input line 895.
-(pdftex.def)             Requested size: 230.46748pt x 161.32846pt.
-
-<papers/Proca/BH-T34.pdf, id=1484, 361.35pt x 252.945pt>
-File: papers/Proca/BH-T34.pdf Graphic file (type pdf)
-
-<use papers/Proca/BH-T34.pdf>
-Package pdftex.def Info: papers/Proca/BH-T34.pdf used on input line 896.
-(pdftex.def)             Requested size: 230.46748pt x 161.32846pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<papers/Proca/3Dbh.pdf, id=1489, 669.50125pt x 530.98375pt>
-File: papers/Proca/3Dbh.pdf Graphic file (type pdf)
-
-<use papers/Proca/3Dbh.pdf>
-Package pdftex.def Info: papers/Proca/3Dbh.pdf used on input line 906.
-(pdftex.def)             Requested size: 173.56198pt x 137.6555pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<papers/Proca/Ttr-horizon.pdf, id=1492, 185.0112pt x 147.9126pt>
-File: papers/Proca/Ttr-horizon.pdf Graphic file (type pdf)
-
-<use papers/Proca/Ttr-horizon.pdf>
-Package pdftex.def Info: papers/Proca/Ttr-horizon.pdf used on input line 915.
-(pdftex.def)             Requested size: 156.49014pt x 125.11691pt.
-
-<papers/Proca/T34-horizon.pdf, id=1493, 197.05621pt x 148.8762pt>
-File: papers/Proca/T34-horizon.pdf Graphic file (type pdf)
-
-<use papers/Proca/T34-horizon.pdf>
-Package pdftex.def Info: papers/Proca/T34-horizon.pdf used on input line 916.
-(pdftex.def)             Requested size: 170.71652pt x 128.98059pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 2538) has occurred while \output is active []
 
  [82 <./papers/Proca/ProcaBH-j-v-bound.pdf> <./papers/Proca/ProcaBH-jKv-bound.p
-df>]
-<papers/Proca/BH-TH-AH.pdf, id=1512, 361.35pt x 252.945pt>
-File: papers/Proca/BH-TH-AH.pdf Graphic file (type pdf)
-
-<use papers/Proca/BH-TH-AH.pdf>
-Package pdftex.def Info: papers/Proca/BH-TH-AH.pdf used on input line 932.
-(pdftex.def)             Requested size: 230.46748pt x 161.32846pt.
-
-<papers/Proca/scalar-BH-TH-AH.pdf, id=1513, 361.35pt x 252.945pt>
-File: papers/Proca/scalar-BH-TH-AH.pdf Graphic file (type pdf)
-
-<use papers/Proca/scalar-BH-TH-AH.pdf>
-Package pdftex.def Info: papers/Proca/scalar-BH-TH-AH.pdf used on input line 93
-3.
-(pdftex.def)             Requested size: 230.46748pt x 161.32846pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [83 <./papers/Proca/BH-ro-m1.pdf> <./papers/Proca/BH-T34.pdf> <./papers/Proca/
-3Dbh.pdf>]
-[84 <./papers/Proca/Ttr-horizon.pdf> <./papers/Proca/T34-horizon.pdf> <./papers
-/Proca/BH-TH-AH.pdf> <./papers/Proca/scalar-BH-TH-AH.pdf>])
-(./papers/KerrNewman/KerrNewman.tex [85] [86
-
-
-]
+df> <./papers/Proca/BH-ro-m1.pdf> <./papers/Proca/BH-T34.pdf>] [83 <./papers/Pr
+oca/3Dbh.pdf> <./papers/Proca/Ttr-horizon.pdf> <./papers/Proca/T34-horizon.pdf>
+])
+(./papers/KerrNewman/KerrNewman.tex [84 <./papers/Proca/BH-TH-AH.pdf> <./papers
+/Proca/scalar-BH-TH-AH.pdf>]
 Chapter 5.
-[87] [88] [89] [90]
+[85
+
+
+] [86] [87] [88]
 <papers/KerrNewman/BH-w-M.pdf, id=1629, 361.35pt x 252.945pt>
 File: papers/KerrNewman/BH-w-M.pdf Graphic file (type pdf)
 
@@ -1930,26 +1919,22 @@ File: papers/KerrNewman/zoom-w-M.pdf Graphic file (type pdf)
 Package pdftex.def Info: papers/KerrNewman/zoom-w-M.pdf used on input line 189.
 
 (pdftex.def)             Requested size: 225.34381pt x 157.74286pt.
- [91 <./papers/KerrNewman/BH-w-M.pdf> <./papers/KerrNewman/zoom-w-M.pdf>]
-<papers/KerrNewman/Mpsi.pdf, id=1751, 361.35pt x 252.945pt>
+ [89 <./papers/KerrNewman/BH-w-M.pdf> <./papers/KerrNewman/zoom-w-M.pdf>]
+<papers/KerrNewman/Mpsi.pdf, id=1749, 361.35pt x 252.945pt>
 File: papers/KerrNewman/Mpsi.pdf Graphic file (type pdf)
 
 <use papers/KerrNewman/Mpsi.pdf>
 Package pdftex.def Info: papers/KerrNewman/Mpsi.pdf used on input line 246.
 (pdftex.def)             Requested size: 225.34381pt x 157.74286pt.
 
-<papers/KerrNewman/qg.pdf, id=1752, 361.35pt x 252.945pt>
+<papers/KerrNewman/qg.pdf, id=1750, 361.35pt x 252.945pt>
 File: papers/KerrNewman/qg.pdf Graphic file (type pdf)
 
 <use papers/KerrNewman/qg.pdf>
 Package pdftex.def Info: papers/KerrNewman/qg.pdf used on input line 247.
 (pdftex.def)             Requested size: 225.34381pt x 157.74286pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [92]
-[93 <./papers/KerrNewman/Mpsi.pdf> <./papers/KerrNewman/qg.pdf>] [94]
-<papers/KerrNewman/BS-w-M-gauged.pdf, id=1862, 361.35pt x 252.945pt>
+ [90] [91 <./papers/KerrNewman/Mpsi.pdf> <./papers/KerrNewman/qg.pdf>] [92]
+<papers/KerrNewman/BS-w-M-gauged.pdf, id=1861, 361.35pt x 252.945pt>
 File: papers/KerrNewman/BS-w-M-gauged.pdf Graphic file (type pdf)
 
 <use papers/KerrNewman/BS-w-M-gauged.pdf>
@@ -1957,57 +1942,57 @@ Package pdftex.def Info: papers/KerrNewman/BS-w-M-gauged.pdf used on input line
  390.
 (pdftex.def)             Requested size: 225.34381pt x 157.74286pt.
 
-<papers/KerrNewman/BS-g-M-gauged.pdf, id=1863, 361.35pt x 252.945pt>
+<papers/KerrNewman/BS-g-M-gauged.pdf, id=1862, 361.35pt x 252.945pt>
 File: papers/KerrNewman/BS-g-M-gauged.pdf Graphic file (type pdf)
 
 <use papers/KerrNewman/BS-g-M-gauged.pdf>
 Package pdftex.def Info: papers/KerrNewman/BS-g-M-gauged.pdf used on input line
  391.
 (pdftex.def)             Requested size: 225.34381pt x 157.74286pt.
- [95 <./papers/KerrNewman/BS-w-M-gauged.pdf> <./papers/KerrNewman/BS-g-M-gauged
+ [93 <./papers/KerrNewman/BS-w-M-gauged.pdf> <./papers/KerrNewman/BS-g-M-gauged
 .pdf>]
 Underfull \vbox (badness 3724) has occurred while \output is active []
 
- [96]
-<papers/KerrNewman/BH-q-AH.pdf, id=1922, 361.35pt x 252.945pt>
+ [94]
+<papers/KerrNewman/BH-q-AH.pdf, id=1921, 361.35pt x 252.945pt>
 File: papers/KerrNewman/BH-q-AH.pdf Graphic file (type pdf)
 
 <use papers/KerrNewman/BH-q-AH.pdf>
 Package pdftex.def Info: papers/KerrNewman/BH-q-AH.pdf used on input line 468.
 (pdftex.def)             Requested size: 225.34381pt x 157.74286pt.
 
-<papers/KerrNewman/energy-2d.pdf, id=1923, 361.35pt x 252.945pt>
+<papers/KerrNewman/energy-2d.pdf, id=1922, 361.35pt x 252.945pt>
 File: papers/KerrNewman/energy-2d.pdf Graphic file (type pdf)
 
 <use papers/KerrNewman/energy-2d.pdf>
 Package pdftex.def Info: papers/KerrNewman/energy-2d.pdf used on input line 469
 .
 (pdftex.def)             Requested size: 225.34381pt x 157.74286pt.
- [97 <./papers/KerrNewman/BH-q-AH.pdf> <./papers/KerrNewman/energy-2d.pdf>]) (.
-/conclusions.tex [98]
+ [95 <./papers/KerrNewman/BH-q-AH.pdf> <./papers/KerrNewman/energy-2d.pdf>]) (.
+/conclusions.tex [96]
 Chapter 6.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [99
+ [97
 
 
 ]
 Underfull \vbox (badness 3724) has occurred while \output is active []
 
- [100]
-[101] [102
+ [98]
+[99] [100
 
 
 ]
 Chapter 7.
-<Figs/skuggi2a.pdf, id=2047, 349.305pt x 349.305pt>
+<Figs/skuggi2a.pdf, id=2049, 349.305pt x 349.305pt>
 File: Figs/skuggi2a.pdf Graphic file (type pdf)
  <use Figs/skuggi2a.pdf>
 Package pdftex.def Info: Figs/skuggi2a.pdf used on input line 111.
 (pdftex.def)             Requested size: 225.34381pt x 225.34529pt.
 
-<Figs/skuggi2b.pdf, id=2048, 349.305pt x 349.305pt>
+<Figs/skuggi2b.pdf, id=2050, 349.305pt x 349.305pt>
 File: Figs/skuggi2b.pdf Graphic file (type pdf)
  <use Figs/skuggi2b.pdf>
 Package pdftex.def Info: Figs/skuggi2b.pdf used on input line 112.
@@ -2016,13 +2001,14 @@ Package pdftex.def Info: Figs/skuggi2b.pdf used on input line 112.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[103]
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [104 <./Figs/skuggi2a.pdf> <./Figs/skuggi2b.pdf>]) [105] [106
+Underfull \vbox (badness 4328) has occurred while \output is active []
+
+ [101]
+[102 <./Figs/skuggi2a.pdf> <./Figs/skuggi2b.pdf>]) [103] [104
 
 
-] [107] [108
+] [105] [106
 
 
 ]
@@ -2031,21 +2017,21 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 (./spheroidalProlate.tex
 Appendix A.
-) [109
+) [107
 
 
 
 ]
 \openout2 = `BCs.aux'.
 
- (./BCs.tex [110
+ (./BCs.tex [108
 
 
 
 
 ]
 Appendix B.
-[111]
+[109]
 Overfull \hbox (19.33263pt too wide) in alignment at lines 52--60
  [][][] []
  []
@@ -2055,10 +2041,10 @@ Overfull \hbox (25.64594pt too wide) in paragraph at lines 78--78
 [] 
  []
 
-[112]) [113]
+[110]) [111]
 \openout2 = `procaAppendix.aux'.
 
- (./procaAppendix.tex [114
+ (./procaAppendix.tex [112
 
 
 
@@ -2066,70 +2052,67 @@ Overfull \hbox (25.64594pt too wide) in paragraph at lines 78--78
 ]
 Appendix C.
 
-Overfull \hbox (33.87082pt too wide) in alignment at lines 8--30
+Overfull \hbox (34.21571pt too wide) in alignment at lines 45--57
+ [][][] []
+ []
+
+[113]
+Overfull \hbox (49.32185pt too wide) in alignment at lines 75--97
  [][][] []
  []
 
 
-Overfull \hbox (23.23233pt too wide) detected at line 38
-[][][] \OT1/cmr/m/n/10.95 = \OML/cmm/m/it/10.95 W[] [] \OMS/cmsy/m/n/10.95 ^^@ 
-[] \OML/cmm/m/it/10.95 ;
- []
-
-
-Overfull \hbox (34.21571pt too wide) in alignment at lines 42--54
+Overfull \hbox (40.50574pt too wide) in alignment at lines 101--114
  [][][] []
  []
 
 
-Overfull \hbox (49.57886pt too wide) in alignment at lines 57--66
+Overfull \hbox (152.14363pt too wide) has occurred while \output is active
+\T1/cmr/m/n/10.95 114 \T1/cmr/m/sl/10.95 APPENDIX C.  EQUATIONS OF MOTIONS AND 
+EXPLICIT FORM OF METRIC FUNCTIONS FOR THE PROCA MODEL
+ []
+
+[114]
+Overfull \hbox (1.8392pt too wide) in alignment at lines 175--201
  [][][] []
  []
 
 
-Overfull \hbox (49.32185pt too wide) in alignment at lines 71--93
+Overfull \hbox (9.13785pt too wide) in alignment at lines 230--256
  [][][] []
  []
 
 [115]
-Overfull \hbox (40.50574pt too wide) in alignment at lines 97--110
+Overfull \hbox (24.60876pt too wide) in alignment at lines 303--352
  [][][] []
  []
 
 
-Overfull \hbox (1.8392pt too wide) in alignment at lines 171--197
- [][][] []
+Overfull \hbox (152.14363pt too wide) has occurred while \output is active
+\T1/cmr/m/n/10.95 116 \T1/cmr/m/sl/10.95 APPENDIX C.  EQUATIONS OF MOTIONS AND 
+EXPLICIT FORM OF METRIC FUNCTIONS FOR THE PROCA MODEL
  []
 
-[116]
-Overfull \hbox (9.13785pt too wide) in alignment at lines 224--250
- [][][] []
+[116] [117])
+Overfull \hbox (152.14363pt too wide) has occurred while \output is active
+\T1/cmr/m/n/10.95 118 \T1/cmr/m/sl/10.95 APPENDIX C.  EQUATIONS OF MOTIONS AND 
+EXPLICIT FORM OF METRIC FUNCTIONS FOR THE PROCA MODEL
  []
 
-
-Overfull \hbox (24.60876pt too wide) in alignment at lines 297--346
- [][][] []
- []
-
-[117]
-Overfull \hbox (54.28906pt too wide) in alignment at lines 439--481
- [][][] []
- []
-
-[118]) [119]
+[118]
 \openout2 = `numericalData.aux'.
 
- (./numericalData.tex [120
+ (./numericalData.tex
+Appendix D.
+) [119
 
 
 
 
 ]
-Appendix D.
-) [121]
 \openout2 = `pub-list.aux'.
 
- (./pub-list.tex [122
+ (./pub-list.tex [120
 
 
 
@@ -2139,340 +2122,249 @@ Appendix E.
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 13.
 (/usr/share/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)) [123] [124
+)) [121]
+\openout2 = `translations.aux'.
+
+ (./translations.tex
+[122
 
 
 
-] (./thesis.bbl
-(./thesis.brf)
+
+]
+Appendix F.
+)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [123]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [124]
+[125] [126
+
+
+
+] (./thesis.bbl (./thesis.brf)
 \tf@brf=\write6
 \openout6 = `thesis.brf'.
 
 
-Underfull \hbox (badness 1173) in paragraph at lines 57--57
-[]\T1/cmr/m/n/10.95 G. W. Gib-bons and C. M. Hull, Phys. Lett. B \T1/cmr/bx/n/1
-0.95 109 \T1/cmr/m/n/10.95 (1982) 190. doi:10.1016/0370-
- []
-
-
-Underfull \hbox (badness 2384) in paragraph at lines 103--103
-[]\T1/cmr/m/n/10.95 P. Pani, E. Berti and L. Gualtieri, Phys. Rev. Lett. \T1/cm
-r/bx/n/10.95 110 \T1/cmr/m/n/10.95 (2013) no.24, 241103
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 115--115
-[]\T1/cmr/m/n/10.95 P. Pani, E. Berti and L. Gualtieri, Phys. Rev. D \T1/cmr/bx
-/n/10.95 88 \T1/cmr/m/n/10.95 (2013) 064048
- []
-
-[125
-
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 139--139
-[]\T1/cmr/m/n/10.95 C. A. R. Herdeiro and E. Radu, Phys. Rev. Lett. \T1/cmr/bx/
-n/10.95 112 \T1/cmr/m/n/10.95 (2014) 221101
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 163--163
-[]\T1/cmr/m/n/10.95 B. Klei-haus, J. Kunz and S. Yazad-jiev, Phys. Lett. B \T1/
-cmr/bx/n/10.95 744 \T1/cmr/m/n/10.95 (2015) 406
- []
-
-
-Underfull \hbox (badness 1127) in paragraph at lines 224--224
-\T1/cmr/m/n/10.95 doi:10.1103/PhysRevD.86.129902, 10.1103/Phys-RevD.86.104026 [
-arXiv:1211.3202 [gr-qc]].
- []
-
-
-Underfull \hbox (badness 2065) in paragraph at lines 236--236
-[]\T1/cmr/m/n/10.95 S. Hod, Eur. Phys. J. C \T1/cmr/bx/n/10.95 73 \T1/cmr/m/n/1
-0.95 (2013) no.4, 2378 doi:10.1140/epjc/s10052-013-2378-x
- []
-
-[126] [127]
-Underfull \hbox (badness 5105) in paragraph at lines 414--414
-[]\T1/cmr/m/n/10.95 S. Hod, Phys. Rev. D \T1/cmr/bx/n/10.95 90 \T1/cmr/m/n/10.9
-5 (2014) no.2, 024051 doi:10.1103/PhysRevD.90.024051
- []
-
-
-Underfull \hbox (badness 7759) in paragraph at lines 426--426
-[]\T1/cmr/m/n/10.95 D. Nunez, H. Quevedo and D. Su-darsky, Phys. Rev. Lett. \T1
-/cmr/bx/n/10.95 76 \T1/cmr/m/n/10.95 (1996) 571
- []
-
-
-Underfull \hbox (badness 1097) in paragraph at lines 564--564
-[]\T1/cmr/m/n/10.95 C. A. R. Herdeiro and E. Radu, Int. J. Mod. Phys. D \T1/cmr
-/bx/n/10.95 24 \T1/cmr/m/n/10.95 (2015) no.09, 1542014
- []
-
-[128]
-Underfull \hbox (badness 10000) in paragraph at lines 642--642
-[]\T1/cmr/m/n/10.95 U. Nu-ca-mendi and M. Sal-gado, Phys. Rev. D \T1/cmr/bx/n/1
-0.95 68 \T1/cmr/m/n/10.95 (2003) 044026
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 666--666
-[]\T1/cmr/m/n/10.95 A. An-a-balon, D. Aste-fane-sei and R. Mann, JHEP \T1/cmr/b
-x/n/10.95 1310 \T1/cmr/m/n/10.95 (2013) 184
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 690--690
-[]\T1/cmr/m/n/10.95 M. Cadoni and E. Franzin, Phys. Rev. D \T1/cmr/bx/n/10.95 9
-1 \T1/cmr/m/n/10.95 (2015) no.10, 104011
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 723--723
-[]\T1/cmr/m/n/10.95 T. P. Sotiriou and S. Y. Zhou, Phys. Rev. D \T1/cmr/bx/n/10
-.95 90 \T1/cmr/m/n/10.95 (2014) 124063
- []
-
-[129]
-Underfull \hbox (badness 10000) in paragraph at lines 735--735
-[]\T1/cmr/m/n/10.95 T. P. Sotiriou and S. Y. Zhou, Phys. Rev. Lett. \T1/cmr/bx/
-n/10.95 112 \T1/cmr/m/n/10.95 (2014) 251102
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 769--769
-[]\T1/cmr/m/n/10.95 K. A. Bron-nikov and J. C. Fab-ris, Phys. Rev. Lett. \T1/cm
-r/bx/n/10.95 96 \T1/cmr/m/n/10.95 (2006) 251101
- []
-
-
-Underfull \hbox (badness 8056) in paragraph at lines 781--781
-[]\T1/cmr/m/n/10.95 E. Radu, Y. Shnir and D. H. Tchrakian, Phys. Lett. B \T1/cm
-r/bx/n/10.95 703 \T1/cmr/m/n/10.95 (2011) 386
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 840--840
-[]\T1/cmr/m/n/10.95 B. Klei-haus, J. Kunz and E. Radu, Phys. Rev. Lett. \T1/cmr
-/bx/n/10.95 106 \T1/cmr/m/n/10.95 (2011) 151104
- []
-
-[130]
-Underfull \hbox (badness 6876) in paragraph at lines 934--934
-[]\T1/cmr/m/n/10.95 T. Damour, N. Deru-elle and R. Ruffini, Lett. Nuovo Cim. \T
-1/cmr/bx/n/10.95 15 \T1/cmr/m/n/10.95 (1976) 257.
- []
-
-
-Underfull \hbox (badness 1838) in paragraph at lines 972--972
-[]\T1/cmr/m/n/10.95 B. R. Greene, S. D. Mathur and C. M. O'Neill, Phys. Rev. D 
-\T1/cmr/bx/n/10.95 47 \T1/cmr/m/n/10.95 (1993) 2242
- []
-
-
-Underfull \hbox (badness 2229) in paragraph at lines 1019--1019
-[]\T1/cmr/m/n/10.95 I. Pena and D. Su-darsky, Class. Quant. Grav. \T1/cmr/bx/n/
-10.95 14 \T1/cmr/m/n/10.95 (1997) 3131. doi:10.1088/0264-
- []
-
-[131]
-Underfull \hbox (badness 10000) in paragraph at lines 1064--1064
-[]\T1/cmr/m/n/10.95 C. Vuille, J. Ipser and J. Gal-lagher, Gen. Rel. Grav. \T1/
-cmr/bx/n/10.95 34 \T1/cmr/m/n/10.95 (2002) 689.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1087--1087
-[]\T1/cmr/m/n/10.95 S. Bhat-tacharya and A. Lahiri, Phys. Rev. D \T1/cmr/bx/n/1
-0.95 83 \T1/cmr/m/n/10.95 (2011) 124017
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1111--1111
-[]\T1/cmr/m/n/10.95 C. Herdeiro, E. Radu and H. Runars-son, Phys. Lett. B \T1/c
-mr/bx/n/10.95 739 \T1/cmr/m/n/10.95 (2014) 302
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1123--1123
-[]\T1/cmr/m/n/10.95 Y. Bri-haye, C. Herdeiro and E. Radu, Phys. Lett. B \T1/cmr
-/bx/n/10.95 739 \T1/cmr/m/n/10.95 (2014) 1
- []
-
-
-Underfull \hbox (badness 1466) in paragraph at lines 1123--1123
-\T1/cmr/m/n/10.95 doi:10.1016/j.physletb.2014.10.019 [arXiv:1408.5581 [gr-qc]].
-  (Cited on pages []69[], []77[],
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1145--1145
-[]\T1/cmr/m/n/10.95 M. Wang and C. Herdeiro, Phys. Rev. D \T1/cmr/bx/n/10.95 93
- \T1/cmr/m/n/10.95 (2016) no.6, 064066
- []
-
-[132]
-Underfull \hbox (badness 2181) in paragraph at lines 1191--1191
-[]\T1/cmr/m/n/10.95 C. Herdeiro, J. Kunz, E. Radu and B. Sub-agyo, Phys. Lett. 
-B \T1/cmr/bx/n/10.95 748 \T1/cmr/m/n/10.95 (2015) 30
- []
-
-
-Underfull \hbox (badness 1097) in paragraph at lines 1203--1203
-[]\T1/cmr/m/n/10.95 C. A. R. Herdeiro and E. Radu, Int. J. Mod. Phys. D \T1/cmr
-/bx/n/10.95 24 \T1/cmr/m/n/10.95 (2015) no.12, 1544022
- []
-
-
-Underfull \hbox (badness 5374) in paragraph at lines 1215--1215
-[]\T1/cmr/m/n/10.95 O. J. C. Dias, G. T. Horowitz and J. E. San-tos, JHEP \T1/c
-mr/bx/n/10.95 1107 \T1/cmr/m/n/10.95 (2011) 115
- []
-
-
-Underfull \hbox (badness 6608) in paragraph at lines 1238--1238
-[]\T1/cmr/m/n/10.95 T. Jo-hannsen, Class. Quant. Grav. \T1/cmr/bx/n/10.95 33 \T
-1/cmr/m/n/10.95 (2016) no.11, 113001 doi:10.1088/0264-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1250--1250
-[]\T1/cmr/m/n/10.95 C. Herdeiro and E. Radu, Phys. Rev. D \T1/cmr/bx/n/10.95 89
- \T1/cmr/m/n/10.95 (2014) no.12, 124018
- []
-
-[133]
-Underfull \hbox (badness 1412) in paragraph at lines 1331--1331
-[]\T1/cmr/m/n/10.95 A. Kusenko, Phys. Lett. B \T1/cmr/bx/n/10.95 405 \T1/cmr/m/
-n/10.95 (1997) 108 doi:10.1016/S0370-2693(97)00584-4 [hep-
- []
-
-
-Underfull \hbox (badness 3108) in paragraph at lines 1390--1390
-[]\T1/cmr/m/n/10.95 H. K. Kun-duri, J. Lu-ci-etti and H. S. Re-all, Phys. Rev. 
-D \T1/cmr/bx/n/10.95 74 \T1/cmr/m/n/10.95 (2006) 084021
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1402--1402
-[]\T1/cmr/m/n/10.95 M. S. Volkov and E. Wohn-ert, Phys. Rev. D \T1/cmr/bx/n/10.
-95 66 \T1/cmr/m/n/10.95 (2002) 085003
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1414--1414
-[]\T1/cmr/m/n/10.95 B. Klei-haus, J. Kunz and M. List, Phys. Rev. D \T1/cmr/bx/
-n/10.95 72 \T1/cmr/m/n/10.95 (2005) 064002
- []
-
-
-Underfull \hbox (badness 1852) in paragraph at lines 1426--1426
-[]\T1/cmr/m/n/10.95 B. Klei-haus, J. Kunz, M. List and I. Schaf-fer, Phys. Rev.
- D \T1/cmr/bx/n/10.95 77 \T1/cmr/m/n/10.95 (2008) 064025
- []
-
-
-Underfull \hbox (badness 1728) in paragraph at lines 1450--1450
-[]\T1/cmr/m/n/10.95 B. Klei-haus, J. Kunz, E. Radu and B. Sub-agyo, Phys. Lett.
- B \T1/cmr/bx/n/10.95 725 \T1/cmr/m/n/10.95 (2013) 489
- []
-
-
-Underfull \hbox (badness 3199) in paragraph at lines 1473--1473
-[]\T1/cmr/m/n/10.95 M. Colpi, S. L. Shapiro and I. Wasser-man, Phys. Rev. Lett.
- \T1/cmr/bx/n/10.95 57 \T1/cmr/m/n/10.95 (1986) 2485.
- []
-
-[134]
-Underfull \hbox (badness 5105) in paragraph at lines 1598--1598
-[]\T1/cmr/m/n/10.95 S. Hod, Phys. Rev. D \T1/cmr/bx/n/10.95 88 \T1/cmr/m/n/10.9
-5 (2013) no.6, 064055 doi:10.1103/PhysRevD.88.064055
- []
-
-
-Underfull \hbox (badness 2334) in paragraph at lines 1610--1610
-[]\T1/cmr/m/n/10.95 J. C. De-gol-lado and C. A. R. Herdeiro, Phys. Rev. D \T1/c
-mr/bx/n/10.95 89 \T1/cmr/m/n/10.95 (2014) no.6, 063005
- []
-
-[135]
-Underfull \hbox (badness 4492) in paragraph at lines 1646--1646
-[]\T1/cmr/m/n/10.95 R. Li, Y. Tian, H. b. Zhang and J. Zhao, Phys. Lett. B \T1/
-cmr/bx/n/10.95 750 \T1/cmr/m/n/10.95 (2015) 520
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1658--1658
-[]\T1/cmr/m/n/10.95 A. A. H. Gra-ham and R. Jha, Phys. Rev. D \T1/cmr/bx/n/10.9
-5 90 \T1/cmr/m/n/10.95 (2014) no.4, 041501
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1750--1750
+Underfull \hbox (badness 10000) in paragraph at lines 94--94
 []\T1/cmr/m/n/10.95 C. E. Rhoades, Jr. and R. Ruffini, Phys. Rev. Lett. \T1/cmr
 /bx/n/10.95 32 \T1/cmr/m/n/10.95 (1974) 324.
  []
 
 
-Underfull \hbox (badness 1990) in paragraph at lines 1762--1762
+Underfull \hbox (badness 1990) in paragraph at lines 106--106
 []\T1/cmr/m/n/10.95 S. Hild, Class. Quant. Grav. \T1/cmr/bx/n/10.95 29 \T1/cmr/
 m/n/10.95 (2012) 124006 doi:10.1088/0264-9381/29/12/124006
  []
 
-[136]
-Underfull \hbox (badness 10000) in paragraph at lines 1826--1826
+[127
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 231--231
 []\T1/cmr/m/n/10.95 G. Aad \T1/cmr/m/it/10.95 et al. \T1/cmr/m/n/10.95 [AT-LAS 
 Col-lab-o-ra-tion], Phys. Lett. B \T1/cmr/bx/n/10.95 716 \T1/cmr/m/n/10.95 (201
 2) 1
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1838--1838
+Underfull \hbox (badness 10000) in paragraph at lines 243--243
 []\T1/cmr/m/n/10.95 S. Cha-trchyan \T1/cmr/m/it/10.95 et al. \T1/cmr/m/n/10.95 
 [CMS Col-lab-o-ra-tion], Phys. Lett. B \T1/cmr/bx/n/10.95 716 \T1/cmr/m/n/10.95
  (2012) 30
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 1877--1877
+[128]
+Underfull \hbox (badness 10000) in paragraph at lines 304--304
 []\T1/cmr/m/n/10.95 T. P. Sotiriou and V. Faraoni, Phys. Rev. Lett. \T1/cmr/bx/
 n/10.95 108 \T1/cmr/m/n/10.95 (2012) 081103
  []
 
-[137]
-Underfull \hbox (badness 1231) in paragraph at lines 2009--2009
+[129]
+Underfull \hbox (badness 1231) in paragraph at lines 541--541
 []\T1/cmr/m/n/10.95 J. M. Bardeen, W. H. Press and S. A. Teukol-sky, As-tro-phy
 s. J. \T1/cmr/bx/n/10.95 178 \T1/cmr/m/n/10.95 (1972) 347.
  []
 
-
-Underfull \hbox (badness 6526) in paragraph at lines 2035--2035
+[130]
+Underfull \hbox (badness 6526) in paragraph at lines 579--579
 []\T1/cmr/m/n/10.95 S. R. Dolan, Phys. Rev. D \T1/cmr/bx/n/10.95 76 \T1/cmr/m/n
 /10.95 (2007) 084001 doi:10.1103/PhysRevD.76.084001
  []
 
-[138]
-Underfull \hbox (badness 3019) in paragraph at lines 2071--2071
+
+Underfull \hbox (badness 3019) in paragraph at lines 615--615
 []\T1/cmr/m/n/10.95 H. Okawa, H. Witek and V. Car-doso, Phys. Rev. D \T1/cmr/bx
 /n/10.95 89 \T1/cmr/m/n/10.95 (2014) no.10, 104032
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2106--2106
+Underfull \hbox (badness 10000) in paragraph at lines 673--673
 []\T1/cmr/m/n/10.95 M. Wang and C. Herdeiro, Phys. Rev. D \T1/cmr/bx/n/10.95 89
  \T1/cmr/m/n/10.95 (2014) no.8, 084062
  []
 
-[139]
-Underfull \hbox (badness 1097) in paragraph at lines 2174--2174
+
+Underfull \hbox (badness 5105) in paragraph at lines 697--697
+[]\T1/cmr/m/n/10.95 S. Hod, Phys. Rev. D \T1/cmr/bx/n/10.95 88 \T1/cmr/m/n/10.9
+5 (2013) no.6, 064055 doi:10.1103/PhysRevD.88.064055
+ []
+
+[131]
+Underfull \hbox (badness 2334) in paragraph at lines 709--709
+[]\T1/cmr/m/n/10.95 J. C. De-gol-lado and C. A. R. Herdeiro, Phys. Rev. D \T1/c
+mr/bx/n/10.95 89 \T1/cmr/m/n/10.95 (2014) no.6, 063005
+ []
+
+
+Underfull \hbox (badness 1127) in paragraph at lines 734--734
+\T1/cmr/m/n/10.95 doi:10.1103/PhysRevD.86.129902, 10.1103/Phys-RevD.86.104026 [
+arXiv:1211.3202 [gr-qc]].
+ []
+
+
+Underfull \hbox (badness 2065) in paragraph at lines 746--746
+[]\T1/cmr/m/n/10.95 S. Hod, Eur. Phys. J. C \T1/cmr/bx/n/10.95 73 \T1/cmr/m/n/1
+0.95 (2013) no.4, 2378 doi:10.1140/epjc/s10052-013-2378-x
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 758--758
+[]\T1/cmr/m/n/10.95 C. A. R. Herdeiro and E. Radu, Phys. Rev. Lett. \T1/cmr/bx/
+n/10.95 112 \T1/cmr/m/n/10.95 (2014) 221101
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 792--792
+[]\T1/cmr/m/n/10.95 C. Herdeiro and E. Radu, Phys. Rev. D \T1/cmr/bx/n/10.95 89
+ \T1/cmr/m/n/10.95 (2014) no.12, 124018
+ []
+
+
+Underfull \hbox (badness 1412) in paragraph at lines 821--821
+[]\T1/cmr/m/n/10.95 A. Kusenko, Phys. Lett. B \T1/cmr/bx/n/10.95 405 \T1/cmr/m/
+n/10.95 (1997) 108 doi:10.1016/S0370-2693(97)00584-4 [hep-
+ []
+
+[132]
+Underfull \hbox (badness 1097) in paragraph at lines 857--857
 []\T1/cmr/m/n/10.95 C. A. R. Herdeiro and E. Radu, Int. J. Mod. Phys. D \T1/cmr
 /bx/n/10.95 23 \T1/cmr/m/n/10.95 (2014) no.12, 1442014
  []
 
 
-Underfull \hbox (badness 1314) in paragraph at lines 2200--2200
+Underfull \hbox (badness 10000) in paragraph at lines 869--869
+[]\T1/cmr/m/n/10.95 M. S. Volkov and E. Wohn-ert, Phys. Rev. D \T1/cmr/bx/n/10.
+95 66 \T1/cmr/m/n/10.95 (2002) 085003
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 881--881
+[]\T1/cmr/m/n/10.95 B. Klei-haus, J. Kunz and M. List, Phys. Rev. D \T1/cmr/bx/
+n/10.95 72 \T1/cmr/m/n/10.95 (2005) 064002
+ []
+
+
+Underfull \hbox (badness 1852) in paragraph at lines 905--905
+[]\T1/cmr/m/n/10.95 B. Klei-haus, J. Kunz, M. List and I. Schaf-fer, Phys. Rev.
+ D \T1/cmr/bx/n/10.95 77 \T1/cmr/m/n/10.95 (2008) 064025
+ []
+
+
+Underfull \hbox (badness 3199) in paragraph at lines 952--952
+[]\T1/cmr/m/n/10.95 M. Colpi, S. L. Shapiro and I. Wasser-man, Phys. Rev. Lett.
+ \T1/cmr/bx/n/10.95 57 \T1/cmr/m/n/10.95 (1986) 2485.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 988--988
+[]\T1/cmr/m/n/10.95 B. Klei-haus, J. Kunz and S. Yazad-jiev, Phys. Lett. B \T1/
+cmr/bx/n/10.95 744 \T1/cmr/m/n/10.95 (2015) 406
+ []
+
+[133]
+Underfull \hbox (badness 1097) in paragraph at lines 1012--1012
+[]\T1/cmr/m/n/10.95 C. A. R. Herdeiro and E. Radu, Int. J. Mod. Phys. D \T1/cmr
+/bx/n/10.95 24 \T1/cmr/m/n/10.95 (2015) no.12, 1544022
+ []
+
+
+Underfull \hbox (badness 1097) in paragraph at lines 1036--1036
+[]\T1/cmr/m/n/10.95 C. A. R. Herdeiro and E. Radu, Int. J. Mod. Phys. D \T1/cmr
+/bx/n/10.95 24 \T1/cmr/m/n/10.95 (2015) no.09, 1542014
+ []
+
+
+Underfull \hbox (badness 1838) in paragraph at lines 1048--1048
+[]\T1/cmr/m/n/10.95 B. R. Greene, S. D. Mathur and C. M. O'Neill, Phys. Rev. D 
+\T1/cmr/bx/n/10.95 47 \T1/cmr/m/n/10.95 (1993) 2242
+ []
+
+[134]
+Underfull \hbox (badness 10000) in paragraph at lines 1133--1133
+[]\T1/cmr/m/n/10.95 C. Vuille, J. Ipser and J. Gal-lagher, Gen. Rel. Grav. \T1/
+cmr/bx/n/10.95 34 \T1/cmr/m/n/10.95 (2002) 689.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1168--1168
+[]\T1/cmr/m/n/10.95 C. Herdeiro, E. Radu and H. Runars-son, Phys. Lett. B \T1/c
+mr/bx/n/10.95 739 \T1/cmr/m/n/10.95 (2014) 302
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1180--1180
+[]\T1/cmr/m/n/10.95 Y. Bri-haye, C. Herdeiro and E. Radu, Phys. Lett. B \T1/cmr
+/bx/n/10.95 739 \T1/cmr/m/n/10.95 (2014) 1
+ []
+
+
+Underfull \hbox (badness 1466) in paragraph at lines 1180--1180
+\T1/cmr/m/n/10.95 doi:10.1016/j.physletb.2014.10.019 [arXiv:1408.5581 [gr-qc]].
+  (Cited on pages []68[], []98[],
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1202--1202
+[]\T1/cmr/m/n/10.95 M. Wang and C. Herdeiro, Phys. Rev. D \T1/cmr/bx/n/10.95 93
+ \T1/cmr/m/n/10.95 (2016) no.6, 064066
+ []
+
+[135]
+Underfull \hbox (badness 5105) in paragraph at lines 1369--1369
+[]\T1/cmr/m/n/10.95 S. Hod, Phys. Rev. D \T1/cmr/bx/n/10.95 90 \T1/cmr/m/n/10.9
+5 (2014) no.2, 024051 doi:10.1103/PhysRevD.90.024051
+ []
+
+[136]
+Underfull \hbox (badness 2181) in paragraph at lines 1392--1392
+[]\T1/cmr/m/n/10.95 C. Herdeiro, J. Kunz, E. Radu and B. Sub-agyo, Phys. Lett. 
+B \T1/cmr/bx/n/10.95 748 \T1/cmr/m/n/10.95 (2015) 30
+ []
+
+
+Underfull \hbox (badness 5374) in paragraph at lines 1404--1404
+[]\T1/cmr/m/n/10.95 O. J. C. Dias, G. T. Horowitz and J. E. San-tos, JHEP \T1/c
+mr/bx/n/10.95 1107 \T1/cmr/m/n/10.95 (2011) 115
+ []
+
+
+Underfull \hbox (badness 6608) in paragraph at lines 1428--1428
+[]\T1/cmr/m/n/10.95 T. Jo-hannsen, Class. Quant. Grav. \T1/cmr/bx/n/10.95 33 \T
+1/cmr/m/n/10.95 (2016) no.11, 113001 doi:10.1088/0264-
+ []
+
+
+Underfull \hbox (badness 7759) in paragraph at lines 1440--1440
+[]\T1/cmr/m/n/10.95 D. Nunez, H. Quevedo and D. Su-darsky, Phys. Rev. Lett. \T1
+/cmr/bx/n/10.95 76 \T1/cmr/m/n/10.95 (1996) 571
+ []
+
+
+Underfull \hbox (badness 1314) in paragraph at lines 1496--1496
 []\T1/cmr/m/n/10.95 P. V. P. Cunha, J. Grover, C. Herdeiro, E. Radu, H. Runars-
 son and A. Wit-tig,
  []
@@ -2482,27 +2374,27 @@ son and A. Wit-tig,
 Package caption Warning: Unused \captionsetup[table] on input line 45.
 See the caption package documentation for explanation.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 200.
-[140]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 200.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 201.
+[137]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 201.
  (./thesis.aux (./acks.aux) (./abs.aux) (./intro.aux)
 (./spheroidalProlate.aux) (./BCs.aux) (./procaAppendix.aux)
-(./numericalData.aux) (./pub-list.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 200.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 200.
+(./numericalData.aux) (./pub-list.aux) (./translations.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 201.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 201.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 4AB5CDCC6A2FC9046E25A957E90B53A5;10192.
+(rerunfilecheck)             Checksum: 4350B6B5AC195D0176115630B29E1908;11162.
 Package rerunfilecheck Info: File `thesis.brf' has not changed.
-(rerunfilecheck)             Checksum: 072920C37253B0697922B140EA45A1B7;11066.
+(rerunfilecheck)             Checksum: 7D0217CBBCE2FB010571890BD60EDF9B;10752.
  ) 
 Here is how much of TeX's memory you used:
- 15802 strings out of 493013
- 228385 string characters out of 6139317
- 315486 words of memory out of 5000000
- 18369 multiletter control sequences out of 15000+600000
+ 15430 strings out of 493013
+ 221809 string characters out of 6139317
+ 313727 words of memory out of 5000000
+ 18056 multiletter control sequences out of 15000+600000
  50126 words of font info for 152 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 43i,11n,41p,1622b,720s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 43i,11n,41p,1173b,725s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/t
 exmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texmf-dist/font
 s/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public
@@ -2540,10 +2432,10 @@ ist/fonts/type1/public/cm-super/sfsx1440.pfb></usr/share/texmf-dist/fonts/type1
 /public/cm-super/sfti0600.pfb></usr/share/texmf-dist/fonts/type1/public/cm-supe
 r/sfti0900.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb>
 </usr/share/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb>
-Output written on thesis.pdf (140 pages, 4008792 bytes).
+Output written on thesis.pdf (137 pages, 4013835 bytes).
 PDF statistics:
- 2856 PDF objects out of 2984 (max. 8388607)
- 2484 compressed objects within 25 object streams
- 572 named destinations out of 1000 (max. 500000)
- 730 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2788 PDF objects out of 2984 (max. 8388607)
+ 2414 compressed objects within 25 object streams
+ 506 named destinations out of 1000 (max. 500000)
+ 754 words of extra memory for PDF output out of 10000 (max. 10000000)
 

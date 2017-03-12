@@ -28,15 +28,25 @@ undorn og aftan, \\
 ''}{6th verse of Völuspá}
 
 
-There is strong observational evidence that extremely compact and massive objects populate the Universe, these objects are commonly referred to as \textit{black holes}.
-According to the paradigm of general relativity, black holes are extremely constrained objects, which are effectively described by the Kerr metric when near equilibrium, which depends solely on two parameters.
+There is strong observational evidence that extremely compact and massive objects populate our Universe, these objects are commonly referred to as \textit{black holes}.
+According to the paradigm of general relativity, black holes are extremely constrained objects, which are effectively described by the Kerr metric when near equilibrium.
 This idea, partly based on rigorous mathematical theorems, but partly conjectured, has been immortalized in John Wheeler's mantra ``\textit{black holes have no hair}''~\cite{Misner:1974qy}. 
 
 
 In this first chapter, after a review of the observational evidence for black holes and the general relativity black hole paradigm, we shall look into the limitations of the ``no-hair'' idea.
 Some of these have been known for some time, but we shall focus on a recently discovered case: ``Kerr black holes with scalar hair''.
-To describe these new solutions, we will need to briefly review a particular type of gravitating solitons called \textit{boson stars}, as well as the phenomenon of \textit{superradiance} known to occur in the Kerr spacetime.
-   
+To describe these new solutions, we will need to briefly review a particular type of gravitating solitons called \textit{boson stars}, as well as the phenomenon of \textit{superradiance} known to occur in the Kerr spacetime. \\
+\bigskip
+\textbf{Conventions:}
+In this thesis, we use units where $G=c=1$ and a mostly positive signature of spacetime, i.e. $(-+++)$.
+We also use latin letters $a,b,c,d,\ldots$ as spacetime indices and they run from $0$ to $3$.
+The conventions for the Riemann tensor are
+
+\begin{align*}
+  R_{abc}^d &= -2\partial_{[a}\Gamma^d_{~b]c} + 2\Gamma^e_{~c[a}\Gamma^d_{b]e}.
+\end{align*}
+
+
 \section{Observational evidence for extremely compact objects}
 
 At the center of our galaxy resides an object known as Sagittarius A$^\star$.
@@ -48,16 +58,17 @@ Black hole candidates of this type have been found in a mass range between $10^6
 
 Another case of extremely compact and massive objects is found in binary systems in our galaxy, where strong X-ray sources exist.
 One example of such an object is Cygnus X-1, known since the 1960s~\cite{1965Sci...147..394B}.
-Using methods which have been used for over a century on ordinary stars in binary systems, the estimated masses of these $24$ binaries were found to range between $5$ and $30$ M$_\odot$~\cite{Narayan:2013gca}.
+Using methods which have been used on ordinary stars in binary systems for over a century, the estimated masses of these $24$ binaries were found to range between $5$ and $30$ M$_\odot$~\cite{Narayan:2013gca}.
 For example, Cygnus X-1 has an estimated mass of 14.8 M$_\odot$~\cite{Reid:2011nn}.
 \textit{Neutron stars}, as the most compact directly observable objects currently known, have masses which are below $3$ M$_\odot$ \cite{Kalogera:1996ci,Rhoades:1974fn}.
 Therefore, these X-ray sources are in all likelihood black holes and due to their mass range, have been called \textit{stellar mass black holes}.
 
-The objects discussed in the previous two paragraphs are strictly speaking only black holes candidates, 
+These two types, or categories, of black holes are strictly speaking only black hole candidates, 
 as there might be some, as of yet unknown, form of matter which they could be made of, making what is generically referred to as a \textit{black hole mimicker}.
 On the other hand, if these objects are black holes, one should ask whether they are the paradigmatical black holes of general relativity, to be discussed in Sec. \ref{sec:bh_gr}, or black holes as described by some alternative model.
 The next decade promises to shed light on both of these issues: we are on the verge of gathering observational evidence that will map the spacetime geometry close to these black hole candidates.
 This evidence will be obtained by both gravitational wave astronomy~\cite{Hild:2011np,Hobbs:2009yy,Seoane:2013qna} and by large baseline interferometry measurements of the galactic center, using the Event Horizon Telescope (EHT).
+In fact, gravitational wave signals were observed by the LIGO detector last year\cite{Abbott:2016blz,Abbott:2016nmj}.
 The latter, promises to resolve angular scales of the order of the horizon scale for the Sagittarius A$^\star$ black hole candidate~\cite{Loeb:2013lfa}.
 The EHT will study the so-called black hole \textit{shadows}~\cite{Falcke:1999pj}: the gravitational lensing effect due to the black hole on the radiation from background sources, with respect to the observer.
 
@@ -75,11 +86,11 @@ In the case of general relativity one solves the field equations,
   \label{eqn:Einstein-eqns}
 \end{align}
 where $R_{ab}$ is the Ricci tensor, $R$ the Ricci scalar, $T_{ab}$ the stress-energy tensor and $g_{ab}$ the metric tensor.
-Here and throughout this thesis we will use geometrized units, with $G=1=c$.
+% Here and throughout this thesis we will use geometrized units, where $G=1=c$.
 
 The black hole solutions we will start by considering are both stationary, i.e. equilibrium states, and electrovacuum.
 That is, there exists an asymptotically timelike Killing vector field in the spacetime and the only matter-energy content present are electromagnetic fields.
-Surprisingly, and in sharp contrast to stars, equilibrium black hole solutions in this theory can be completely described by only three parameters: their mass, angular momentum and electric charge~\cite{Chrusciel:2012jk}.
+Surprisingly, and in sharp contrast to stars, equilibrium black hole solutions in this theory are completely described by only three parameters: their mass, angular momentum and electric charge~\cite{Chrusciel:2012jk}.
 These parameters are defined by the gravitational and electromagnetic fields far away from the black hole, since they have associated Gauss laws.
 In this section, we will further restrict ourselves mainly to uncharged black holes, as it is generally believed that astrophysically relevant black holes will be essentially electrically neutral, due to efficient discharging mechanisms.
 What remains is a 2-parameter family, where the two parameters are the mass, $M$, and angular momentum, $J$, described by the \textit{Kerr metric} \cite{Kerr:1963ud}, named after Roy Kerr, who discovered this solution in 1963.
@@ -95,7 +106,7 @@ The extraordinary importance of the Kerr metric was established in the early 197
 These theorems, established originally for Einstein-Maxwell theory, state that the most general asymptotically flat stationary, axi-symmetric vacuum spacetime that is non-singular on and outside an event horizon, is a member of the Kerr-Newman family of solutions, a charged generalization of the Kerr solution.
 In particular, in vacuum, the most general black hole solution is described by the Kerr metric.
 This result showed that within Einstein-Maxwell theory black holes are very special, restricted objects, and \textit{suggested} this would remain the case even if more generic types of matter are included.
-This led to the \textit{no-hair idea} or conjecture: that regardless of the type of matter available, the end state of gravitational collapse is a Kerr-Newman (to allow for electric charge, $Q$) black hole, solely characterized by $M$, $J$ and $Q$, all of which are conserved quantities subject to a Gauss law, and no additional degrees of freedom, to which \textit{hair} provides a metaphor, are needed.
+This led to the \textit{no-hair conjecture}: that regardless of the type of matter available, the end state of gravitational collapse is a Kerr-Newman (to allow for electric charge, $Q$) black hole, solely characterized by $M$, $J$ and $Q$, all of which are conserved quantities subject to a Gauss law, and no additional degrees of freedom, to which \textit{hair} provides a metaphor, are needed.
 Together, the uniqueness theorems, and the no-hair conjecture, built the general relativity black hole paradigm: that the millions of stellar mass black holes and the one supermassive black hole in \textit{each} galaxy, are all, when near equilibrium, described by the Kerr metric.  
 
 We emphasize that an important distinction has to be made between the uniqueness theorems and the no-hair conjecture.
@@ -105,7 +116,8 @@ In fact, as we shall now discuss, examples have long been known to exist which v
 \label{sec:bh_beyond_gr}
 
 One of the simplest types of ``matter'' often considered by physicists is provided by \textit{scalar fields}.
-Since 2012, there is observational evidence that scalar fields exist in nature, by virtue of the discovery of a scalar particle at the Large Hadron Collider, at CERN, tentatively identified with the standard model Higgs boson~\cite{Aad:2012tfa,Chatrchyan:2012ufa}.
+In 2012, 
+the discovery of a scalar particle at the Large Hadron Collider, at CERN, tentatively identified with the standard model Higgs boson~\cite{Aad:2012tfa,Chatrchyan:2012ufa} provided observational evidence that scalar fields exist in nature. 
 But for decades, scalar fields have been considered in phenomenological models, in particular within gravitational physics.
 A notable example is cosmology, where various types of scalar fields have been used to model dark energy and dark matter.
 One reason is that scalar fields are well motivated by some high energy physics models such as string theory.
@@ -123,7 +135,7 @@ Solutions where the scalar field diverges at the horizon are known (see e.g.~\ci
 We are also considering independent scalar fields.
 Considering \textit{simultaneously} gauge fields to which the scalar fields are non-minimally coupled leads to solutions~\cite{Gibbons:1982ih,Gibbons:1987ps} - notably $p$-brane type solutions in supergravity~\cite{Horowitz:1991cd}; but these have no independent scalar charge and the scalar field vanishes when the electromagnetic field vanishes.
 Finally, we are focusing on four dimensional, asymptotically flat black holes.
-Considering, for instance, Anti-de-Sitter asymptotics can allow for hairy black holes, since the asymptotic nature of the spacetime yields a trapping mechanism from which the scalar field cannot escape. 
+Considering, for instance, Anti-de-Sitter asymptotics can allow for hairy black holes, since the asymptotic nature of the spacetime yields a trapping mechanism such that the scalar field cannot escape. 
 
 It turned out that progress in finding regular hairy black holes came from a different direction: the study of \textit{gravitating solitons}.
 These are self-gravitating, horizonless, regular configurations, which are found in Einstein gravity coupled to (typically) non-linear matter sources.
@@ -131,7 +143,7 @@ An influential pioneering example was the Bartnik-Mckinnon ``particle-like'' sol
 That a black hole could be added at the center of these solitons was found first by Volkov and Galtsov~\cite{Volkov:1989fi}, and later by Bizon~\cite{Bizon:1990sr}, yielding \textit{black holes with Yang-Mills hair} also dubbed \textit{colored black holes}.
 Other examples along similar paths were obtained with other non-Abelian gauge fields (e.g. \cite{Droz:1991cx,Lavrelashvili:1992cp}; see also the reviews~\cite{Bizon:1994dh,Volkov:1998cc}).
 
-The intuitive, physical reason for why the solutions in the previous paragraph exist comes about from a balance between the non-Abelian gauge-field repulsion and the gravitational attraction.
+The intuitive, physical reason for why these solutions exist comes about from a balance between the non-Abelian gauge-field repulsion and the gravitational attraction.
 This kind of balance between two competing effects, to keep the hair in equilibrium in the vicinity of the black hole, seems to be vital for the existence of all types of hairy black hole solutions.
 These examples, moreover, serve to show the \textit{mathematical} limitations of the no-hair idea.
 They seem, however, of limited astrophysical relevance since it is not expected that, say, Yang-Mills fields, play an important role in macroscopic astrophysical black holes.
@@ -174,13 +186,13 @@ The scalar field ansatz is of the form,
 and thus introduces a fifth real function which describes the field's angular and radial profile.
 It also introduces an azimuthal harmonic index $m\in \mathbb{Z}^\pm$.
 Each value of $m$ labels a sub-family of boson star solutions.
-Finally, the solutions are labelled by yet another discrete number $n\in \mathbb{N}_0$, which counts the number of nodes of the scalar field profile.
+Finally, the solutions are labelled by yet another discrete number $n\in \mathbb{N}_0$, which counts the number of nodes of the scalar field profile, $\phi(r,\theta)$.
 Solutions with $n=0$ are regarded as fundamental states (for each $m$) and solutions with $n>0$ as excited states and throughout this thesis, we will only consider $n=0$ solutions.
 To summarize, rotating boson stars are described by five functions of $(r,\theta)$, which are determined after fixing two integers $n,m$ and one continuous parameter $w$.
-The solutions are obtained solving five non-linear, coupled partial differential equations, with appropriate boundary conditions.
-It turns out that solutions only exist in a range certain frequency range between $w=\mu$ and some minimal frequency $w_{min}$ (cf. Fig. \ref{fig:HBH-parameter-space}).
+The solutions are obtained by solving five non-linear, coupled partial differential equations, with appropriate boundary conditions.
+It turns out that solutions only exist in a range of frequencies between $w=\mu$ and some minimal frequency $w_{min}$ (cf. Fig. \ref{fig:HBH-parameter-space}).
 
-An observation that will become relevant in the following is that, although the line element~\eqref{eqn:HBH-ansatz} admits two Killing vector fields, $\partial_t$ and $\partial_\varphi$, the full solution, including the scalar field \eqref{eqn:field-ansatz} is only preserved by a single, helicoidal Killing vector field of the form
+An observation that will become relevant in the following is that, although the line element~\eqref{eqn:HBH-ansatz} admits two Killing vector fields, $\partial_t$ and $\partial_\varphi$, the full solution, including the scalar field \eqref{eqn:field-ansatz}, is only preserved by a single, helicoidal Killing vector field of the form
 \begin{equation}
 k=\partial_t+\frac{w}{m}\partial_\varphi \ . 
 \label{kvf}
@@ -202,23 +214,23 @@ where $\Omega_H$ is the angular velocity of the outer black hole horizon~\cite{B
 During this scattering process, energy is extracted from the black hole in a way consistent with the second law of black hole dynamics~\cite{Bardeen:1973gs}, i.e. the area of the black hole does not decrease.
 Therefore, it is only rotational energy that is being extracted from the black hole.
 
-If there is a trapping mechanism present, which confines the field in the vicinity of the black hole, a \textit{superradiant instability} occurs, since the field is recurrently scattered and amplified, triggering a potentially explosive phenomenon, some times called a \textit{black hole bomb}~\cite{Press:1972zz}. 
-A massive field or a timelike asymptotic (conformal) boundary provide two examples of natural trapping mechanisms while a more ad hoc example is to impose a mirror-like boundary condition for the field at a finite distance from the horizon.
+If there is a trapping mechanism present, which confines the field in the vicinity of the black hole, a \textit{superradiant instability} occurs, since the field is recurrently scattered and amplified, triggering a potentially explosive phenomenon, some times referred to as a \textit{black hole bomb}~\cite{Press:1972zz}. 
+A massive field or a timelike asymptotic (conformal) boundary provide two examples of natural trapping mechanisms while a more artifical example is to impose a mirror-like boundary condition for the field at a finite distance from the horizon, i.e. put it in a box.
 The superradiant instability has been studied in depth in recent years, mostly at the linear level (see e.g. \cite{Dolan:2007mj,Dolan:2012yt} and \cite{Cardoso:2013krh} for a review); fully non-linear studies, in which the backreaction of the field's amplification is taken into account on the geometry, are still under development~\cite{Okawa:2014nda,East:2013mfa}.
 Consequently the end-state of the instability is still an open question.
 
 As a side note, let us remark that for non-rotating but electrically charged black holes, it is possible to obtain superradiant scattering as long as the field itself possesses an electric charge~\cite{Bekenstein:1973mi}.
 However, superradiant instabilities do not occur even if the field is massive in asymptotically flat spaces~\cite{Hod:2013eea,Hod:2013nn}, whereas they do in asymptotically Anti-de-Sitter spaces (see e.g.~\cite{Wang:2014eha}).
-But in the former case the instability can be triggered by imposing a mirror-like boundary condition for the field\cite{Herdeiro:2013pia,Hod:2013fvl,Degollado:2013bha}.
+In the former case the instability can be still triggered by imposing a mirror-like boundary condition for the field\cite{Herdeiro:2013pia,Hod:2013fvl,Degollado:2013bha}.
 This may be regarded as a toy model for the astrophysically more relevant rotating case, but it turns out to have both quantitative and qualitative differences when compared to the latter.  
 For this toy model, a recent study showed that a hairy black hole solution is obtained dynamically from the instability\cite{Sanchis-Gual:2015lje}.
 
-At the threshold of the instability, i.e. considering field modes with $\omega=m\Omega_H$, \textit{true stationary bound states} (in the sense of quantum mechanics) can exist, as there is neither decay nor growth of the field.
+Turning back to the rotating case, at the threshold of the instability, i.e. considering field modes with $\omega=m\Omega_H$, \textit{true stationary bound states} (in the sense of quantum mechanics) can exist, as there is neither decay nor growth of the field.
 Even though considerable literature exists about superradiance, only recently these test field, stationary bound states have been studied in detail, and dubbed (in the scalar field case) \textit{scalar clouds around Kerr black holes}~\cite{Hod:2012px,Hod:2013zza,Herdeiro:2014goa}.
 These configuration form a discrete set of solutions labelled by $3$ numbers, $(n,\ell,m)$, where $n$ corresponds to the node number of the radial part of the ``wave function'' in \eqref{eqn:field-ansatz} and $\ell$ and $m$ are the quantum numbers of the spheroidal harmonics that are used to separate the Klein-Gordon equation in the Kerr background (see e.g.~\cite{Brill:1972xj}).
 It turns out that a given cloud, specified by a set $(n,m,l)$, does not exist for any Kerr background.
 A quantization condition exists for the background parameters implying that a given cloud only exists along a $1$-dimensional \textit{existence line} of the $2$-dimensional Kerr parameter space.
-This is illustrated in Fig. \ref{fig:clouds}, where a few existence lines are plotted (in dotted blue) in a mass (M) vs. horizon angular velocity ($\Omega_H$) diagram -- both in units of the scalar field mass $\mu$ -- for Kerr black holes. 
+This is illustrated in Fig. \ref{fig:clouds}, where a few existence lines are plotted (in dotted blue) in a ($\Omega_H$,$M$) diagram -- both in units of the scalar field mass $\mu$ -- for Kerr black holes. 
 %
 \begin{figure}[H]
   \begin{center}
@@ -237,7 +249,13 @@ The scalar clouds described in the previous section suggest that \textit{asympto
 Such solutions were indeed found in~\cite{Herdeiro:2014goa}, corresponding to a $5$-parameter family of solutions of the Einstein-(massive)-Klein-Gordon theory as described by \eqref{Introaction}.
 Three of the parameters are continuous: the ADM mass, $M$, the ADM angular momentum, $J$, and a Noether charge, $Q$.
 The last one is obtained by integrating the time component of the scalar field $4$-current on a spacelike slice and may be regarded as measuring the amount of scalar hair outside the horizon.
-It is convenient to introduce a normalized Noether charge $q\equiv Q/2J$; then, $q$ is a compact parameter in the full space of solutions: $0\le q\le 1$.
+It is convenient to introduce a normalized Noether charge
+
+\begin{align*}
+q\equiv \frac{Q}{2J}
+\end{align*}
+
+then, $q$ is a compact parameter in the full space of solutions: $q\in\left[0,1\right]$.
 The value $q=0$ corresponds to Kerr black holes, showing that these hairy black holes are continuously connected to the standard Kerr family, while for $q=1$ rotating boson stars are recovered, which obey $Q=2J$.
 The solutions in~\cite{Herdeiro:2014goa} were dubbed \textit{Kerr black holes with scalar hair}.
 The two remaining parameters of the solutions found in~\cite{Herdeiro:2014goa} are discrete and have already been described for boson stars: the azimuthal harmonic index $m\in \mathbb{Z}^\pm$ and the node number $n\in \mathbb{N}_0$. 
@@ -250,15 +268,16 @@ The hairy black hole solutions were found numerically using a metric ansatz of t
 with $N\equiv 1-r_H/r$, and where $F_0,~F_1,~F_2,~W$ are functions of $r$ and $\theta$ only.
 $r_H$ is the position of the event horizon of the black hole in this coordinate system.
 We remark these are \textit{not} Boyer-Lindquist coordinates in the Kerr limit. 
+This metric, or slight variations of it, will be used for all solutions in this thesis.
 
 In~\cite{Herdeiro:2014goa} the parameter and phase space for the solutions with $n=0$, $m=1$ were discussed in detail -- see Fig. \ref{fig:HBH-parameter-space}.
-Here are some other salient features concerning these solutions.
+Here are some other relevant features of these solutions.
 There is a region of overlap of hairy and Kerr black holes with the same $M,J$ and in that sense there is non-uniqueness.
-This degeneracy is raised by the introduction of $q$, i.e. no two solutions share the same set of $M,J,q$.
+However, this degeneracy is raised by the introduction of $q$, i.e. no two solutions share the same set of $M,J,q$.
 Some of these hairy black solutions violate the Kerr bound: $J\le M^2$.
 This is not surprising since this is known to occur for rotating boson stars~\cite{Ryan:1996nk}, and hairy black holes are continuously connected to these stars.
-It is indeed a generic feature that hairy black holes are more \textit{star-like} than Kerr black holes, i.e. less tightly constrained in their physical properties than Kerr black holes.
-This observation has also implications for possible astrophysical phenomenology of these hairy black holes.
+It is indeed a generic feature that hairy black holes are more \textit{star-like} than Kerr black holes, i.e. they are not as tightly constrained in their physical properties as Kerr black holes.
+This observation also has implications for possible astrophysical phenomenology of these hairy black holes.
 It was observed in~\cite{Herdeiro:2014goa} that both the quadrupole moment and the angular frequency at the innermost stable circular orbit (ISCO) can differ significantly for hairy black holes, as compared to the standard Kerr values.
 Finally, hairy black holes have a richer structure of ergo-regions than Kerr, with the occurrence of \textit{ergo-Saturns}, besides ergo-spheres, in a region of parameter space~\cite{Herdeiro:2014jaa}.
 
@@ -267,14 +286,14 @@ Finally, hairy black holes have a richer structure of ergo-regions than Kerr, wi
   \includegraphics[height=2.78in]{Figs/BH-w-M.pdf}
  %   \includegraphics[width=\textwidth]{BH-w-M.pdf}
   \end{center}
-  \caption{(Large plot) Domain of existence of hairy black holes for $n=0$, $m=1$ in $M$-$w$ space (shaded blue region). The black solid curve corresponds to extremal Kerr black holes, which obey $M={1}/(2\Omega_H)$; Kerr black holes exist below it. For $q=0$, the domain of existence connects to Kerr solutions (dotted blue line). For $q=1$, $r_H$ vanishes and hairy black holes reduce to boson stars (red solid line). The final line that delimits the domain of existence of the hairy black holes (dashed green line) corresponds to extremal hairy black holes, i.e. with zero temperature. (Inset) Boson star curves for $m=1,2$. The units in the axes are normalized to the scalar field mass $\mu$. Adapted from Ref.~\cite{Herdeiro:2014goa}.}
+  \caption{(Large plot) Domain of existence of hairy black holes for $n=0$, $m=1$ in $M$-$w$ space (shaded blue region). The black solid curve corresponds to extremal Kerr black holes, which obey $M={1}/(2\Omega_H)$; Kerr black holes exist below it. For $q=0$, the domain of existence connects to Kerr solutions (dotted blue line). For $q=1$, $r_H$ vanishes and hairy black holes reduce to boson stars (red solid line). The final line that delimits the domain of existence of the hairy black holes corresponds to extremal hairy black holes (dashed green line), i.e. with zero temperature. (Inset) Boson star curves for $m=1,2$. The units in the axes are normalized to the scalar field mass $\mu$. Adapted from Ref.~\cite{Herdeiro:2014goa}.}
   \label{fig:HBH-parameter-space}
 \end{figure}
 
 A few observations of these solutions are in order.
-As for boson stars, the $t,\varphi$ dependence of the scalar field only appears as a phase factor implying that the stress-energy tensor is independent of both these variables which is required for the spacetime to be stationary and axi-symmetric.
-The stress-energy tensor will however depend on both $m$ and $w$ and in turn so will the geometry.
-Again as for boson stars, there is a single Killing vector field which leaves the whole system invariant given by Eq. \eqref{kvf},
+As for boson stars, the $t,\varphi$ dependence of the scalar field appears as a phase factor implying that the stress-energy tensor is independent of both these variables which is required for the spacetime to be stationary and axi-symmetric.
+The stress-energy tensor will however depend on both $m$ and $w$ and so will the geometry.
+Just as for boson stars, there is a single Killing vector field which leaves the whole system invariant given by Eq. \eqref{kvf},
 which coincides with the horizon null generator due to Eq. \eqref{super_cond}.
 Thus the preservation of the scalar field by this Killing field is reinterpreted as the absence of flux of the scalar field into the black hole.
 
@@ -282,15 +301,20 @@ These solutions also clarify the intriguing aspect discussed at the end of Sec. 
 One can indeed add a black hole at the center of a boson star -- as for other gravitating solitons -- but rotation is mandatory for both the boson star and the black hole.
 And this requirement can be understood from the black hole side: only rotating black holes have superradiant instabilities and can thus support scalar clouds. 
 
-In Chapter \ref{ch:Q} we will start with a study of so-called $Q$-clouds which arise from the test field analysis of the Klein-Gordon equation with self-interactions.
-In Chapters \ref{ch:SI}, \ref{ch:proca} and \ref{ch:KN}, we still present generalizations of the hairy black holes discussed above.
-Namely, in Chapter \ref{ch:SI}, we will consider self-interactions of the scalar field and show that hairy black hole solutions can also be found there.
-In Chapter \ref{ch:proca}, we will consider instead of a scalar field a Proca field, i.e. a massive vector field.
-Finally in Chapter \ref{ch:KN}, we will study electrically charged black holes surrounded by either electrically neutral or charged scalar hair, i.e. Kerr-Newman black holes with gauged/ungauged scalar hair.
+In Chapter \ref{ch:Q} we will start with a study of so-called $Q$-clouds which arise from the test field analysis of the Klein-Gordon equation with self-interactions on a Kerr background.
+They are generalizations of flat space $Q$-balls to curved spacetimes.
+In Chapters \ref{ch:SI}, \ref{ch:proca} and \ref{ch:KN}, we will present generalizations of the hairy black holes discussed above.
+Namely, in Chapter \ref{ch:SI}, we will consider two types of self-interactions of the scalar field and show that hairy black hole solutions can also be found there.
+In Chapter \ref{ch:proca}, we will consider a Proca field instead of a scalar field.
+Finally in Chapter \ref{ch:KN}, we will study electrically charged black holes surrounded by either electrically neutral or charged scalar hair.
 
-In Appendix \ref{appendixb} we give the equations of motion for the model discussed in Chapter \ref{ch:proca} as an illustrative example.
+In Appendix \ref{appendixb} we give the equations of motion for the model discussed in Chapter \ref{ch:proca} as an illustrative example and show the explicit form of the metric functions for stationary Proca clouds.
 In Appendix \ref{BCs} we discuss briefly the boundary conditions and calculation of physical quantities of the Kerr black holes with scalar hair.
+This serves as an example as both the boundary conditions and physical quantities are obtained by similar means for all models.
+The differences for each model will be discussed in the respective chapters.
 For Chapter \ref{ch:SI}, the boundary conditions and physical conditions are identical while for Chapter \ref{ch:KN} there are slight modifications which are discussed in Section \ref{KNBCs}.
-In Chapter \ref{ch:proca}, the model is different enough to warrant a longer discussion both boundary conditions and physical quantities though much of Appendix \ref{BCs} still applies there.
+In Chapter \ref{ch:proca}, the model is different enough to warrant a longer discussion on both the boundary conditions and physical quantities though much of Appendix \ref{BCs} still applies there.
 
-All numerical solutions in this thesis were obtained by the FIDISOL/CADSOL elliptical solvers\cite{schoen}.
+All numerical solutions in this thesis were obtained with the FIDISOL/CADSOL elliptical solvers\cite{schoen}.
+
+

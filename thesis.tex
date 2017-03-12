@@ -24,7 +24,7 @@
 %\usepackage{supertabular}
 \usepackage{ltablex}
 %\usepackage{ltxtable,filecontents}
-\usepackage{cite} %% this works....if you cite a lot of references, then in the thesis, all of them will show up, like [1,2,3,4,5,6,7,8], but if you add this package then it dispalys alternatively as [1-8]. Looks nicer
+\usepackage[nosort]{cite} %% this works....if you cite a lot of references, then in the thesis, all of them will show up, like [1,2,3,4,5,6,7,8], but if you add this package then it dispalys alternatively as [1-8]. Looks nicer
 
 \usepackage{cases} % numering eqs within cases
 
@@ -190,6 +190,7 @@ Nú mun hún sökkvast.
 \include{procaAppendix}
 \include{numericalData}
 \include{pub-list}
+\include{translations}
 
 \cleardoublepage
 \phantomsection
@@ -198,11 +199,3 @@ Nú mun hún sökkvast.
 \bibliography{thesis}
 
 \end{document}
-
-% <!-- Local IspellDict: british -->
-
-%%% Local Variables:
-%%% TeX-PDF-mode: t
-%%% mode:latex
-%%% TeX-master: "tese.tex"
-%%% End:

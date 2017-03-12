@@ -21,7 +21,7 @@ time-dependent phase for the scalar field.
 The global phase-invariance of the scalar field theory leads to a conserved Noether
 charge $Q$, corresponding to particle number.
 Such configurations have a rich structure and
-found a variety
+have a number of
 of physically interesting applications;
 for example, they appear in supersymmetric generalizations of the standard model \cite{Kusenko:1997zq}, 
 and have been suggested to generate baryon number or to be dark matter candidates~\cite{Kusenko:1997si}.
@@ -33,7 +33,7 @@ Boson shells harbouring black holes have been studied in \cite{Kleihaus:2010ep}.
 However, these solutions require a V-shaped scalar potential which
 is not of the form (\ref{QU}).}.
 This fits into a general pattern observed in soliton physics~\cite{Bizon:1994dh,Volkov:1998cc,Herdeiro:2014ima}; for the case discussed herein, however, the black hole \textit{must rotate}, by virtue of condition (\ref{super_cond}), and the scalar field's frequency is closely related to the rotation of the black hole.
-The relation between the scalar field's parameters and the horizon angular velocity can actually be seen as a \textit {rotation synchronization condition}, as discussed in \cite{Benone:2014ssa}. 
+The relation between the scalar field's parameters and the horizon angular velocity can actually be seen as a \textit {rotation synchronization condition}.
 %
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -45,10 +45,10 @@ The relation between the scalar field's parameters and the horizon angular veloc
 We consider the action for a complex scalar field with a self-interaction potential $U(\left| \Phi \right|)$:
 \begin{equation}
 \label{Qaction}
-S=-\int \left[ 
-   \frac{1}{2} g^{\mu\nu}\left( \Phi_{, \, \mu}^* \Phi_{, \, \nu} + \Phi _
-{, \, \nu}^* \Phi _{, \, \mu} \right) + U( \left| \Phi \right|) 
- \right] \sqrt{-g} d^4x
+S=-\int d^4x\sqrt{-g} \left[ 
+   \frac{1}{2} g^{ab}\left( \Phi_{, \, a}^* \Phi_{, \, b} + \Phi _
+{, \, b}^* \Phi _{, \, a} \right) + U( \left| \Phi \right|) 
+ \right] 
 \ . 
 \end{equation}
 A usual choice for the potential in the $Q$-ball literature is 
@@ -69,12 +69,12 @@ leads to the non-linear Klein-Gordon equation,
 where $\Box$ represents the covariant d'Alembert operator.
 %
 %
-The stress-energy tensor $T_{\mu\nu}$ of the scalar field is
+The stress-energy tensor $T_{ab}$ of the scalar field is
 \begin{eqnarray}
-T_{\mu \nu} 
-=  \Phi_{, \, \mu}^*\Phi_{, \, \nu}
-+\Phi_{, \, \nu}^*\Phi_{, \, \mu} -g_{\mu\nu} \left[ \frac{g^{\alpha\beta} }{2} 
-\left( \Phi_{, \, \alpha}^*\Phi_{, \, \beta}+
+T_{ab} 
+=  \Phi_{, \, a}^*\Phi_{, \, b}
++\Phi_{, \, b}^*\Phi_{, \, a} -g_{ab} \left[ \frac{g^{cd} }{2} 
+\left( \Phi_{, \, c}^*\Phi_{, \, d}+
 \Phi_{, \, \beta}^*\Phi_{, \, \alpha} \right)+U(|\Phi|)\right]
  \ .
 \label{tmunu} 
@@ -91,7 +91,7 @@ can be written as
 ds^2= g_{rr}dr^2+g_{\theta \theta} d\theta^2 +g_{\varphi\varphi}d\varphi^2+2 g_{\varphi t}d\varphi dt +g_{tt} dt^2 \ .
 \end{eqnarray}
 $g_{\mu\nu}$ 
-are functions of the spherical coordinates $r$ and $\theta$ only. We assume asymptotic flatness. Thus, as $r\to \infty$, $g_{rr} \to 1$,
+are functions of the spherical coordinates $r$ and $\theta$ only. We assume asymptotic flatnes and thus, as $r\to \infty$, $g_{rr} \to 1$,
 $g_{\theta \theta} \to r^2$,
 $g_{\varphi\varphi} \to r^2\sin^2 \theta$,
 $g_{\varphi t} \to 0$
@@ -117,7 +117,7 @@ a configuration to be stationary and axisymmetric.
 The energy-momentum tensor, however,  will 
  depend on both $m$ and $w$.
 
-With the ansatz Eq. \eqref{eqn:field-ansatz}, (\ref{metric-ansatz}), 
+With the scalar field ansatz from the Introduction, i.e. $\Psi=\phi(r,\theta)e^{i(m\varphi-wt)}$ (cf. Eq. \eqref{eqn:field-ansatz}) and a metric ansatz given by Eq. (\ref{metric-ansatz}), 
 the Klein-Gordon equation Eq. \eqref{KG}
 reduces to
 \begin{eqnarray}
@@ -146,7 +146,7 @@ $\Phi \to \Phi e^{i\alpha}$,
  leading to the conserved current
  \begin{eqnarray}
 \label{scalar-current}
-j^{\mu}=-i\left[\Phi^* \partial^\mu\Phi+\Phi \partial^\mu\Phi^*\right]\ , \qquad \nabla_\mu j^{\mu}=0 \ .
+j^{a}=-i\left[\Phi^* \partial^a\Phi+\Phi \partial^a\Phi^*\right]\ , \qquad \nabla_aj^{a}=0 \ .
  \end{eqnarray}
 The corresponding conserved charge $Q$ is the integral of $j^t$ on spacelike slices.
 One can easily see that in the absence of backreaction the following relation holds:
@@ -157,7 +157,7 @@ J=m Q\ ,
 such that  angular momentum  is quantized.
 Moreover,
 in view of this relation, the spinning solutions
-can be thought as corresponding to minima of energy with fixed angular
+can be thought of as corresponding to minima of energy with fixed angular
 momentum.
  
  
@@ -180,9 +180,9 @@ of the form
 \end{eqnarray}
 with finite coefficients $\phi_{k}$.
 %
-It turns out that, supposing $\phi_{0}\neq 0$, such an expansion holds if and only if condition \eqref{super_cond} holds. 
-Thus, the synchronization condition is required by regularity and not only as a consequence of obtaining clouds.
-After replacing Eq. \eqref{scalar-horizon} into the Klein-Gordon equation, one obtains an involved condition between the coefficients
+It turns out that, if one assumes $\phi_{0}\neq 0$, such an expansion holds if and only if condition \eqref{super_cond} holds. 
+Thus, the synchronization condition is required by regularity and not only as a consequence of wanting to obtain clouds.
+After substituting the expansion given by Eq. \eqref{scalar-horizon} into the Klein-Gordon equation, one obtains an involved condition between the coefficients
 $\phi_{0}$, $\phi_{1}$ and $\phi_{2}$ 
 which should be satisfied at $r=r_H$.
 The explicit form of this condition depends on the coordinate system one chooses to work with,
@@ -268,23 +268,20 @@ both the $Q$-balls' mass-energy and angular momentum attain their minimum value,
 from where they monotonically increase towards both limiting values
 of the frequency.
 %
-Thus, considering the $Q$-ball's mass as a function of their Noether charge $Q$,
+Thus, considering the $Q$-balls' mass as a function of their Noether charge $Q$,
 there are two branches of solutions, merging and ending
 at the minimal charge and mass. 
-$Q$-balls are stable along (most of) the lower frequency branch~\cite{Radu:2008pp},
-where their mass is smaller than the mass of $Q$ free bosons.
+$Q$-balls are stable along (most of) the lower frequency branch~\cite{Radu:2008pp}.
 %
-Concerning their spatial distribution, for a given frequency, 
-the amplitude $\phi(r,\theta)$, energy-momentum and charge
-densities are maximal on the equatorial plane and the energy is concentrated in a toroidal
-region encircling the symmetry-axis.
+For a given frequency, the spatial distribution of the amplitude of the field, i.e. $\phi(r,\theta)$, energy-momentum and charge densities are maximal on the equatorial plane.
+The energy is then concentrated in a toroidal region encircling the symmetry-axis.
 
 The limiting behaviour of the spinning $Q$-balls near the boundaries of the allowed frequency interval
 is rather intricate, and has not yet been discussed in a systematic way  in the literature. 
 It appears that 
 both $E$ and $Q$
 increase without bound at the limits of the $w$-interval, even though these limits are difficult to investigate.
-Also, $Q$-balls become large there in terms of their spatial distribution;
+Additionally, $Q$-balls become there in terms of their spatial distribution there;
 as $w\to w_{min}$,
 they can be viewed as squashed spheroids, homogeneously filled inside.
 For $w\to w_{max}$, the solutions
@@ -326,7 +323,7 @@ The existence line with $n=0$ and $l=m$ divides the Kerr parameter space in two 
 \subsection{Non-linear $Q$-clouds on the Kerr black hole background}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-When turning on the scalar field self-interactions in the potential, i.e. giving them a small but non-zero value, the non-linearities prevent a separation of variables, similar to the one discussed above. 
+When turning on the scalar field self-interactions in the potential, i.e. giving them a small but non-zero value, the non-linearities prevent a separation of variables.
 For given $(w,m)$,
 the scalar field $\phi$ is a superposition of
 spheroidal harmonics, whose amplitudes, however, differ from $R_{nlm}(r)$.
@@ -356,14 +353,14 @@ The solutions are found by starting with a flat spacetime
 configuration with given $(w,m)$ and increasing the size of the black hole
 (as given $e.g.$ by the event horizon area)
 via the parameter $r_H$.  
-We have constructed in a systematic way solutions with $m=1,2,3$ (around 20000 solutions for each case). A subset of the solutions for each of these values of $m$ has been plotted in Fig.~\ref{existencelines}.  When varying the horizon size, there are two 
+We have constructed in a systematic way solutions with $m=1,2,3$. A subset of the solutions for each of these values of $m$ has been plotted in Fig.~\ref{existencelines}.  When varying the horizon size, there are two 
 possible behaviours for the solutions with a given $w$: 
 \begin{itemize}
 \item[(i)]
 
 For $m\Omega_H^{extremal}/\mu\leq w/\mu <1$,  $Q$-clouds start from flat spacetime $Q$-balls (i.e. with zero horizon size)
  and end on the existence line for linear clouds with $n=0$, $l=m$. The value of $\Omega_H^{extremal}$ depends on $m$; for instance,  $\Omega_H^{extremal}\simeq 0.95,0.43,0.26$  for $m=1,2,3$, respectively (see $e.g.$~\cite{Hod:2013zza}). As the existence line is approached,
-the amplitude of the scalar field amplitude 
+the amplitude of the scalar field
 decreases to zero and 
 the linear scalar clouds are recovered.
  
@@ -376,8 +373,8 @@ which provide one boundary for the domain of existence. Again, the value of $\Om
 
 \end{itemize}
 %
-The bottom line is that $Q$-clouds exist between the $l=m$, $n=0$ existence line for linear clouds and a minimal frequency/horizon angular velocity -- Fig. \ref{existencelines}. A number of configurations with $m=4,5$
-have also been found;
+The bottom line is that $Q$-clouds exist between the $l=m$, $n=0$ existence line for linear clouds and a minimal frequency/horizon angular velocity -- cf. Fig. \ref{existencelines}. A number of configurations with $m=4,5$
+have also been found, not presented here;
 thus we expect their existence for any $m\geq 1$.
 
 A generic $Q$-cloud solution has nonzero mass and angular momentum,
@@ -406,7 +403,7 @@ The Kerr black hole background has an event horizon radius (in quasi-isotropic c
 \end{figure}
 
 In Fig. \ref{energy1}, we plot the energy 
-of $Q$-clouds as a function of several parameters of the Kerr black hole background. These results have been obtained for $m=1$, but a similar picture has been found for $m=2,3$. A similar pattern is observed for the angular momentum $J$.
+of $Q$-clouds as a function of several parameters of the Kerr black hole background. These results have been obtained for $m=1$, but a similar picture has been found for $m=2,3$. A similar pattern is observed for the angular momenta $J$.
 
 \begin{figure}[h!]
 \centering
@@ -453,12 +450,12 @@ are the flat space $Q$-balls.}
  
  
  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Further remarks} 
+\section{Discussion} 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 We have shown that
 the well-known flat space $Q$-balls 
-possess generalizations on a rotating black hole background -- $Q$-clouds. These bound states are 
+possess generalizations to a rotating black hole background -- $Q$-clouds. These bound states are 
 in synchronous rotation with the black hole horizon, i.e. they obey condition (\ref{super_cond}).
 Remarkably,
 the self-interactions allow the existence of non-linear clouds 
@@ -466,7 +463,8 @@ in a \textit{2-dimensional} subspace of the full parameter space of Kerr black h
 %
 This subspace is bounded by the flat spacetime $Q$-balls,
 the  $n=0,l=m$ existence line of linear clouds~\cite{Benone:2014ssa}
-and a critical curve delimited by the minimal frequency of the scalar field.
+and a critical curve delimited by the minimal frequency of the scalar field,
+and extremal Kerr black holes.
  
 The backreaction of $Q$-clouds leads to a new family of Kerr black holes with scalar hair in the full Einstein-scalar field system, when this type of self interactions are included. The new solutions have quantitative and qualitative differences, relatively to the Kerr black holes with scalar hair found in~\cite{Herdeiro:2014goa}. We have obtained some examples of these solutions, both for the self interactions studied here and another case.
 This will be discussed at the end of Chapter \ref{ch:SI}.

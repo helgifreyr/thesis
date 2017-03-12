@@ -1,5 +1,3 @@
-\providecommand{\href}[2]{#2}\begingroup\begin{thebibliography}{100}
-
 %\cite{Misner:1974qy}
 \bibitem{Misner:1974qy}
   C.~W.~Misner, K.~S.~Thorne and J.~A.~Wheeler,
@@ -54,10 +52,9 @@
   %287 citations counted in INSPIRE as of 26 Sep 2016
 
 
-\bibitem{1965Sci...147..394B}
-S.~{Bowyer}, E.~T. {Byram}, T.~A. {Chubb}, and H.~{Friedman},
-\newblock Science {\bf 147}, 394 (1965).
 
+\bibitem{1965Sci...147..394B}
+	*** Non-standard form, no INSPIRE lookup performed ***
 
 %\cite{Reid:2011nn}
 \bibitem{Reid:2011nn}
@@ -241,12 +238,10 @@ S.~{Bowyer}, E.~T. {Byram}, T.~A. {Chubb}, and H.~{Friedman},
   %%CITATION = doi:10.1016/j.physletb.2012.08.021;%%
   %6320 citations counted in INSPIRE as of 26 Sep 2016
 
+
+
 \bibitem{Chase:1970wq}
-  J.E. Chase.
-  {Event horizons in static scalar-vacuum space-times}.
-  {\em Commun.Math.Phys.}, {\bf 19}:276--288, 1970.
-
-
+	*** Not Found with lookup: '035__a:Chase:1970wq'
 
 %\cite{Bekenstein:1971hc}
 \bibitem{Bekenstein:1971hc}
@@ -302,11 +297,10 @@ S.~{Bowyer}, E.~T. {Byram}, T.~A. {Chubb}, and H.~{Friedman},
   %%CITATION = doi:10.1103/PhysRevLett.108.081103;%%
   %79 citations counted in INSPIRE as of 26 Sep 2016
 
+
+
 \bibitem{BBM}
-N.~M.~Bocharova, K.~A.~Bronnikov, V.~N.~Melnikov,
-Vestn. Mosk. Univ. Fiz. Astron. {\bf 6} (1970) 706.
-
-
+	*** Non-standard form, no INSPIRE lookup performed ***
 
 %\cite{Gibbons:1982ih}
 \bibitem{Gibbons:1982ih}
@@ -539,11 +533,10 @@ Vestn. Mosk. Univ. Fiz. Astron. {\bf 6} (1970) 706.
   %%CITATION = doi:10.1086/151796;%%
   %805 citations counted in INSPIRE as of 26 Sep 2016
 
+
+
 \bibitem{Starobinsky:1973a}
-  A.~A.~Starobinskiy.
-  %Amplification of waves during reflection from a rotating ‘black hole’
-  Sov.Phys.JETP, 37, 28, (1973)
-  % 1973. Sov.Phys.JETP,37,28 
+	*** Non-standard form, no INSPIRE lookup performed ***
 
 %\cite{Press:1972zz}
 \bibitem{Press:1972zz}
@@ -790,13 +783,10 @@ Vestn. Mosk. Univ. Fiz. Astron. {\bf 6} (1970) 706.
   %%CITATION = doi:10.1103/PhysRevD.89.124018;%%
   %43 citations counted in INSPIRE as of 26 Sep 2016
 
+
+
 \bibitem{schoen}
- W. Sch\"onauer and R. Wei\ss ,
- J. Comput. Appl. Math. 27, 279 (1989) 279;
- \\
- M. Schauder, R. Wei\ss\ and W. Sch\"onauer,
- The CADSOL Program Package,
- Universit\"at Karlsruhe, Interner Bericht Nr. 46/92 (1992). 
+	*** Non-standard form, no INSPIRE lookup performed ***
 
 %\cite{Derrick:1964ww}
 \bibitem{Derrick:1964ww}
@@ -1082,10 +1072,10 @@ Vestn. Mosk. Univ. Fiz. Astron. {\bf 6} (1970) 706.
   %%CITATION = doi:10.1103/PhysRevD.87.043513;%%
   %80 citations counted in INSPIRE as of 26 Sep 2016
 
+
+
 \bibitem{Proca}
-A.~Proca,   
-``Th\'eorie non relativiste des particules  \'a spin entier,''
-J. Phys. Radium 9 (1938) 61.
+	*** Non-standard form, no INSPIRE lookup performed ***
 
 %\cite{Rosen:1994rq}
 \bibitem{Rosen:1994rq}
@@ -1235,11 +1225,13 @@ J. Phys. Radium 9 (1938) 61.
   %%CITATION = doi:10.1088/1475-7516/2010/11/002;%%
   %19 citations counted in INSPIRE as of 26 Sep 2016
 
+
+
 \bibitem{datakbhph}
- URL: http://gravitation.web.ua.pt/index.php?q=node/515
+	*** Non-standard form, no INSPIRE lookup performed ***
 
 \bibitem{datakbhsh}
-URL: http://gravitation.web.ua.pt/index.php?q=node/416
+	*** Non-standard form, no INSPIRE lookup performed ***
 
 %\cite{Garfinkle:1990ib}
 \bibitem{Garfinkle:1990ib}
@@ -1494,5 +1486,6 @@ URL: http://gravitation.web.ua.pt/index.php?q=node/416
   %%CITATION = ARXIV:1609.01340;%%
   %1 citations counted in INSPIRE as of 26 Sep 2016
 
-\end{thebibliography}\endgroup
+
+
 
